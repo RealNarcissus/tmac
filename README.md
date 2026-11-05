@@ -122,7 +122,12 @@ and you are responsible for Apple's license terms. See [LEGAL.md](LEGAL.md).
 ## Monterey terminal lane (recommended default)
 
 The original Linux port and MCP proof used macOS 12.7.6 with a software framebuffer. It remains the
-stable terminal-first lane in `host/tmac.py` and the `gui-proof` VM home:
+stable terminal-first lane in `host/tmac.py` and the `gui-proof` VM home.
+
+![macOS Monterey 12.7.6 terminal lane](evidence/host/desktop-clean.png)
+
+The guest shell proof (`sw_vers` 12.7.6 / Darwin 21.6.0 x86_64) is preserved at
+`evidence/host/desktop-terminal-proof2.png`.
 
 ```sh
 export TMAC_HOME="$PWD/work/main/tmac-home"
