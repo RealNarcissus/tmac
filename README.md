@@ -16,14 +16,27 @@ AI agents and test harnesses. No guest helper, Accessibility grant, or virtio-fs
 
 ![A macOS Tahoe desktop rendered by the Reims vGPU](evidence/host/tahoe/reims-window.png)
 
+## Two VM lanes
+
+Both lanes use the same QMP/MCP control plane; the display path and maturity differ.
+
+| Lane | Guest | Display / control | Best for | Status |
+|---|---|---|---|---|
+| **Terminal lane** | macOS 12.7.6 Monterey | Software framebuffer + `host/tmac.py view` / MCP | Headless automation, terminal/SSH work, long-running agent jobs, legacy tooling | **Stable; recommended default** |
+| **GPU lane** | macOS 26.6.2 Tahoe | Reims vGPU + GUI window; `reims-ctl view` and `tmac attach` also work | Modern macOS, Metal, GUI app experiments | **Experimental; 1024×768; host-VRAM limits** |
+
+The terminal lane is not obsolete. It is the better choice when stability and terminal-first control
+matter. The GPU lane is the modern-macOS path, but it is not a drop-in replacement for every workload.
+
 ## What works
 
-- **macOS 26.6.2 Tahoe** under QEMU/KVM and [Reims vGPU](https://github.com/steelbrain/reims-vgpu)
-  reports **Metal 2** and renders the full desktop (Dock, menu bar, widgets, apps).
+- **Monterey terminal lane** under QEMU/KVM with a software framebuffer and the native `tmac` MCP server.
+- **Tahoe GPU lane** under QEMU/KVM and [Reims vGPU](https://github.com/steelbrain/reims-vgpu),
+  reporting **Metal 2** and rendering the full desktop.
 - **Terminal-first viewer** for running guests: `reims-ctl view` with half-block/Kitty/iTerm output.
 - **External-VM MCP** through `tmac attach`: screenshot, click, move, drag, scroll, type, key, status.
 - **Managed QEMU macOS VMs** through `host/tmac.py`: lifecycle, snapshots, VNC, audio, WebDAV, and
-  the preserved Monterey reference.
+  the Monterey terminal lane.
 - **No guest helper** on the critical path; QMP provides frames and input even at login/installer
   screens.
 
@@ -32,7 +45,7 @@ can exhaust host Vulkan memory under load. See [docs/gpu.md](docs/gpu.md).
 
 ## Quick start: attach an existing VM
 
-Use this for a Reims-created Tahoe VM (or any running QEMU VM with a QMP socket).
+Use this for a Reims-created Tahoe GPU VM (or any running QEMU VM with a QMP socket).
 
 Requirements: Linux x86_64, Python 3.10+, and an existing macOS VM that is already running.
 
@@ -95,7 +108,7 @@ The tool surface is:
 | `key` | Press a key or chord such as `cmd+space`. |
 | `status` | Report VM state and screen size. |
 
-## Create a Tahoe VM
+## Tahoe GPU lane (experimental)
 
 The verified recipe uses the separately installed `reims-ctl`, the Reims QEMU build, an offline
 macOS installer supplied by the user, and `apple-gfx-pci`. The complete runbook, including the
@@ -106,10 +119,10 @@ No macOS installer, IPSW, VM disk, OpenCore image, Apple SMC OSK, or Apple binar
 this repository. You supply the installer and any OSK required by your own managed-QEMU workflow,
 and you are responsible for Apple's license terms. See [LEGAL.md](LEGAL.md).
 
-## Preserved Monterey workflow
+## Monterey terminal lane (recommended default)
 
-The original Linux port and MCP proof used macOS 12.7.6 with a software framebuffer. It remains in
-`host/tmac.py` and the `gui-proof` VM home for reference:
+The original Linux port and MCP proof used macOS 12.7.6 with a software framebuffer. It remains the
+stable terminal-first lane in `host/tmac.py` and the `gui-proof` VM home:
 
 ```sh
 export TMAC_HOME="$PWD/work/main/tmac-home"
@@ -120,7 +133,7 @@ python3 host/tmac.py mcp gui-proof
 ```
 
 See [docs/architecture.md](docs/architecture.md), [docs/porting.md](docs/porting.md), and
-[docs/FINAL-REPORT.md](docs/FINAL-REPORT.md) for the original investigation. That workflow is
+[docs/FINAL-REPORT.md](docs/FINAL-REPORT.md) for the original investigation. The terminal lane is
 independent of the external-VM/MCP path above.
 
 ## Why this design

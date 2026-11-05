@@ -1,8 +1,8 @@
 # macOS Tahoe 26.6.2 on Linux — verified runbook
 
-Status: **working**, observed 2026-11-05 on the same AMD Ryzen Linux host used for the Monterey work.
-This is the current target; `gui-proof` (macOS 12.7.6) is preserved as the older software-rendered
-reference.
+Status: **working GPU lane**, observed 2026-11-05 on the same AMD Ryzen Linux host used for the
+Monterey work. Tahoe is optional and experimental; the stable terminal-first default remains the
+Monterey `gui-proof` VM. Both lanes share the QMP/MCP control plane.
 
 ## What is running
 

@@ -28,10 +28,11 @@ the current state is recovered. The failure and mitigation are recorded in `docs
 `evidence/host/tahoe/reims-crash-note.txt`; Reims is not claimed crash-free under arbitrary 4 GiB
 GPU load.
 
-The Monterey result below remains valid and preserved, but the **current** answer to “can macOS run
-on this Linux host, preferably in a terminal?” is this Tahoe VM. The earlier “software-rendered
-desktop” and “GPU acceleration is the path, not a requirement” limits apply only to the
-historical Monterey target. Tahoe’s Reims scanout and terminal view are both working now.
+Monterey remains the **stable terminal-first lane** and the recommended default for headless
+automation and long-running work. Tahoe is the **experimental GPU lane** for modern macOS/Metal and
+GUI experiments. The earlier “software-rendered desktop” and “GPU acceleration is the path, not a
+requirement” limits apply to the Monterey lane; Tahoe’s Reims scanout and terminal view both work,
+but host-VRAM stability is limited.
 
 ## Bottom line (2026-11-04 Monterey milestone; superseded by the Tahoe addendum)
 
