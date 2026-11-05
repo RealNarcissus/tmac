@@ -1,0 +1,15 @@
+{
+  "bytes": 19055,
+  "captured_utc": "2026-11-04T13:37:29Z",
+  "height": 800,
+  "mode": "RGB",
+  "path": "<repo>/evidence/worker2/shots/w2-sonoma-hostcpu-boot.png",
+  "producing_command": "capture.py run/qmp.sock <repo>/evidence/worker2/shots/w2-sonoma-hostcpu-boot.png",
+  "qmp_reply": {
+    "return": {}
+  },
+  "qmp_roundtrip_s": 0.009,
+  "qmp_socket": "<repo>/work/worker2/run/qmp.sock",
+  "sha256": "83ad6eec4f9e754ea8fa3507dbe7322ea1be238295901928d9701c7781a91a3f",
+  "width": 1280
+}

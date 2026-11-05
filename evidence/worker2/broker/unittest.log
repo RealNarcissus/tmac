@@ -1,0 +1,28 @@
+test_async_events_are_ignored (test_qmp_broker.BrokerTests.test_async_events_are_ignored) ... ok
+test_broker_socket_mode (test_qmp_broker.BrokerTests.test_broker_socket_mode) ... ok
+test_client_disconnect_does_not_break_others (test_qmp_broker.BrokerTests.test_client_disconnect_does_not_break_others) ... ok
+test_client_id_is_preserved (test_qmp_broker.BrokerTests.test_client_id_is_preserved) ... ok
+test_concurrent_commands_are_matched (test_qmp_broker.BrokerTests.test_concurrent_commands_are_matched) ... ok
+test_greeting_and_capabilities_per_client (test_qmp_broker.BrokerTests.test_greeting_and_capabilities_per_client) ... ok
+test_invalid_json_keeps_connection (test_qmp_broker.BrokerTests.test_invalid_json_keeps_connection) ... ok
+test_machine_paths (test_qmp_broker.BrokerTests.test_machine_paths) ... ok
+test_timeout_then_recovery (test_qmp_broker.BrokerTests.test_timeout_then_recovery) ... ok
+test_upstream_disconnect_then_reconnect (test_qmp_broker.BrokerTests.test_upstream_disconnect_then_reconnect) ... ok
+test_key_chord_meta (test_tmac.TmacTests.test_key_chord_meta) ... ok
+test_key_chord_sends_separate_transitions (test_tmac.TmacTests.test_key_chord_sends_separate_transitions) ... ok
+test_kitty_chunking (test_tmac.TmacTests.test_kitty_chunking) ... ok
+test_kitty_shm_header_and_cleanup (test_tmac.TmacTests.test_kitty_shm_header_and_cleanup) ... ok
+test_name_validation (test_tmac.TmacTests.test_name_validation) ... ok
+test_placement_maps_center_to_image_center (test_tmac.TmacTests.test_placement_maps_center_to_image_center) ... ok
+test_placement_never_upscales (test_tmac.TmacTests.test_placement_never_upscales) ... ok
+test_placement_rejects_outside (test_tmac.TmacTests.test_placement_rejects_outside) ... ok
+test_png_size (test_tmac.TmacTests.test_png_size) ... ok
+test_ppm_decode (test_tmac.TmacTests.test_ppm_decode) ... ok
+test_shifted_and_upper_text (test_tmac.TmacTests.test_shifted_and_upper_text) ... ok
+test_text_sends_one_command_per_transition (test_tmac.TmacTests.test_text_sends_one_command_per_transition) ... ok
+test_unicode_rejected (test_tmac.TmacTests.test_unicode_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 4.241s
+
+OK

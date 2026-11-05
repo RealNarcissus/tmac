@@ -1,0 +1,2 @@
+{"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2024-11-05","capabilities":{"tools":{}},"serverInfo":{"name":"tmac","version":"0.1.0"},"instructions":"Controls a separate virtual Mac through QEMU. Call screenshot first; coordinates are pixels in that screenshot."}}
+{"jsonrpc":"2.0","id":2,"result":{"content":[{"type":"text","text":"height: 800\nname: gui-proof\npid: 1214673\nstate: running\nwidth: 1280"}]}}

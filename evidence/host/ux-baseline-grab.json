@@ -1,0 +1,23 @@
+{
+  "video": "<repo>/evidence/host/ux-baseline-grab.mp4",
+  "video_size": [
+    1280,
+    800
+  ],
+  "crop": [
+    0,
+    0,
+    1280,
+    800
+  ],
+  "frames": 122,
+  "duration_s": 4.067,
+  "distinct_transitions": 97,
+  "effective_fps": 23.85,
+  "blank_frames": 0,
+  "blank_fraction": 0.0,
+  "min_luma": 219.91,
+  "median_luma": 219.99,
+  "mean_consecutive_absdiff": 0.096,
+  "max_consecutive_absdiff": 5.155
+}

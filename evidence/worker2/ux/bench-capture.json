@@ -1,0 +1,33 @@
+{
+  "machine": "gui-proof",
+  "resolution": [
+    1280,
+    800
+  ],
+  "png": {
+    "format": "png",
+    "frames": 20,
+    "capture_ms_median": 229.47,
+    "capture_ms_min": 227.25,
+    "capture_ms_max": 258.81,
+    "read_ms_median": 0.21,
+    "file_bytes": 574178,
+    "note": "capture_ms excludes the Python file read"
+  },
+  "ppm": {
+    "format": "ppm",
+    "frames": 20,
+    "capture_ms_median": 14.43,
+    "capture_ms_min": 7.38,
+    "capture_ms_max": 23.39,
+    "read_ms_median": 0.8,
+    "file_bytes": 3072016,
+    "note": "capture_ms excludes the Python file read"
+  },
+  "speedup_capture": 15.9,
+  "terminal_bytes": {
+    "png_b64_chars": 765572,
+    "ppm_shm_escape_chars": 140
+  },
+  "ppm_pixels_bytes": 3072000
+}

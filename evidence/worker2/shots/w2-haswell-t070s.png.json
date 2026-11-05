@@ -1,0 +1,15 @@
+{
+  "bytes": 17098,
+  "captured_utc": "2026-11-04T12:42:24Z",
+  "height": 800,
+  "mode": "RGB",
+  "path": "<repo>/evidence/worker2/shots/w2-haswell-t070s.png",
+  "producing_command": "capture.py run/qmp.sock <repo>/evidence/worker2/shots/w2-haswell-t070s.png",
+  "qmp_reply": {
+    "return": {}
+  },
+  "qmp_roundtrip_s": 0.023,
+  "qmp_socket": "<repo>/work/worker2/run/qmp.sock",
+  "sha256": "344c0afd7a1f8d9caeeed64e362cacd79b464b9a255ffc98ab3817b283481d00",
+  "width": 1280
+}

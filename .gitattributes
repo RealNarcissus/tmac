@@ -1,0 +1,7 @@
+*.png binary
+*.jpg binary
+*.qcow2 binary
+*.img binary
+*.dmg binary
+*.ipsw binary
+*.ppm binary

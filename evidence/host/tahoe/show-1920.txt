@@ -1,0 +1,17 @@
+tahoe
+  state         running (pid 1602688)
+  kind          x86-64 macOS guest (q35 and OpenCore, KVM)
+  directory     ~/.local/share/reims-ctl/vms/tahoe
+  cpus          8
+  memory        8G
+  disk          disk.qcow2 (qcow2, SATA)
+  displays      1 x 1920x1080
+  gpu           automatic (discrete first)
+  video         on (the host's hardware)
+  opencore      ~/.local/share/reims-ctl/vms/tahoe/opencore.qcow2
+  installer     ~/.local/share/reims-ctl/installers/macOS-Tahoe-26.6.2-25G83-offline-installer.img
+  cpu model     Skylake-Client-noTSX-IBRS
+  audio         on
+  network       user, mac 52:54:00:fa:72:61, ssh on 127.0.0.1:2224
+  logs          off
+  stop timeout  90 s

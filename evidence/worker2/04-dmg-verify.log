@@ -1,0 +1,14 @@
+# BaseSystem.dmg chunklist verification — 2026-11-04T12:21:45Z
+cmd=python3 ../verify_chunklist.py BaseSystem.dmg BaseSystem.chunklist
+chunklist magic=b'CNKL' header_size=36 file_version=1 chunk_method=1 signature_method=1 chunks=76
+chunklist declares 76 chunks, total 789568598 bytes
+dmg size 789568598 bytes
+ok 76/76
+trailing_bytes=0 bad_chunks=0
+RESULT: PASS (every chunk sha256 matches Apple chunklist)
+exit=0
+
+# file + sha256
+BaseSystem.dmg: Apple DMG, version 4
+591f07a9a4a58d855a2e53b86a5f5da854a250000a66a9382adaf106c20f839b  BaseSystem.dmg
+-rw-r--r-- 1 charleton charleton 789568598 Nov  4 17:47 BaseSystem.dmg

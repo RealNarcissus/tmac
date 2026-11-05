@@ -1,0 +1,207 @@
+{
+  "utc": "2026-11-04T16:18:59Z",
+  "analyzer": "work/worker2/ux/analyze_grab.py",
+  "videos": {
+    "ux-production-grab": {
+      "full": {
+        "video": "<repo>/evidence/host/ux-production-grab.mp4",
+        "video_size": [
+          1280,
+          800
+        ],
+        "crop": [
+          0,
+          0,
+          1280,
+          800
+        ],
+        "frames": 122,
+        "duration_s": 4.067,
+        "distinct_transitions": 117,
+        "effective_fps": 28.77,
+        "blank_frames": 0,
+        "blank_fraction": 0.0,
+        "min_luma": 243.59,
+        "median_luma": 243.69,
+        "mean_consecutive_absdiff": 0.18,
+        "max_consecutive_absdiff": 5.555
+      },
+      "no_status": {
+        "video": "<repo>/evidence/host/ux-production-grab.mp4",
+        "video_size": [
+          1280,
+          800
+        ],
+        "crop": [
+          0,
+          0,
+          1280,
+          770
+        ],
+        "frames": 122,
+        "duration_s": 4.067,
+        "distinct_transitions": 117,
+        "effective_fps": 28.77,
+        "blank_frames": 0,
+        "blank_fraction": 0.0,
+        "min_luma": 244.23,
+        "median_luma": 244.34,
+        "mean_consecutive_absdiff": 0.187,
+        "max_consecutive_absdiff": 5.771
+      }
+    },
+    "ux-baseline-grab": {
+      "full": {
+        "video": "<repo>/evidence/host/ux-baseline-grab.mp4",
+        "video_size": [
+          1280,
+          800
+        ],
+        "crop": [
+          0,
+          0,
+          1280,
+          800
+        ],
+        "frames": 122,
+        "duration_s": 4.067,
+        "distinct_transitions": 97,
+        "effective_fps": 23.85,
+        "blank_frames": 0,
+        "blank_fraction": 0.0,
+        "min_luma": 219.91,
+        "median_luma": 219.99,
+        "mean_consecutive_absdiff": 0.096,
+        "max_consecutive_absdiff": 5.155
+      },
+      "no_status": {
+        "video": "<repo>/evidence/host/ux-baseline-grab.mp4",
+        "video_size": [
+          1280,
+          800
+        ],
+        "crop": [
+          0,
+          0,
+          1280,
+          770
+        ],
+        "frames": 122,
+        "duration_s": 4.067,
+        "distinct_transitions": 96,
+        "effective_fps": 23.61,
+        "blank_frames": 0,
+        "blank_fraction": 0.0,
+        "min_luma": 219.97,
+        "median_luma": 220.05,
+        "mean_consecutive_absdiff": 0.1,
+        "max_consecutive_absdiff": 5.356
+      }
+    },
+    "grab-baseline2": {
+      "full": {
+        "video": "<repo>/evidence/worker2/ux/grab-baseline2.mp4",
+        "video_size": [
+          1280,
+          800
+        ],
+        "crop": [
+          0,
+          0,
+          1280,
+          800
+        ],
+        "frames": 122,
+        "duration_s": 4.067,
+        "distinct_transitions": 85,
+        "effective_fps": 20.9,
+        "blank_frames": 31,
+        "blank_fraction": 0.2541,
+        "min_luma": 0.0,
+        "median_luma": 150.48,
+        "mean_consecutive_absdiff": 8.708,
+        "max_consecutive_absdiff": 150.484
+      }
+    },
+    "grab-fast8": {
+      "full": {
+        "video": "<repo>/evidence/worker2/ux/grab-fast8.mp4",
+        "video_size": [
+          1280,
+          800
+        ],
+        "crop": [
+          0,
+          0,
+          1280,
+          800
+        ],
+        "frames": 122,
+        "duration_s": 4.067,
+        "distinct_transitions": 115,
+        "effective_fps": 28.28,
+        "blank_frames": 0,
+        "blank_fraction": 0.0,
+        "min_luma": 152.38,
+        "median_luma": 152.39,
+        "mean_consecutive_absdiff": 0.002,
+        "max_consecutive_absdiff": 0.08
+      }
+    },
+    "grab-fast9": {
+      "full": {
+        "video": "<repo>/evidence/worker2/ux/grab-fast9.mp4",
+        "video_size": [
+          1280,
+          800
+        ],
+        "crop": [
+          0,
+          0,
+          1280,
+          800
+        ],
+        "frames": 122,
+        "duration_s": 4.067,
+        "distinct_transitions": 56,
+        "effective_fps": 13.77,
+        "blank_frames": 21,
+        "blank_fraction": 0.1721,
+        "min_luma": 0.02,
+        "median_luma": 240.57,
+        "mean_consecutive_absdiff": 1.988,
+        "max_consecutive_absdiff": 240.553
+      }
+    },
+    "grab-fast10": {
+      "full": {
+        "video": "<repo>/evidence/worker2/ux/grab-fast10.mp4",
+        "video_size": [
+          1280,
+          800
+        ],
+        "crop": [
+          0,
+          0,
+          1280,
+          800
+        ],
+        "frames": 120,
+        "duration_s": 4.0,
+        "distinct_transitions": 64,
+        "effective_fps": 16.0,
+        "blank_frames": 0,
+        "blank_fraction": 0.0,
+        "min_luma": 240.56,
+        "median_luma": 240.57,
+        "mean_consecutive_absdiff": 0.0,
+        "max_consecutive_absdiff": 0.011
+      }
+    }
+  },
+  "fast9_frame_101": {
+    "path": "/tmp/opencode/fast9/f02.png",
+    "sha256": "38633b778293c2f6bb38fa057c46d5ca0842db61e4ade9a6ed838fd30e6b013f",
+    "note": "black frame with one small white spinner; trailing 21/122 blanks are post-exit"
+  }
+}

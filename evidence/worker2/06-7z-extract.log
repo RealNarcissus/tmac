@@ -1,0 +1,62 @@
+# 7z extract of 4.hfs 2026-11-04T12:27:28Z
+
+7-Zip 26.05 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-21
+ 64-bit locale=en_US.UTF-8 Threads:12 OPEN_MAX:524288, ASM
+
+Scanning the drive for archives:
+1 file, 789568598 bytes (753 MiB)
+
+Extracting archive: osx-kvm/BaseSystem.dmg
+--
+Path = osx-kvm/BaseSystem.dmg
+Type = Dmg
+Physical Size = 789568598
+Method = Copy Zero2 ZLIB CRC
+Blocks = 2477
+Cluster Size = 1048576
+Comment = 
+{
+unpack-size: 3215118336
+ID: 82d20b74480d4d8d9835ea7cdccb4c7c
+master-checksum: CRC: 0592FFD7
+pack-checksum: CRC: 0DD07809
+pack-offset: 0
+pack-length: 789411398
+xml-offset: 789411398
+xml-length: 156688
+}
+----
+Path = 4.hfs
+Size = 2871144448
+Packed Size = 789410989
+Comment = disk image (Apple_HFS : 4)
+Method = Copy Zero2 ZLIB CRC
+Blocks = 2470
+Cluster Size = 1048576
+Checksum = ED4C7DFD
+ID = 4
+--
+Path = 4.hfs
+Type = HFS
+Physical Size = 2871144448
+Method = HFS+
+Cluster Size = 4096
+Free Space = 771403776
+Created = 2024-08-04 03:43:29
+Modified = 2024-08-04 17:22:41
+
+
+No files to process
+Everything is Ok
+
+Files: 0
+Size:       0
+Compressed: 789568598
+
+real	0m1.613s
+user	0m0.556s
+sys	0m0.306s
+exit=0
+total 8
+drwxr-xr-x 2 charleton charleton 4096 Nov  4 17:57 .
+drwxr-xr-x 3 charleton charleton 4096 Nov  4 17:57 ..

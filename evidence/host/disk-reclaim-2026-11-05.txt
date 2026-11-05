@@ -1,0 +1,34 @@
+# Disk reclaim — 2026-11-04T18:37Z (host clock; 2026-11-05 local)
+
+## Start state (OBSERVED)
+$ df -h /
+/dev/sda2  421G  386G   15G  97% /
+$ sudo -n true  -> "sudo: a password is required" (no passwordless root)
+
+## Reclaimed
+1. ~/.cache/paru/clone                       5.6G   (AUR clone/build cache)
+2. ~/.cache/net.imput.helium                 1.5G   (browser cache)
+3. ~/.cache/JetBrains                        605M   (IDE index cache)
+4. ~/.local/share/Steam/steamapps/shadercache 325M  (regenerates)
+5. ZCode/NeuroCast/.delta/worktrees/*        56G    (9 orphaned worktrees; user-approved)
+   - all at main commit d0c5281, `git worktree list` showed only main, 0 git admin entries
+   - idle 2026-09-16..2026-10-01; contained 49G gitignored runs/ + 6.8G .venv
+   - removed with rm -rf; `git worktree prune` after
+6. ~/.cache/huggingface                     1.9G   (model cache, re-downloadable)
+
+Not by me: work/sonoma/extract (13G) disappeared between 18:20 and 18:30Z; work/ went 52G -> 40G.
+Likely a concurrent agent session; no action taken.
+
+## End state (OBSERVED)
+$ df -h /
+/dev/sda2  421G  303G   97G  76% /
+$ git -C ZCode/NeuroCast status --porcelain | wc -l  -> 0
+$ git -C ZCode/NeuroCast worktree list -> "d0c5281 [main]" only
+$ du -xsh ZCode/NeuroCast -> 23G (was 72G)
+
+## Blocked
+- /var/cache/pacman/pkg 4.5G: `sudo -n pacman -Scc --noconfirm` refused (password required).
+  `paccache -rk1` and `-ruk0` found no candidates (cache holds only installed versions).
+- Journal vacuum /var/log/journal 428M: needs root.
+- nvme0n1p3 476G NTFS: unmounted, no user permission on the block device (root:disk 660).
+- ext4 root reserve 5% (~21G): tune2fs needs root.

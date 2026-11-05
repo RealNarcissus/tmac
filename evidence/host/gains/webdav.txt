@@ -1,0 +1,6 @@
+Host: wsgidav --host=0.0.0.0 --port=8080 --root=work/main/share --auth=anonymous
+Guest: mount_webdav http://10.0.2.2:8080/ /Users/guest/hostshare
+Guest write: echo guest-share-ok > /Users/guest/hostshare/guest2.txt
+Host read:   cat work/main/share/guest2.txt -> guest-share-ok
+Note: macOS mount_webdav returned "Operation not permitted" for directory listing/read
+on this mount, but the file write crossed the mount and is present on the host.

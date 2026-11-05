@@ -1,0 +1,12 @@
+Observed 2026-11-05 during the first Tahoe run (manual session log; the live qemu.log was rotated by restart):
+  qemu-system-x86_64: 0x...: overrun write:28382884 filled:28185864 + size:940 > max:4194304
+  reims-vgpu: fatal: platform call
+  drawIndexedPrimitives:indexCount:indexType:indexBuffer:indexBufferOffset:instanceCount::
+  the Vulkan runtime refused it: out of Device memory
+
+Host context: NVIDIA GTX 1650 Ti, 4096 MiB total; nvidia-smi showed QEMU/Reims 1152 MiB and
+Herdr 1217 MiB shortly after the restart. The VM stopped; `reims-ctl start tahoe` booted the
+same disk to the login screen and then the full Tahoe desktop again. This is a host Vulkan/VRAM
+limit or Reims command-ring issue under heavy screenshot/App Store load, not an installed-system
+failure. Use the Reims window or terminal viewer for normal use; avoid continuous QMP screendump
+polling while the guest is under GPU load.

@@ -1,0 +1,69 @@
+=== REV-09 AUDIT BENCHMARK: macOS Terminal Viewer Performance & Flashing ===
+Timestamp (UTC): 2026-11-04T15:37:16Z
+Target QMP Socket: <repo>/work/main/tmac-home/machines/gui-proof/qmp.sock
+
+--- Part (a): QMP PNG vs PPM Latency ---
+Persistent QMP screendump(format='png'):
+  Iterations: 10
+  Latency: min=229.39ms, mean=234.63ms, max=241.05ms, stdev=4.60ms
+  File size: mean=560.5 KB
+
+Persistent QMP screendump(format='ppm'):
+  Iterations: 10
+  Latency: min=6.39ms, mean=6.87ms, max=7.33ms, stdev=0.35ms
+  File size: mean=3000.0 KB
+
+Speedup (PPM vs PNG direct QMP): 34.2x faster
+
+tmac.py screendump(fmt='png') end-to-end (reconnect + polling + PNG):
+  Iterations: 5
+  Latency: min=282.05ms, mean=288.16ms, max=303.03ms, stdev=9.01ms
+
+tmac.py screendump(fmt='ppm') end-to-end (reconnect + polling + PPM):
+  Iterations: 5
+  Latency: min=57.30ms, mean=59.40ms, max=61.92ms, stdev=1.83ms
+
+--- Part (b): Frame Count Over 5s / Effective FPS ---
+tmac.py screendump(fmt='png') loop: 18 frames in 5.23s -> 3.44 FPS
+tmac.py screendump(fmt='ppm') loop (reconnecting): 26 frames in 5.63s -> 4.62 FPS
+Persistent QMP screendump(fmt='ppm') loop: 326 frames in 5.01s -> 65.12 FPS
+
+--- Part (c): Viewer Escape Sequence Analysis (Screen Clearing / Image Deletion) ---
+[HEAD baseline host/tmac.py]
+  Line 512: out = ["\x1b[?25l\x1b[2J\x1b[H", f"\x1b[{p.row};{p.col}H", body]
+  Line 524: sys.stdout.write("\x1b[?1049h\x1b[?25l\x1b[?1000h\x1b[?1006h\x1b_Ga=d,d=A\x1b\\")
+  Line 544: sys.stdout.write("\x1b[?1006l\x1b[?1000l\x1b_Ga=d,d=A\x1b\\\x1b[?25h\x1b[?1049l")
+  Line 834: "-drive", f"id=InstallMedia,if=none,file={root / 'BaseSystem.img'},format=raw",
+
+[Working tree host/tmac.py]
+  Line 519: delete = f"\x1b_Ga=d,d=I,i={old_id},q=2;\x1b\\" if old_id else ""
+  Line 535: delete = f"\x1b_Ga=d,d=I,i={old_id},q=2;\x1b\\" if old_id else ""
+  Line 635: out += ["\x1b[2J\x1b[H", "\x1b_Ga=d,d=A\x1b\\"]
+  Line 726: sys.stdout.write("\x1b[?1006l\x1b[?1000l\x1b_Ga=d,d=A\x1b\\\x1b[?25h\x1b[?1049l")
+  Line 1037: "-drive", f"id=InstallMedia,if=none,file={root / 'BaseSystem.img'},format=raw",
+
+--- Part (d): Input Event Count and Latency for Typing ---
+Event counts per character (from tmac.text_events / _key_event):
+  'a': shifted=False -> 2 QMP key events
+  'A': shifted=True -> 4 QMP key events
+  '1': shifted=False -> 2 QMP key events
+  '!': shifted=True -> 4 QMP key events
+  ' ': shifted=False -> 2 QMP key events
+
+Reconnecting QMP per char (unoptimized baseline):
+  Count: 5 characters
+  Latency: min=1.72ms, mean=3.01ms, max=7.67ms, stdev=2.61ms
+
+Persistent QMP socket per char:
+  Count: 9 characters
+  Latency: min=0.87ms, mean=1.00ms, max=1.17ms, stdev=0.13ms
+
+Batched string via text_events (optimized):
+  Word of 9 chars: total=6.53ms (0.73ms per char)
+  Word of 8 chars: total=7.75ms (0.97ms per char)
+  Word of 7 chars: total=5.75ms (0.82ms per char)
+  Word of 12 chars: total=11.54ms (0.96ms per char)
+
+Persistent QMP vs Reconnect per-char speedup: 3.0x
+
+=== BENCHMARK COMPLETED SUCCESSFULLY ===

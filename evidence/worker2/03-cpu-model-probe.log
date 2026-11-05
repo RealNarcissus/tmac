@@ -1,0 +1,27 @@
+# CPU model probe under KVM — 2026-11-04T12:15:20Z
+# method: timeout 12 qemu-system-x86_64 -machine q35,accel=kvm -cpu MODEL -m 512 -smp 2 -display none -nodefaults -S -qmp unix:... 
+# exit=124 means QEMU stayed alive until SIGTERM => CPU model accepted by KVM
+
+## model: Skylake-Client,-hle,-rtm,kvm=on,vendor=GenuineIntel,+invtsc,vmware-cpuid-freq=on,+ssse3,+sse4.2,+popcnt,+avx,+aes,+xsave,+xsaveopt,check
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=01h].ECX.pcid [bit 17]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.erms [bit 9]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.invpcid [bit 10]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=01h].ECX.pcid [bit 17]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.erms [bit 9]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.invpcid [bit 10]
+qemu-system-x86_64: terminating on signal 15 from pid 915629 (timeout)
+exit=0
+
+## model: Haswell-noTSX,kvm=on,vendor=GenuineIntel,+invtsc,vmware-cpuid-freq=on,+ssse3,+sse4.2,+popcnt,+avx,+aes,+xsave,+xsaveopt,check
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=01h].ECX.pcid [bit 17]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.erms [bit 9]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.invpcid [bit 10]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=01h].ECX.pcid [bit 17]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.erms [bit 9]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.invpcid [bit 10]
+qemu-system-x86_64: terminating on signal 15 from pid 916832 (timeout)
+exit=0
+
+## model: Penryn,kvm=on,vendor=GenuineIntel,+invtsc,vmware-cpuid-freq=on,+ssse3,+sse4.2,+popcnt,+avx,+aes,+xsave,+xsaveopt,check
+qemu-system-x86_64: terminating on signal 15 from pid 917967 (timeout)
+exit=0

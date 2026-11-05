@@ -1,0 +1,42 @@
+# VM/build/runtime artifacts (never commit)
+work/
+dist/
+.build/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.sock
+*.pid
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Large/raw VM media (evidence keeps only compressed screenshots/text)
+evidence/**/*.qcow2
+evidence/**/*.img
+evidence/**/*.dmg
+evidence/**/*.ipsw
+evidence/**/*.ppm
+evidence/**/*.bin
+work/main/ram.bin
+
+# worker2 UX scratch captures/logs (curated evidence is committed explicitly)
+evidence/worker2/ux/*.log
+evidence/worker2/ux/ffmpeg-*.log
+evidence/worker2/ux/grab-*.mp4
+evidence/worker2/ux/shot-*.png
+evidence/worker2/ux/bench-capture-worker2.json
+evidence/worker2/ux/stats-*.json
+evidence/worker2/ux/*.err
+evidence/worker2/ux/viewer-dbg.err
+evidence/worker2/ux/w2-27-host-tmac.diff
+
+# Python packaging / local configuration
+build/
+*.egg-info/
+.env
+.env.*

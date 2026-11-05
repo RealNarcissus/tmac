@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tmac-linux"
+version = "0.2.0"
+description = "Terminal-first QEMU/Reims control plane and MCP server for macOS VMs on Linux"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "GPL-2.0-or-later"
+authors = [{name = "tmac contributors"}]
+keywords = ["macos", "qemu", "mcp", "computer-use", "virtualization", "reims"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Software Development :: Testing",
+  "Topic :: System :: Emulators",
+  "Topic :: System :: Systems Administration",
+]
+dependencies = []
+
+[project.optional-dependencies]
+mcp = ["Pillow>=10"]
+share = ["wsgidav>=4.4,<5", "cheroot>=11,<12"]
+
+[project.scripts]
+tmac = "host.tmac:main"
+
+[tool.setuptools]
+packages = ["host"]
+
+[tool.setuptools.package-data]
+host = ["qkeys.json"]
+
+[project.urls]
+Repository = "https://github.com/RealNarcissus/tmac"
+Issues = "https://github.com/RealNarcissus/tmac/issues"

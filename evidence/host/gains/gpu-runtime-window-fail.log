@@ -1,0 +1,649 @@
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: pa,id=snd0: Could not open 'pa,id=snd0': No such file or directory
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: -device hda-duplex,audiodev=snd0: audiodev 'snd0' not found
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: terminating on signal 15 from pid 1201654 (python3)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+pulseaudio: set_sink_input_volume() failed Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed Reason: Invalid argument
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: -device apple-gfx-pci,id=gpu0: info: apple-gfx: -display none: each display opens a window of its own; REIMS_VGPU_WINDOW=0 keeps QEMU headless
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: its `float` multiply and fused multiply-add round before they flush; a `float` product, fused multiply-add or `ldexp` whose exact value lies within half a unit below `2^-126` answers `2^-126` of its sign where Metal answers the zero of its sign [metal2vulkan-degrade-float-tininess-after-rounding]
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: it has no answer for maxVertexAmplificationCount, maxComputeThreadgroupMemory, isLargeMRTSupported, supportsComputeCompressedTextureWrite, supportsConditionalLoadStore: nothing it reports maps to them, so `PrivateAnswer::value` gives none, and Metal's measured answers (Apple's GPU's) are only `PrivateAnswer::metal`; the device gives no answer for them (`PrivateAnswer::value` is `None`); Metal's measured answers on Apple's GPUs ride beside, never as this device's [metal2vulkan-degrade-private-properties-unknown]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-nan-encoding]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::HalfTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-half-texel-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceColorConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-color-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::NativeHalfConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-half-conversion]
+metal2vulkan: the uniqueIdentifier of a compute pipeline state: one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run; the identifier is one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run [metal2vulkan-degrade-plain-state-unique-identifier]
+Failed to load plugin 'libdecor-gtk.so': failed to init
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceDenormals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-denormals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::FastMathRewrites`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-fast-math-rewrites]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceInterpolation`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-interpolation]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceSampling`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-sampling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-texel-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-nan-encoding]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMinMax`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-min-max]
+metal2vulkan: a `Shared` buffer of 64 bytes: NVIDIA GeForce GTX 1650 Ti has no unified memory, and the default CPU cache mode lets the host read it, so it lies in host-cached system memory; `Private` or `Managed` storage, or the write-combined CPU cache mode, puts the GPU's bytes in device-local memory; the GPU reads and writes it across the bus, as a discrete Mac's GPU does a shared resource: coalesced accesses at the bus's speed, and scattered writes far slower (4-byte stores 12 bytes apart at 0.08 GB/s on an RTX 3090, where device-local memory takes them at 850 GB/s) [metal2vulkan-degrade-shared-in-system-memory]
+metal2vulkan: texture over the caller's VkImage 0x7f0a9419d530, VK_FORMAT_B8G8R8A8_UNORM, 1834x1032x1: its home layout is VK_IMAGE_LAYOUT_PRESENT_SRC_KHR, not GENERAL: each batch that uses it moves it into GENERAL before its first encoder and back at its end, 2 whole-image barriers per batch; two whole-image barriers per batch that uses it: into GENERAL before its first encoder, and back to its home layout at its end [metal2vulkan-degrade-wrapped-image-layout-transitions]
+metal2vulkan: a 2D RGBA8Unorm texture of 1280x800 over a buffer at offset 0 with rows of 5120 bytes: the buffer's bytes are host pages imported by their pointer, and its usage renders into it or writes it (RenderTarget, ShaderWrite or ShaderAtomic), and an image bound to host pages starts UNDEFINED (VUID-VkImageCreateInfo-pNext-01443), its layout transitions and a render pass's load and store operations free to read and write every byte bound to it; its texels are copied into an image before each use and back after each write (over a buffer's bytes but a tracked private buffer's, kept before a write and merged back after it) [metal2vulkan-degrade-shadowed-texture]
+metal2vulkan: color attachment 0 of a render pass, loaded with `DontCare`: Metal clears only the tiles a draw's primitives touch, which depend on where the GPU places the vertices; the tiles no draw touches hold zero or the clear value where Metal keeps their texels [metal2vulkan-degrade-dont-care-load-tiles]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::PixelSamplerScaling` under the formats and samplers its pipeline was made for; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-pixel-sampler-scaling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceArithmetic`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-arithmetic]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDivision`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-division]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDot`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-dot]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DeviceVertexConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-vertex-conversion]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DevicePackConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-pack-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMix`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-mix]
+metal2vulkan: a render pass of 1 color attachments in 4 instances: its draws keep different attachments out of their subpass, so it runs as 4 Vulkan render pass instances; each instance after the first loads the attachments and each before the last stores them, with a barrier from everything before to everything after between them: on a tiler, a tile flush per split [metal2vulkan-degrade-render-pass-split]
+metal2vulkan: a Depth32Float texture: copy_from_buffer_to_texture may store a negative or NaN depth in a render target's depth image, which the device's depth test compares as it is, where Metal's compares its magnitude, and which a pass with depth writes keeps with its sign, where Metal stores it without; a depth test against the stored value, or the value a pass with depth writes stores, can differ from Metal's in the pass or target named: the device compares a negative value below zero and a NaN by its own rule and keeps the value's sign, where Metal compares the value's magnitude, orders a NaN above every value and stores the value without its sign; or a NaN clear depth is stored and tested as 1.0, where Metal stores 0x7fc00000 [metal2vulkan-degrade-signed-depth-test]
+metal2vulkan: a Depth32Float texture: copy_from_buffer_to_texture may store a denormal depth: the device's depth test compares a stored denormal otherwise than Metal's (a positive one as zero, or a negative one below zero); a denormal depth may read, sample and copy out as a zero, or the depth test may compare it as zero (a positive one) or below zero (a negative one), where Metal keeps it and compares a positive one above zero and a negative one not below it [metal2vulkan-degrade-depth-denormals]
+metal2vulkan: a resolve of a BGRA8UnormSRGB color attachment of 4 samples: Vulkan's `AVERAGE` resolve of VK_FORMAT_B8G8R8A8_SRGB leaves the average's rounding, and what a NaN or infinite sample makes of it, to the device; a resolved channel can differ from Metal's by one code (an sRGB channel by two) where the average lies near a rounding boundary, a float channel in its last bits, and wholly where a sample is a NaN or an infinity: Metal's resolve counts a half or small-float NaN as 0 and a half infinity as 65536 of its sign, and makes any 32-bit float NaN 0x7fc00000, where the device's average may keep them [metal2vulkan-degrade-device-rounded-resolve]
+metal2vulkan: color attachment 0 of a render pass, a BGRA8UnormSRGB texture: it is stored with `MultisampleResolve`, which the runtime stores (Vulkan's `STORE`), as the device's `DONT_CARE` is not measured to keep one of Metal's answers; the attachment's texels after the pass are each its earlier texel or the one the pass rendered, both Metal's answers, but not always the one Metal's tiler keeps [metal2vulkan-degrade-dont-care-store]
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+metal2vulkan: generate_mipmaps of a MTLPixelFormatBGRA8Unorm Type2D texture: each level is the device's blit chain's linear filter of the one above, not Apple's GPU's, whose bytes differ near rounding boundaries; each level is the device's linear filter of the one above (its blit, or a bilinear filter in float where its blits cannot filter the format), not Apple's: a channel can differ from Metal's where the filtered value lies near a rounding boundary, and wholly where a box averages infinities, NaNs or a float format's extremes [metal2vulkan-degrade-device-filtered-mipmaps]
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: -device apple-gfx-pci,id=gpu0: info: apple-gfx: -display none: each display opens a window of its own; REIMS_VGPU_WINDOW=0 keeps QEMU headless
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: its `float` multiply and fused multiply-add round before they flush; a `float` product, fused multiply-add or `ldexp` whose exact value lies within half a unit below `2^-126` answers `2^-126` of its sign where Metal answers the zero of its sign [metal2vulkan-degrade-float-tininess-after-rounding]
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: it has no answer for maxVertexAmplificationCount, maxComputeThreadgroupMemory, isLargeMRTSupported, supportsComputeCompressedTextureWrite, supportsConditionalLoadStore: nothing it reports maps to them, so `PrivateAnswer::value` gives none, and Metal's measured answers (Apple's GPU's) are only `PrivateAnswer::metal`; the device gives no answer for them (`PrivateAnswer::value` is `None`); Metal's measured answers on Apple's GPUs ride beside, never as this device's [metal2vulkan-degrade-private-properties-unknown]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-nan-encoding]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::HalfTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-half-texel-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceColorConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-color-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::NativeHalfConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-half-conversion]
+metal2vulkan: the uniqueIdentifier of a compute pipeline state: one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run; the identifier is one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run [metal2vulkan-degrade-plain-state-unique-identifier]
+Failed to load plugin 'libdecor-gtk.so': failed to init
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceDenormals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-denormals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::FastMathRewrites`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-fast-math-rewrites]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceInterpolation`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-interpolation]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceSampling`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-sampling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-texel-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-nan-encoding]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMinMax`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-min-max]
+metal2vulkan: a `Shared` buffer of 64 bytes: NVIDIA GeForce GTX 1650 Ti has no unified memory, and the default CPU cache mode lets the host read it, so it lies in host-cached system memory; `Private` or `Managed` storage, or the write-combined CPU cache mode, puts the GPU's bytes in device-local memory; the GPU reads and writes it across the bus, as a discrete Mac's GPU does a shared resource: coalesced accesses at the bus's speed, and scattered writes far slower (4-byte stores 12 bytes apart at 0.08 GB/s on an RTX 3090, where device-local memory takes them at 850 GB/s) [metal2vulkan-degrade-shared-in-system-memory]
+metal2vulkan: texture over the caller's VkImage 0x7f23f019b470, VK_FORMAT_B8G8R8A8_UNORM, 1834x1032x1: its home layout is VK_IMAGE_LAYOUT_PRESENT_SRC_KHR, not GENERAL: each batch that uses it moves it into GENERAL before its first encoder and back at its end, 2 whole-image barriers per batch; two whole-image barriers per batch that uses it: into GENERAL before its first encoder, and back to its home layout at its end [metal2vulkan-degrade-wrapped-image-layout-transitions]
+metal2vulkan: a 2D RGBA8Unorm texture of 1280x800 over a buffer at offset 0 with rows of 5120 bytes: the buffer's bytes are host pages imported by their pointer, and its usage renders into it or writes it (RenderTarget, ShaderWrite or ShaderAtomic), and an image bound to host pages starts UNDEFINED (VUID-VkImageCreateInfo-pNext-01443), its layout transitions and a render pass's load and store operations free to read and write every byte bound to it; its texels are copied into an image before each use and back after each write (over a buffer's bytes but a tracked private buffer's, kept before a write and merged back after it) [metal2vulkan-degrade-shadowed-texture]
+metal2vulkan: color attachment 0 of a render pass, loaded with `DontCare`: Metal clears only the tiles a draw's primitives touch, which depend on where the GPU places the vertices; the tiles no draw touches hold zero or the clear value where Metal keeps their texels [metal2vulkan-degrade-dont-care-load-tiles]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::PixelSamplerScaling` under the formats and samplers its pipeline was made for; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-pixel-sampler-scaling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceArithmetic`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-arithmetic]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDivision`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-division]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDot`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-dot]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DeviceVertexConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-vertex-conversion]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DevicePackConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-pack-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMix`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-mix]
+metal2vulkan: a render pass of 1 color attachments in 4 instances: its draws keep different attachments out of their subpass, so it runs as 4 Vulkan render pass instances; each instance after the first loads the attachments and each before the last stores them, with a barrier from everything before to everything after between them: on a tiler, a tile flush per split [metal2vulkan-degrade-render-pass-split]
+metal2vulkan: a Depth32Float texture: copy_from_buffer_to_texture may store a negative or NaN depth in a render target's depth image, which the device's depth test compares as it is, where Metal's compares its magnitude, and which a pass with depth writes keeps with its sign, where Metal stores it without; a depth test against the stored value, or the value a pass with depth writes stores, can differ from Metal's in the pass or target named: the device compares a negative value below zero and a NaN by its own rule and keeps the value's sign, where Metal compares the value's magnitude, orders a NaN above every value and stores the value without its sign; or a NaN clear depth is stored and tested as 1.0, where Metal stores 0x7fc00000 [metal2vulkan-degrade-signed-depth-test]
+metal2vulkan: a Depth32Float texture: copy_from_buffer_to_texture may store a denormal depth: the device's depth test compares a stored denormal otherwise than Metal's (a positive one as zero, or a negative one below zero); a denormal depth may read, sample and copy out as a zero, or the depth test may compare it as zero (a positive one) or below zero (a negative one), where Metal keeps it and compares a positive one above zero and a negative one not below it [metal2vulkan-degrade-depth-denormals]
+metal2vulkan: a resolve of a BGRA8UnormSRGB color attachment of 4 samples: Vulkan's `AVERAGE` resolve of VK_FORMAT_B8G8R8A8_SRGB leaves the average's rounding, and what a NaN or infinite sample makes of it, to the device; a resolved channel can differ from Metal's by one code (an sRGB channel by two) where the average lies near a rounding boundary, a float channel in its last bits, and wholly where a sample is a NaN or an infinity: Metal's resolve counts a half or small-float NaN as 0 and a half infinity as 65536 of its sign, and makes any 32-bit float NaN 0x7fc00000, where the device's average may keep them [metal2vulkan-degrade-device-rounded-resolve]
+metal2vulkan: color attachment 0 of a render pass, a BGRA8UnormSRGB texture: it is stored with `MultisampleResolve`, which the runtime stores (Vulkan's `STORE`), as the device's `DONT_CARE` is not measured to keep one of Metal's answers; the attachment's texels after the pass are each its earlier texel or the one the pass rendered, both Metal's answers, but not always the one Metal's tiler keeps [metal2vulkan-degrade-dont-care-store]
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: -device apple-gfx-pci,id=gpu0: info: apple-gfx: -display none: each display opens a window of its own; REIMS_VGPU_WINDOW=0 keeps QEMU headless
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: its `float` multiply and fused multiply-add round before they flush; a `float` product, fused multiply-add or `ldexp` whose exact value lies within half a unit below `2^-126` answers `2^-126` of its sign where Metal answers the zero of its sign [metal2vulkan-degrade-float-tininess-after-rounding]
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: it has no answer for maxVertexAmplificationCount, maxComputeThreadgroupMemory, isLargeMRTSupported, supportsComputeCompressedTextureWrite, supportsConditionalLoadStore: nothing it reports maps to them, so `PrivateAnswer::value` gives none, and Metal's measured answers (Apple's GPU's) are only `PrivateAnswer::metal`; the device gives no answer for them (`PrivateAnswer::value` is `None`); Metal's measured answers on Apple's GPUs ride beside, never as this device's [metal2vulkan-degrade-private-properties-unknown]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-nan-encoding]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::HalfTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-half-texel-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceColorConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-color-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::NativeHalfConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-half-conversion]
+metal2vulkan: the uniqueIdentifier of a compute pipeline state: one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run; the identifier is one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run [metal2vulkan-degrade-plain-state-unique-identifier]
+Failed to load plugin 'libdecor-gtk.so': failed to init
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceDenormals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-denormals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::FastMathRewrites`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-fast-math-rewrites]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceInterpolation`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-interpolation]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceSampling`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-sampling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-texel-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-nan-encoding]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMinMax`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-min-max]
+metal2vulkan: a `Shared` buffer of 64 bytes: NVIDIA GeForce GTX 1650 Ti has no unified memory, and the default CPU cache mode lets the host read it, so it lies in host-cached system memory; `Private` or `Managed` storage, or the write-combined CPU cache mode, puts the GPU's bytes in device-local memory; the GPU reads and writes it across the bus, as a discrete Mac's GPU does a shared resource: coalesced accesses at the bus's speed, and scattered writes far slower (4-byte stores 12 bytes apart at 0.08 GB/s on an RTX 3090, where device-local memory takes them at 850 GB/s) [metal2vulkan-degrade-shared-in-system-memory]
+metal2vulkan: texture over the caller's VkImage 0x7f950c19d0f0, VK_FORMAT_B8G8R8A8_UNORM, 1834x1032x1: its home layout is VK_IMAGE_LAYOUT_PRESENT_SRC_KHR, not GENERAL: each batch that uses it moves it into GENERAL before its first encoder and back at its end, 2 whole-image barriers per batch; two whole-image barriers per batch that uses it: into GENERAL before its first encoder, and back to its home layout at its end [metal2vulkan-degrade-wrapped-image-layout-transitions]
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: -device apple-gfx-pci,id=gpu0: info: apple-gfx: -display none: each display opens a window of its own; REIMS_VGPU_WINDOW=0 keeps QEMU headless
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: its `float` multiply and fused multiply-add round before they flush; a `float` product, fused multiply-add or `ldexp` whose exact value lies within half a unit below `2^-126` answers `2^-126` of its sign where Metal answers the zero of its sign [metal2vulkan-degrade-float-tininess-after-rounding]
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: it has no answer for maxVertexAmplificationCount, maxComputeThreadgroupMemory, isLargeMRTSupported, supportsComputeCompressedTextureWrite, supportsConditionalLoadStore: nothing it reports maps to them, so `PrivateAnswer::value` gives none, and Metal's measured answers (Apple's GPU's) are only `PrivateAnswer::metal`; the device gives no answer for them (`PrivateAnswer::value` is `None`); Metal's measured answers on Apple's GPUs ride beside, never as this device's [metal2vulkan-degrade-private-properties-unknown]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-nan-encoding]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::HalfTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-half-texel-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceColorConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-color-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::NativeHalfConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-half-conversion]
+metal2vulkan: the uniqueIdentifier of a compute pipeline state: one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run; the identifier is one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run [metal2vulkan-degrade-plain-state-unique-identifier]
+Failed to load plugin 'libdecor-gtk.so': failed to init
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceDenormals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-denormals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::FastMathRewrites`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-fast-math-rewrites]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceInterpolation`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-interpolation]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceSampling`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-sampling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-texel-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-nan-encoding]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMinMax`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-min-max]
+metal2vulkan: a `Shared` buffer of 64 bytes: NVIDIA GeForce GTX 1650 Ti has no unified memory, and the default CPU cache mode lets the host read it, so it lies in host-cached system memory; `Private` or `Managed` storage, or the write-combined CPU cache mode, puts the GPU's bytes in device-local memory; the GPU reads and writes it across the bus, as a discrete Mac's GPU does a shared resource: coalesced accesses at the bus's speed, and scattered writes far slower (4-byte stores 12 bytes apart at 0.08 GB/s on an RTX 3090, where device-local memory takes them at 850 GB/s) [metal2vulkan-degrade-shared-in-system-memory]
+metal2vulkan: texture over the caller's VkImage 0x7f35e419ab00, VK_FORMAT_B8G8R8A8_UNORM, 1834x1032x1: its home layout is VK_IMAGE_LAYOUT_PRESENT_SRC_KHR, not GENERAL: each batch that uses it moves it into GENERAL before its first encoder and back at its end, 2 whole-image barriers per batch; two whole-image barriers per batch that uses it: into GENERAL before its first encoder, and back to its home layout at its end [metal2vulkan-degrade-wrapped-image-layout-transitions]
+metal2vulkan: a 2D RGBA8Unorm texture of 1920x1080 over a buffer at offset 0 with rows of 7680 bytes: the buffer's bytes are host pages imported by their pointer, and its usage renders into it or writes it (RenderTarget, ShaderWrite or ShaderAtomic), and an image bound to host pages starts UNDEFINED (VUID-VkImageCreateInfo-pNext-01443), its layout transitions and a render pass's load and store operations free to read and write every byte bound to it; its texels are copied into an image before each use and back after each write (over a buffer's bytes but a tracked private buffer's, kept before a write and merged back after it) [metal2vulkan-degrade-shadowed-texture]
+metal2vulkan: color attachment 0 of a render pass, loaded with `DontCare`: Metal clears only the tiles a draw's primitives touch, which depend on where the GPU places the vertices; the tiles no draw touches hold zero or the clear value where Metal keeps their texels [metal2vulkan-degrade-dont-care-load-tiles]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::PixelSamplerScaling` under the formats and samplers its pipeline was made for; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-pixel-sampler-scaling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceArithmetic`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-arithmetic]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDivision`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-division]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDot`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-dot]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DeviceVertexConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-vertex-conversion]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DevicePackConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-pack-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMix`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-mix]
+metal2vulkan: a render pass of 1 color attachments in 4 instances: its draws keep different attachments out of their subpass, so it runs as 4 Vulkan render pass instances; each instance after the first loads the attachments and each before the last stores them, with a barrier from everything before to everything after between them: on a tiler, a tile flush per split [metal2vulkan-degrade-render-pass-split]
+metal2vulkan: a Depth32Float texture: copy_from_buffer_to_texture may store a negative or NaN depth in a render target's depth image, which the device's depth test compares as it is, where Metal's compares its magnitude, and which a pass with depth writes keeps with its sign, where Metal stores it without; a depth test against the stored value, or the value a pass with depth writes stores, can differ from Metal's in the pass or target named: the device compares a negative value below zero and a NaN by its own rule and keeps the value's sign, where Metal compares the value's magnitude, orders a NaN above every value and stores the value without its sign; or a NaN clear depth is stored and tested as 1.0, where Metal stores 0x7fc00000 [metal2vulkan-degrade-signed-depth-test]
+metal2vulkan: a Depth32Float texture: copy_from_buffer_to_texture may store a denormal depth: the device's depth test compares a stored denormal otherwise than Metal's (a positive one as zero, or a negative one below zero); a denormal depth may read, sample and copy out as a zero, or the depth test may compare it as zero (a positive one) or below zero (a negative one), where Metal keeps it and compares a positive one above zero and a negative one not below it [metal2vulkan-degrade-depth-denormals]
+metal2vulkan: a resolve of a BGRA8UnormSRGB color attachment of 4 samples: Vulkan's `AVERAGE` resolve of VK_FORMAT_B8G8R8A8_SRGB leaves the average's rounding, and what a NaN or infinite sample makes of it, to the device; a resolved channel can differ from Metal's by one code (an sRGB channel by two) where the average lies near a rounding boundary, a float channel in its last bits, and wholly where a sample is a NaN or an infinity: Metal's resolve counts a half or small-float NaN as 0 and a half infinity as 65536 of its sign, and makes any 32-bit float NaN 0x7fc00000, where the device's average may keep them [metal2vulkan-degrade-device-rounded-resolve]
+metal2vulkan: color attachment 0 of a render pass, a BGRA8UnormSRGB texture: it is stored with `MultisampleResolve`, which the runtime stores (Vulkan's `STORE`), as the device's `DONT_CARE` is not measured to keep one of Metal's answers; the attachment's texels after the pass are each its earlier texel or the one the pass rendered, both Metal's answers, but not always the one Metal's tiler keeps [metal2vulkan-degrade-dont-care-store]
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: -device apple-gfx-pci,id=gpu0: info: apple-gfx: -display none: each display opens a window of its own; REIMS_VGPU_WINDOW=0 keeps QEMU headless
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: its `float` multiply and fused multiply-add round before they flush; a `float` product, fused multiply-add or `ldexp` whose exact value lies within half a unit below `2^-126` answers `2^-126` of its sign where Metal answers the zero of its sign [metal2vulkan-degrade-float-tininess-after-rounding]
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: it has no answer for maxVertexAmplificationCount, maxComputeThreadgroupMemory, isLargeMRTSupported, supportsComputeCompressedTextureWrite, supportsConditionalLoadStore: nothing it reports maps to them, so `PrivateAnswer::value` gives none, and Metal's measured answers (Apple's GPU's) are only `PrivateAnswer::metal`; the device gives no answer for them (`PrivateAnswer::value` is `None`); Metal's measured answers on Apple's GPUs ride beside, never as this device's [metal2vulkan-degrade-private-properties-unknown]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-nan-encoding]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::HalfTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-half-texel-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceColorConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-color-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::NativeHalfConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-half-conversion]
+metal2vulkan: the uniqueIdentifier of a compute pipeline state: one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run; the identifier is one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run [metal2vulkan-degrade-plain-state-unique-identifier]
+Failed to load plugin 'libdecor-gtk.so': failed to init
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceDenormals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-denormals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::FastMathRewrites`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-fast-math-rewrites]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceInterpolation`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-interpolation]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceSampling`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-sampling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-texel-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-nan-encoding]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMinMax`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-min-max]
+metal2vulkan: a `Shared` buffer of 64 bytes: NVIDIA GeForce GTX 1650 Ti has no unified memory, and the default CPU cache mode lets the host read it, so it lies in host-cached system memory; `Private` or `Managed` storage, or the write-combined CPU cache mode, puts the GPU's bytes in device-local memory; the GPU reads and writes it across the bus, as a discrete Mac's GPU does a shared resource: coalesced accesses at the bus's speed, and scattered writes far slower (4-byte stores 12 bytes apart at 0.08 GB/s on an RTX 3090, where device-local memory takes them at 850 GB/s) [metal2vulkan-degrade-shared-in-system-memory]
+metal2vulkan: texture over the caller's VkImage 0x7f837019abc0, VK_FORMAT_B8G8R8A8_UNORM, 1834x1032x1: its home layout is VK_IMAGE_LAYOUT_PRESENT_SRC_KHR, not GENERAL: each batch that uses it moves it into GENERAL before its first encoder and back at its end, 2 whole-image barriers per batch; two whole-image barriers per batch that uses it: into GENERAL before its first encoder, and back to its home layout at its end [metal2vulkan-degrade-wrapped-image-layout-transitions]
+metal2vulkan: a 2D RGBA8Unorm texture of 1280x800 over a buffer at offset 0 with rows of 5120 bytes: the buffer's bytes are host pages imported by their pointer, and its usage renders into it or writes it (RenderTarget, ShaderWrite or ShaderAtomic), and an image bound to host pages starts UNDEFINED (VUID-VkImageCreateInfo-pNext-01443), its layout transitions and a render pass's load and store operations free to read and write every byte bound to it; its texels are copied into an image before each use and back after each write (over a buffer's bytes but a tracked private buffer's, kept before a write and merged back after it) [metal2vulkan-degrade-shadowed-texture]
+metal2vulkan: color attachment 0 of a render pass, loaded with `DontCare`: Metal clears only the tiles a draw's primitives touch, which depend on where the GPU places the vertices; the tiles no draw touches hold zero or the clear value where Metal keeps their texels [metal2vulkan-degrade-dont-care-load-tiles]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::PixelSamplerScaling` under the formats and samplers its pipeline was made for; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-pixel-sampler-scaling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceArithmetic`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-arithmetic]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDivision`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-division]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDot`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-dot]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DeviceVertexConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-vertex-conversion]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DevicePackConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-pack-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMix`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-mix]
+metal2vulkan: a render pass of 1 color attachments in 4 instances: its draws keep different attachments out of their subpass, so it runs as 4 Vulkan render pass instances; each instance after the first loads the attachments and each before the last stores them, with a barrier from everything before to everything after between them: on a tiler, a tile flush per split [metal2vulkan-degrade-render-pass-split]
+metal2vulkan: generate_mipmaps of a MTLPixelFormatBGRA8Unorm Type2D texture: each level is the device's blit chain's linear filter of the one above, not Apple's GPU's, whose bytes differ near rounding boundaries; each level is the device's linear filter of the one above (its blit, or a bilinear filter in float where its blits cannot filter the format), not Apple's: a channel can differ from Metal's where the filtered value lies near a rounding boundary, and wholly where a box averages infinities, NaNs or a float format's extremes [metal2vulkan-degrade-device-filtered-mipmaps]
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+metal2vulkan: the process's exit: the Vulkan driver is still running the runtime's work (a call, a pipeline's making, or a CPU device's commands); the process ends at once with its status, and the exit handlers registered before the runtime's (a terminal's restore, say) do not run
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: -device apple-gfx-pci,id=gpu0: info: apple-gfx: -display none: each display opens a window of its own; REIMS_VGPU_WINDOW=0 keeps QEMU headless
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: its `float` multiply and fused multiply-add round before they flush; a `float` product, fused multiply-add or `ldexp` whose exact value lies within half a unit below `2^-126` answers `2^-126` of its sign where Metal answers the zero of its sign [metal2vulkan-degrade-float-tininess-after-rounding]
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: it has no answer for maxVertexAmplificationCount, maxComputeThreadgroupMemory, isLargeMRTSupported, supportsComputeCompressedTextureWrite, supportsConditionalLoadStore: nothing it reports maps to them, so `PrivateAnswer::value` gives none, and Metal's measured answers (Apple's GPU's) are only `PrivateAnswer::metal`; the device gives no answer for them (`PrivateAnswer::value` is `None`); Metal's measured answers on Apple's GPUs ride beside, never as this device's [metal2vulkan-degrade-private-properties-unknown]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-nan-encoding]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::HalfTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-half-texel-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceColorConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-color-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::NativeHalfConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-half-conversion]
+metal2vulkan: the uniqueIdentifier of a compute pipeline state: one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run; the identifier is one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run [metal2vulkan-degrade-plain-state-unique-identifier]
+Failed to load plugin 'libdecor-gtk.so': failed to init
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceDenormals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-denormals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::FastMathRewrites`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-fast-math-rewrites]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceInterpolation`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-interpolation]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceSampling`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-sampling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-texel-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-nan-encoding]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMinMax`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-min-max]
+metal2vulkan: a `Shared` buffer of 64 bytes: NVIDIA GeForce GTX 1650 Ti has no unified memory, and the default CPU cache mode lets the host read it, so it lies in host-cached system memory; `Private` or `Managed` storage, or the write-combined CPU cache mode, puts the GPU's bytes in device-local memory; the GPU reads and writes it across the bus, as a discrete Mac's GPU does a shared resource: coalesced accesses at the bus's speed, and scattered writes far slower (4-byte stores 12 bytes apart at 0.08 GB/s on an RTX 3090, where device-local memory takes them at 850 GB/s) [metal2vulkan-degrade-shared-in-system-memory]
+metal2vulkan: texture over the caller's VkImage 0x7ff0a019ab40, VK_FORMAT_B8G8R8A8_UNORM, 1834x1032x1: its home layout is VK_IMAGE_LAYOUT_PRESENT_SRC_KHR, not GENERAL: each batch that uses it moves it into GENERAL before its first encoder and back at its end, 2 whole-image barriers per batch; two whole-image barriers per batch that uses it: into GENERAL before its first encoder, and back to its home layout at its end [metal2vulkan-degrade-wrapped-image-layout-transitions]
+metal2vulkan: a 2D RGBA8Unorm texture of 1280x800 over a buffer at offset 0 with rows of 5120 bytes: the buffer's bytes are host pages imported by their pointer, and its usage renders into it or writes it (RenderTarget, ShaderWrite or ShaderAtomic), and an image bound to host pages starts UNDEFINED (VUID-VkImageCreateInfo-pNext-01443), its layout transitions and a render pass's load and store operations free to read and write every byte bound to it; its texels are copied into an image before each use and back after each write (over a buffer's bytes but a tracked private buffer's, kept before a write and merged back after it) [metal2vulkan-degrade-shadowed-texture]
+metal2vulkan: color attachment 0 of a render pass, loaded with `DontCare`: Metal clears only the tiles a draw's primitives touch, which depend on where the GPU places the vertices; the tiles no draw touches hold zero or the clear value where Metal keeps their texels [metal2vulkan-degrade-dont-care-load-tiles]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::PixelSamplerScaling` under the formats and samplers its pipeline was made for; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-pixel-sampler-scaling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceArithmetic`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-arithmetic]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDivision`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-division]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDot`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-dot]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DeviceVertexConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-vertex-conversion]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DevicePackConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-pack-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMix`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-mix]
+metal2vulkan: a render pass of 1 color attachments in 4 instances: its draws keep different attachments out of their subpass, so it runs as 4 Vulkan render pass instances; each instance after the first loads the attachments and each before the last stores them, with a barrier from everything before to everything after between them: on a tiler, a tile flush per split [metal2vulkan-degrade-render-pass-split]
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: -device apple-gfx-pci,id=gpu0: info: apple-gfx: -display none: each display opens a window of its own; REIMS_VGPU_WINDOW=0 keeps QEMU headless
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: its `float` multiply and fused multiply-add round before they flush; a `float` product, fused multiply-add or `ldexp` whose exact value lies within half a unit below `2^-126` answers `2^-126` of its sign where Metal answers the zero of its sign [metal2vulkan-degrade-float-tininess-after-rounding]
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: it has no answer for maxVertexAmplificationCount, maxComputeThreadgroupMemory, isLargeMRTSupported, supportsComputeCompressedTextureWrite, supportsConditionalLoadStore: nothing it reports maps to them, so `PrivateAnswer::value` gives none, and Metal's measured answers (Apple's GPU's) are only `PrivateAnswer::metal`; the device gives no answer for them (`PrivateAnswer::value` is `None`); Metal's measured answers on Apple's GPUs ride beside, never as this device's [metal2vulkan-degrade-private-properties-unknown]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-nan-encoding]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::HalfTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-half-texel-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceColorConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-color-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::NativeHalfConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-half-conversion]
+metal2vulkan: the uniqueIdentifier of a compute pipeline state: one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run; the identifier is one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run [metal2vulkan-degrade-plain-state-unique-identifier]
+Failed to load plugin 'libdecor-gtk.so': failed to init
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceDenormals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-denormals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::FastMathRewrites`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-fast-math-rewrites]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceInterpolation`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-interpolation]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceSampling`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-sampling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-texel-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-nan-encoding]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMinMax`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-min-max]
+metal2vulkan: a `Shared` buffer of 64 bytes: NVIDIA GeForce GTX 1650 Ti has no unified memory, and the default CPU cache mode lets the host read it, so it lies in host-cached system memory; `Private` or `Managed` storage, or the write-combined CPU cache mode, puts the GPU's bytes in device-local memory; the GPU reads and writes it across the bus, as a discrete Mac's GPU does a shared resource: coalesced accesses at the bus's speed, and scattered writes far slower (4-byte stores 12 bytes apart at 0.08 GB/s on an RTX 3090, where device-local memory takes them at 850 GB/s) [metal2vulkan-degrade-shared-in-system-memory]
+metal2vulkan: texture over the caller's VkImage 0x7f033419ab80, VK_FORMAT_B8G8R8A8_UNORM, 1834x1032x1: its home layout is VK_IMAGE_LAYOUT_PRESENT_SRC_KHR, not GENERAL: each batch that uses it moves it into GENERAL before its first encoder and back at its end, 2 whole-image barriers per batch; two whole-image barriers per batch that uses it: into GENERAL before its first encoder, and back to its home layout at its end [metal2vulkan-degrade-wrapped-image-layout-transitions]
+metal2vulkan: a 2D RGBA8Unorm texture of 1920x1080 over a buffer at offset 0 with rows of 7680 bytes: the buffer's bytes are host pages imported by their pointer, and its usage renders into it or writes it (RenderTarget, ShaderWrite or ShaderAtomic), and an image bound to host pages starts UNDEFINED (VUID-VkImageCreateInfo-pNext-01443), its layout transitions and a render pass's load and store operations free to read and write every byte bound to it; its texels are copied into an image before each use and back after each write (over a buffer's bytes but a tracked private buffer's, kept before a write and merged back after it) [metal2vulkan-degrade-shadowed-texture]
+metal2vulkan: color attachment 0 of a render pass, loaded with `DontCare`: Metal clears only the tiles a draw's primitives touch, which depend on where the GPU places the vertices; the tiles no draw touches hold zero or the clear value where Metal keeps their texels [metal2vulkan-degrade-dont-care-load-tiles]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::PixelSamplerScaling` under the formats and samplers its pipeline was made for; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-pixel-sampler-scaling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceArithmetic`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-arithmetic]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDivision`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-division]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDot`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-dot]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DeviceVertexConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-vertex-conversion]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DevicePackConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-pack-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMix`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-mix]
+metal2vulkan: a render pass of 1 color attachments in 4 instances: its draws keep different attachments out of their subpass, so it runs as 4 Vulkan render pass instances; each instance after the first loads the attachments and each before the last stores them, with a barrier from everything before to everything after between them: on a tiler, a tile flush per split [metal2vulkan-degrade-render-pass-split]
+metal2vulkan: generate_mipmaps of a MTLPixelFormatBGRA8Unorm Type2D texture: each level is the device's blit chain's linear filter of the one above, not Apple's GPU's, whose bytes differ near rounding boundaries; each level is the device's linear filter of the one above (its blit, or a bilinear filter in float where its blits cannot filter the format), not Apple's: a channel can differ from Metal's where the filtered value lies near a rounding boundary, and wholly where a box averages infinities, NaNs or a float format's extremes [metal2vulkan-degrade-device-filtered-mipmaps]
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: -device apple-gfx-pci,id=gpu0: info: apple-gfx: -display none: each display opens a window of its own; REIMS_VGPU_WINDOW=0 keeps QEMU headless
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: its `float` multiply and fused multiply-add round before they flush; a `float` product, fused multiply-add or `ldexp` whose exact value lies within half a unit below `2^-126` answers `2^-126` of its sign where Metal answers the zero of its sign [metal2vulkan-degrade-float-tininess-after-rounding]
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: it has no answer for maxVertexAmplificationCount, maxComputeThreadgroupMemory, isLargeMRTSupported, supportsComputeCompressedTextureWrite, supportsConditionalLoadStore: nothing it reports maps to them, so `PrivateAnswer::value` gives none, and Metal's measured answers (Apple's GPU's) are only `PrivateAnswer::metal`; the device gives no answer for them (`PrivateAnswer::value` is `None`); Metal's measured answers on Apple's GPUs ride beside, never as this device's [metal2vulkan-degrade-private-properties-unknown]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-nan-encoding]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::HalfTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-half-texel-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceColorConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-color-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::NativeHalfConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-half-conversion]
+metal2vulkan: the uniqueIdentifier of a compute pipeline state: one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run; the identifier is one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run [metal2vulkan-degrade-plain-state-unique-identifier]
+Failed to load plugin 'libdecor-gtk.so': failed to init
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceDenormals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-denormals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::FastMathRewrites`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-fast-math-rewrites]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceInterpolation`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-interpolation]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceSampling`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-sampling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-texel-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-nan-encoding]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMinMax`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-min-max]
+metal2vulkan: a `Shared` buffer of 64 bytes: NVIDIA GeForce GTX 1650 Ti has no unified memory, and the default CPU cache mode lets the host read it, so it lies in host-cached system memory; `Private` or `Managed` storage, or the write-combined CPU cache mode, puts the GPU's bytes in device-local memory; the GPU reads and writes it across the bus, as a discrete Mac's GPU does a shared resource: coalesced accesses at the bus's speed, and scattered writes far slower (4-byte stores 12 bytes apart at 0.08 GB/s on an RTX 3090, where device-local memory takes them at 850 GB/s) [metal2vulkan-degrade-shared-in-system-memory]
+metal2vulkan: texture over the caller's VkImage 0x7f16a019acd0, VK_FORMAT_B8G8R8A8_UNORM, 1834x1032x1: its home layout is VK_IMAGE_LAYOUT_PRESENT_SRC_KHR, not GENERAL: each batch that uses it moves it into GENERAL before its first encoder and back at its end, 2 whole-image barriers per batch; two whole-image barriers per batch that uses it: into GENERAL before its first encoder, and back to its home layout at its end [metal2vulkan-degrade-wrapped-image-layout-transitions]
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: host doesn't support requested feature: vPMU
+qemu-system-x86_64: -device apple-gfx-pci,id=gpu0: info: apple-gfx: -display none: each display opens a window of its own; REIMS_VGPU_WINDOW=0 keeps QEMU headless
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: its `float` multiply and fused multiply-add round before they flush; a `float` product, fused multiply-add or `ldexp` whose exact value lies within half a unit below `2^-126` answers `2^-126` of its sign where Metal answers the zero of its sign [metal2vulkan-degrade-float-tininess-after-rounding]
+metal2vulkan: the device NVIDIA GeForce GTX 1650 Ti: it has no answer for maxVertexAmplificationCount, maxComputeThreadgroupMemory, isLargeMRTSupported, supportsComputeCompressedTextureWrite, supportsConditionalLoadStore: nothing it reports maps to them, so `PrivateAnswer::value` gives none, and Metal's measured answers (Apple's GPU's) are only `PrivateAnswer::metal`; the device gives no answer for them (`PrivateAnswer::value` is `None`); Metal's measured answers on Apple's GPUs ride beside, never as this device's [metal2vulkan-degrade-private-properties-unknown]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-nan-encoding]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::HalfTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-half-texel-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::DeviceColorConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-color-conversion]
+metal2vulkan: the kernel of a compute pipeline state: its translation records `PrecisionNote::NativeHalfConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-half-conversion]
+metal2vulkan: the uniqueIdentifier of a compute pipeline state: one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run; the identifier is one value of the runtime's count, unique and fixed for the state's life, where Metal's is an address that differs from run to run [metal2vulkan-degrade-plain-state-unique-identifier]
+Failed to load plugin 'libdecor-gtk.so': failed to init
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceDenormals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-denormals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::FastMathRewrites`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-fast-math-rewrites]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceInterpolation`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-interpolation]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceSampling`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-sampling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTexelConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-texel-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeNanEncoding`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-nan-encoding]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMinMax`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-min-max]
+metal2vulkan: a `Shared` buffer of 64 bytes: NVIDIA GeForce GTX 1650 Ti has no unified memory, and the default CPU cache mode lets the host read it, so it lies in host-cached system memory; `Private` or `Managed` storage, or the write-combined CPU cache mode, puts the GPU's bytes in device-local memory; the GPU reads and writes it across the bus, as a discrete Mac's GPU does a shared resource: coalesced accesses at the bus's speed, and scattered writes far slower (4-byte stores 12 bytes apart at 0.08 GB/s on an RTX 3090, where device-local memory takes them at 850 GB/s) [metal2vulkan-degrade-shared-in-system-memory]
+metal2vulkan: texture over the caller's VkImage 0x7fe27019df10, VK_FORMAT_B8G8R8A8_UNORM, 1834x1032x1: its home layout is VK_IMAGE_LAYOUT_PRESENT_SRC_KHR, not GENERAL: each batch that uses it moves it into GENERAL before its first encoder and back at its end, 2 whole-image barriers per batch; two whole-image barriers per batch that uses it: into GENERAL before its first encoder, and back to its home layout at its end [metal2vulkan-degrade-wrapped-image-layout-transitions]
+metal2vulkan: a 2D RGBA8Unorm texture of 1920x1080 over a buffer at offset 0 with rows of 7680 bytes: the buffer's bytes are host pages imported by their pointer, and its usage renders into it or writes it (RenderTarget, ShaderWrite or ShaderAtomic), and an image bound to host pages starts UNDEFINED (VUID-VkImageCreateInfo-pNext-01443), its layout transitions and a render pass's load and store operations free to read and write every byte bound to it; its texels are copied into an image before each use and back after each write (over a buffer's bytes but a tracked private buffer's, kept before a write and merged back after it) [metal2vulkan-degrade-shadowed-texture]
+metal2vulkan: color attachment 0 of a render pass, loaded with `DontCare`: Metal clears only the tiles a draw's primitives touch, which depend on where the GPU places the vertices; the tiles no draw touches hold zero or the clear value where Metal keeps their texels [metal2vulkan-degrade-dont-care-load-tiles]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::PixelSamplerScaling` under the formats and samplers its pipeline was made for; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-pixel-sampler-scaling]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceArithmetic`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-arithmetic]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDivision`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-division]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeDot`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-dot]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DeviceVertexConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-vertex-conversion]
+metal2vulkan: the vertex function of a render pipeline state: its translation records `PrecisionNote::DevicePackConversion`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-pack-conversion]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::DeviceTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-device-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeTranscendentals`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-transcendentals]
+metal2vulkan: the fragment function of a render pipeline state: its translation records `PrecisionNote::NativeMix`; results can differ from Metal's as the note's documentation states [metal2vulkan-degrade-native-mix]
+metal2vulkan: a render pass of 1 color attachments in 4 instances: its draws keep different attachments out of their subpass, so it runs as 4 Vulkan render pass instances; each instance after the first loads the attachments and each before the last stores them, with a barrier from everything before to everything after between them: on a tiler, a tile flush per split [metal2vulkan-degrade-render-pass-split]
+metal2vulkan: generate_mipmaps of a MTLPixelFormatBGRA8Unorm Type2D texture: each level is the device's blit chain's linear filter of the one above, not Apple's GPU's, whose bytes differ near rounding boundaries; each level is the device's linear filter of the one above (its blit, or a bilinear filter in float where its blits cannot filter the format), not Apple's: a channel can differ from Metal's where the filtered value lies near a rounding boundary, and wholly where a box averages infinities, NaNs or a float format's extremes [metal2vulkan-degrade-device-filtered-mipmaps]
+usb_desc_get_descriptor: 3 unknown type 33 (len 10)
+usb_desc_get_descriptor: 2 unknown type 33 (len 10)
+usb_desc_get_descriptor: 1 unknown type 33 (len 10)

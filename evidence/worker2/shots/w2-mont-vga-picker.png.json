@@ -1,0 +1,15 @@
+{
+  "bytes": 36207,
+  "captured_utc": "2026-11-04T13:46:55Z",
+  "height": 800,
+  "mode": "RGB",
+  "path": "<repo>/evidence/worker2/shots/w2-mont-vga-picker.png",
+  "producing_command": "capture.py run/qmp.sock <repo>/evidence/worker2/shots/w2-mont-vga-picker.png",
+  "qmp_reply": {
+    "return": {}
+  },
+  "qmp_roundtrip_s": 0.009,
+  "qmp_socket": "<repo>/work/worker2/run/qmp.sock",
+  "sha256": "54c53f6f7a55f8d49c9c63774ef7a86242759c0c57a154dd2314d54c00ea377e",
+  "width": 1280
+}

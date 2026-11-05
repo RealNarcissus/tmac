@@ -1,0 +1,21 @@
+# worker2 boot attempt
+utc_start=2026-11-04T12:44:17Z
+cwd=<repo>/work/worker2
+cmd=qemu-system-x86_64 -name worker2-sonoma -machine q35,accel=kvm -cpu Haswell-noTSX,kvm=on,vendor=GenuineIntel,+invtsc,vmware-cpuid-freq=on,+ssse3,+sse4.2,+popcnt,+avx,+aes,+xsave,+xsaveopt -m 3584 -smp 4,cores=4,sockets=1 -device qemu-xhci,id=xhci -device usb-ehci,id=ehci -device usb-kbd,bus=xhci.0 -device usb-tablet,bus=xhci.0 -global ICH9-LPC.acpi-pci-hotplug-with-bridge-support=off -device isa-applesmc,osk=<apple-osk> -drive if=pflash,format=raw,readonly=on,file=<repo>/work/worker2/osx-kvm/OVMF_CODE_4M.fd -drive if=pflash,format=raw,file=<repo>/work/worker2/run/OVMF_VARS.fd -smbios type=2 -device ich9-ahci,id=sata -drive id=OpenCoreBoot,if=none,snapshot=on,format=qcow2,file=<repo>/work/worker2/osx-kvm/OpenCore/OpenCore.qcow2 -device ide-hd,bus=sata.2,drive=OpenCoreBoot -drive id=InstallMedia,if=none,file=<repo>/work/worker2/osx-kvm/BaseSystem.img,format=raw,snapshot=on -device ide-hd,bus=sata.3,drive=InstallMedia -drive id=MacHDD,if=none,file=<repo>/work/worker2/run/mac_hdd_ng.img,format=qcow2 -device ide-hd,bus=sata.4,drive=MacHDD -netdev user,id=net0,hostfwd=tcp::2223-:22 -device virtio-net-pci,netdev=net0,id=net0,mac=52:54:00:c9:18:27 -device vmware-svga -display none -vnc 127.0.0.1:1 -monitor none -qmp unix:<repo>/work/worker2/run/qmp.sock,server=on,wait=off -rtc base=localtime,clock=host,driftfix=slew -serial file:<repo>/work/worker2/run/serial.log -d guest_errors -D <repo>/work/worker2/run/qemu-debug.log -boot menu=off
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       421G  361G   39G  91% /
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi       9.5Gi       1.6Gi       1.9Gi       6.3Gi       5.5Gi
+Swap:           16Gi       9.4Gi       7.1Gi
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=01h].ECX.pcid [bit 17]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.erms [bit 9]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.invpcid [bit 10]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=01h].ECX.pcid [bit 17]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.erms [bit 9]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.invpcid [bit 10]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=01h].ECX.pcid [bit 17]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.erms [bit 9]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.invpcid [bit 10]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=01h].ECX.pcid [bit 17]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.erms [bit 9]
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID[eax=07h,ecx=00h].EBX.invpcid [bit 10]

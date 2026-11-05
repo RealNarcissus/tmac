@@ -1,0 +1,47 @@
+{
+  "machine": "gui-proof",
+  "text": "zzqxzzqx",
+  "chars": 8,
+  "modes": {
+    "naive": {
+      "median_ms": 12.38,
+      "ms_per_char": 1.55,
+      "chars_per_s": 646.3,
+      "samples_ms": [
+        12.4,
+        9.8,
+        13.5
+      ]
+    },
+    "per-char": {
+      "median_ms": 8.24,
+      "ms_per_char": 1.03,
+      "chars_per_s": 970.9,
+      "samples_ms": [
+        7.1,
+        8.2,
+        20.2
+      ]
+    },
+    "chunk-8": {
+      "median_ms": 5.12,
+      "ms_per_char": 0.64,
+      "chars_per_s": 1561.6,
+      "samples_ms": [
+        6.5,
+        5.1,
+        5.0
+      ]
+    },
+    "batch-all": {
+      "median_ms": 4.78,
+      "ms_per_char": 0.6,
+      "chars_per_s": 1674.5,
+      "samples_ms": [
+        4.8,
+        4.9,
+        4.7
+      ]
+    }
+  }
+}

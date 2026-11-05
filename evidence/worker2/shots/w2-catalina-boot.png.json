@@ -1,0 +1,15 @@
+{
+  "bytes": 13310,
+  "captured_utc": "2026-11-04T13:50:47Z",
+  "height": 800,
+  "mode": "RGB",
+  "path": "<repo>/evidence/worker2/shots/w2-catalina-boot.png",
+  "producing_command": "capture.py run/qmp.sock <repo>/evidence/worker2/shots/w2-catalina-boot.png",
+  "qmp_reply": {
+    "return": {}
+  },
+  "qmp_roundtrip_s": 0.012,
+  "qmp_socket": "<repo>/work/worker2/run/qmp.sock",
+  "sha256": "064b93446569c1e02538054d358fd20f49ac65b99eee0d7bfb61ae463f47b448",
+  "width": 1280
+}

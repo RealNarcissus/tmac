@@ -1,0 +1,15 @@
+{
+  "bytes": 36164,
+  "captured_utc": "2026-11-04T12:32:13Z",
+  "height": 800,
+  "mode": "RGB",
+  "path": "<repo>/evidence/worker2/shots/w2-picker-selected.png",
+  "producing_command": "capture.py run/qmp.sock <repo>/evidence/worker2/shots/w2-picker-selected.png",
+  "qmp_reply": {
+    "return": {}
+  },
+  "qmp_roundtrip_s": 0.009,
+  "qmp_socket": "<repo>/work/worker2/run/qmp.sock",
+  "sha256": "de0ad404ebc2997de0653761704c75f702e90856951a7c09cd28f0da7eb6ad54",
+  "width": 1280
+}

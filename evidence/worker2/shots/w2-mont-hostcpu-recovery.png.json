@@ -1,0 +1,15 @@
+{
+  "bytes": 170973,
+  "captured_utc": "2026-11-04T13:34:49Z",
+  "height": 800,
+  "mode": "RGB",
+  "path": "<repo>/evidence/worker2/shots/w2-mont-hostcpu-recovery.png",
+  "producing_command": "capture.py run/qmp.sock <repo>/evidence/worker2/shots/w2-mont-hostcpu-recovery.png",
+  "qmp_reply": {
+    "return": {}
+  },
+  "qmp_roundtrip_s": 0.01,
+  "qmp_socket": "<repo>/work/worker2/run/qmp.sock",
+  "sha256": "db37c15895b3a3771ad97c2f8104169b297d9645cb94ccc760f0ccc968b48c99",
+  "width": 1280
+}

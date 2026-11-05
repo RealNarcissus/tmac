@@ -1,0 +1,5 @@
+Observed 2026-11-05 (main): reims-ctl view tahoe --fps 2 --protocol blocks
+Started against the running 1280x800 Tahoe guest in a 30x100 pty, exit 0 after Ctrl-] (0x1d).
+Raw capture: reims-view.raw; the viewer drew 2,520 U+2580 half-block cells of the 1280x800 desktop.
+Header: Ctrl-] disconnect ... tahoe ... display 1 / half blocks.
+The viewer uses the Reims QMP scanout; it does not use host/tmac.py.

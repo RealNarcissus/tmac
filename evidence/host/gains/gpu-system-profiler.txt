@@ -1,0 +1,28 @@
+Graphics/Displays:
+
+    Display:
+
+      Type: GPU
+      VRAM (Total): 3 MB
+      Device ID: 0x1111
+      Revision ID: 0x0002
+      Vendor ID: 0x1234
+
+    Apple Paravirtualized Graphics Device:
+
+      Chipset Model: Apple Paravirtualized Graphics Device
+      Type: GPU
+      VRAM (Total): 7 MB
+      Vendor: Apple (0x106b)
+      Device ID: 0xeeee
+      Revision ID: 0x0000
+      Metal Family: Supported, Metal GPUFamily macOS 1
+
+---KEXT---
+Executing: /usr/bin/kmutil showloaded
+No variant specified, falling back to release
+   99    0 0xffffff7f98f55000 0x16000    0x16000    com.apple.driver.AppleParavirtGPU (1) 494F36DA-DDEC-3BF4-B514-DDBBE1D5657E <98 97 96 80 16 8 7 6 3>
+---CPU---
+8
+4
+6442450944

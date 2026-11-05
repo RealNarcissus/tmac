@@ -1,0 +1,49 @@
+{
+  "broker": "/tmp/opencode/w2-broker/gui-proof.sock",
+  "rounds": 5,
+  "utc": "2026-11-04T17:15:21Z",
+  "clients": {
+    "status": {
+      "greeting": true,
+      "capabilities": true,
+      "success": 5,
+      "timeouts": 0,
+      "latencies_ms": [
+        1.71,
+        2.22,
+        1.79,
+        1.66,
+        2.13
+      ],
+      "median_ms": 1.79,
+      "min_ms": 1.66,
+      "max_ms": 2.22
+    },
+    "shot": {
+      "greeting": true,
+      "capabilities": true,
+      "success": 5,
+      "timeouts": 0,
+      "latencies_ms": [
+        11.48,
+        11.95,
+        11.74,
+        12.37,
+        11.83
+      ],
+      "sizes": [
+        3072016,
+        3072016,
+        3072016,
+        3072016,
+        3072016
+      ],
+      "median_ms": 11.83,
+      "min_ms": 11.48,
+      "max_ms": 12.37
+    }
+  },
+  "wall_s": 0.067,
+  "threads_alive": [],
+  "errors": []
+}

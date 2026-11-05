@@ -1,0 +1,21 @@
+snapshot-v4
+{
+  "name": "gui-proof",
+  "snapshot": "marker3",
+  "disk": "<repo>/work/main/gui-proof.qcow2"
+}
+ssh-up
+BEFORE_REMOVE=snapshot-v4
+{
+  "name": "gui-proof",
+  "snapshot": "marker3",
+  "rolled_back": true
+}
+ssh-up
+AFTER_ROLLBACK=snapshot-v4
+Snapshot list:
+ID      TAG               VM_SIZE                DATE        VM_CLOCK     ICOUNT
+1       baseline-pre-gains      0 B 2026-11-04 22:41:26  0000:00:00.000          0
+2       good-ssh              0 B 2026-11-04 23:13:18  0000:00:00.000          0
+3       marker-test           0 B 2026-11-04 23:19:23  0000:00:00.000          0
+4       marker3               0 B 2026-11-04 23:30:36  0000:00:00.000          0

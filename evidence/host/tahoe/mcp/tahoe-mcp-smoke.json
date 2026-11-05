@@ -1,0 +1,25 @@
+{
+  "exit": 0,
+  "stderr": "",
+  "responses": 4,
+  "server": {
+    "name": "tmac",
+    "version": "0.2.0"
+  },
+  "tools": [
+    "screenshot",
+    "click",
+    "move",
+    "drag",
+    "scroll",
+    "type",
+    "key",
+    "status"
+  ],
+  "status": "external: True\nheight: 768\nname: tahoe\nqmp_socket: $HOME/.local/share/reims-ctl/vms/tahoe/qmp.sock\nstate: running\nwidth: 1024",
+  "screenshot": {
+    "mime": "image/jpeg",
+    "bytes": 143168,
+    "text": "Screen: 1024\u00d7768. Use these pixel coordinates."
+  }
+}

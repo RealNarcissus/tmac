@@ -1,0 +1,1635 @@
+[2J[001;001H[=3h[2J[001;001H[2J[001;001H[8;042;160t[2J[001;001H[2J[001;001H[8;056;240t[2J[001;001HBdsDxe: loading Boot0002 "UEFI QEMU HARDDISK QM00017 " from PciRoot(0x0)/Pci(0x3,0x0)/Sata(0x2,0xFFFF,0x0)
+BdsDxe: starting Boot0002 "UEFI QEMU HARDDISK QM00017 " from PciRoot(0x0)/Pci(0x3,0x0)/Sata(0x2,0xFFFF,0x0)
+#[EB|LOG:EXITBS:END] _
+#[EB.BST.FBS|-]
+#[EB|B:BOOT]
+#[EB|LOG:HANDOFF TO XNU] _
+======== End of efiboot serial output. ========
+PMAP: Supervisor Mode Execute Protection enabled
+PMAP: Supervisor Mode Access Protection enabled
+Darwin Kernel Version 21.6.0: Mon Aug 22 20:17:10 PDT 2022; root:xnu-8020.140.49~2/RELEASE_X86_64
+pmap_startup() delaying init/free of page nums > 0x200000
+pmap_startup() init/release time: 126750 microsec
+pmap_startup() delayed init/release of 0 pages
+vm_page_bootstrap: 1436568 free pages, 128104 wired pages, (up to 0 of which are delayed free)
+VM boostrap: 73 maps, 153 entries and 128 holes available
+kext submap [0x<ptr> - 0x<ptr>], kernel text [0x<ptr> - 0x<ptr>]
+"vm_compressor_mode" is 4
+VM bootstrap done: 62 maps, 115 entries and 117 holes left
+Firehose configured: 16 chunks, 8 io pages
+Long logs support configured: size: 16384
+Log queues configured: slot count: 32, per-slot size: 32768, total size: 1048576
+standard timeslicing quantum is 10000 us
+standard background quantum is 2500 us
+mig_table_max_displ = 53 mach_kobj_count = 400
+TSC Deadline Timer supported and enabled
+Timeouts adjusted for virtualization (<<6)
+kdp_core zlib memory 0x7000
+ACPI: RSDP 0x000000007FB7E014 000024 (v02 BOCHS )
+ACPI: XSDT 0x000000007FBE6000 00005C (v01 BOCHS  BXPC     00000001      01000013)
+ACPI: FACP 0x000000007FB79000 0000F4 (v03 BOCHS  BXPC     00000001 BXPC 00000001)
+ACPI: DSDT 0x000000007FB7A000 0020A5 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+ACPI: FACS 0x000000007FBDD000 000040
+ACPI: APIC 0x000000007FB78000 000090 (v03 BOCHS  BXPC     00000001 BXPC 00000001)Darwin Image4 Validator Version 4.2.0: Mon Aug 22 20:16:57 PDT 2022; root:AppleImage4-158.100.11~2968/AppleImage4/RELEASE_X86_64
+calling mpo_policy_init for AppleImage4
+Security policy loaded: AppleImage4 sysctl hook (AppleImage4)
+AppleImage4: no options node: 19
+calling mpo_policy_init for AMFI
+Security policy loaded: Apple Mobile File Integrity (AMFI)
+calling mpo_policy_init for Sandbox
+Security policy loaded: Seatbelt sandbox policy (Sandbox)
+calling mpo_policy_init for Quarantine
+Security policy loaded: Quarantine policy (Quarantine)
+WhateverGreen      igfx: @ found an unsupported processor 0x17:0x0, please report this!
+AppleCredentialManager: init: called, instance = <ptr>.
+AssertMacros: value (value: 0x0), ---, file: /AppleInternal/Library/BuildRoots/d23df31a-1fa6-11ed-91f3-e2c7c6032f02/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMKernelService.cpp:182
+AppleCredentialManager: init: EOSDevice: 0 [SEP over: KernelRelay=NO SEPManager=NO] [booted into: BaseSystem=YES InternalSystem=NO].
+ACM: Env_SetVariableWithParams: set var[6] len=1 <00>.
+ACM: InitCredentialEngine: Global credential set created, CS[20].
+ACM: Env_SetVariableWithParams: set var[5] len=1 <00>.
+ACM: Env_SetVariableWithParams: set var[23] len=1 <01>.
+ACM: Env_SetVariableWithParams: set var[24] len=22 <41756720323220323032322c2032303a32303a353300>.
+ACM: Env_SetDataProvider: data provider *set* for var[25].
+ACM: Env_SetDataProvider: data provider *set* for var[27].
+ACM: Env_SetDataProvider: data provider *set* for var[36].
+ACM: Env_SetDataProvider: data provider *set* for var[22].
+ACM: Env_SetDataProvider: data provider *set* for var[29].
+ACM: Env_SetVariableWithParams: set var[7] len=1 <00>.
+ACM: Env_SetVariableWithParams: set var[26] len=1 <00>.
+ACM: Env_SetVariableWithParams: set var[33] len=1 <01>.
+ACM: Env_SetVariableWithParams: set var[34] len=1 <00>.
+ACMFirstResponderKernelService: init: called, .
+ACMRM-S: init: called, starting PersistentStore service.
+ACMRM-C: init: called, starting AccessoryCache service.
+ACMKernelService: initValueFromBootArgAliasesUInt32: acc-cache size = 16 (default).
+ACMKernelService: initValueFromBootArgAliasesUInt32: acc-cache expiration = 2592000 (default).
+ACMRM: init: called, starting TRM service.
+ACMRM-A: init: called, starting TRM Analytics service.
+ACMKernelService: initValueFromBootArgAliasesUInt32: analytics collection period = 86400 (default).
+ACMKernelService: initValueFromBootArgAliasesUInt32: policy mode timeout = 259200 (default).
+ACMRM-A: notifyStandardModeTimeoutChanged: called, value = 259200 (modified = YES).
+ACMKernelService: initValueFromBootArgAliasesUInt32: (bounded) grace period timeout = 172800 (default).
+ACMRM-A: notifyGracePeriodTimeoutChanged: called, value = 172800 (modified = YES).
+ACMKernelService: initValueFromBootArgAliasesUInt32: enabled = 0 (default).
+ACMRM: _disableBy: [TRM ENABLED=NO] (mask=2, DISABLED BY: Def=YES* BtArg=NO LegHW=NO OSEnv=NO | MngCo=NO DwnOS=NO ChkBd=NO coGSw=NO).
+ACMRM: _disableBy: [TRM ENABLED=NO] (mask=2, DISABLED BY: Def=YES BtArg=NO* LegHW=NO OSEnv=NO | MngCo=NO DwnOS=NO ChkBd=NO coGSw=NO).
+AssertMacros: value (value: 0x0), ---, file: /AppleInternal/Library/BuildRoots/d23df31a-1fa6-11ed-91f3-e2c7c6032f02/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMKernelService.cpp:182
+ACMRM: _disableBy: [TRM ENABLED=NO] (mask=a, DISABLED BY: Def=YES BtArg=NO LegHW=YES* OSEnv=NO | MngCo=NO DwnOS=NO ChkBd=NO coGSw=NO).
+AssertMacros: data (value: 0x0), 'disable-transport-rm' property not found, file: /AppleInternal/Library/BuildRoots/d23df31a-1fa6-11ed-91f3-e2c7c6032f02/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMRestricACMRM: _loadDisabledByOSEnvironment: disabled by OSEnvironment: NO.
+ACMRM: _disableBy: [TRM ENABLED=NO] (mask=a, DISABLED BY: Def=YES BtArg=NO LegHW=YES OSEnv=NO* | MngCo=NO DwnOS=NO ChkBd=NO coGSw=NO).
+ACMRM: _publishIOResource: AppleUSBRestrictedModeWithReason = 0.
+ACMRM: _mapAndPublishTRM: set TRM_PolicyTimeout = 259200.
+ACMRM: _mapAndPublishTRM: set TRM_PolicyReason = Unrestricted(0).
+ACMRM: _mapAndPublishTRM: sending kIOMessageServicePropertyChange(n=2) while DISABLED, TRM: 259200 U/0 4294967295 -/ff miss=ff (CUR: 259200 U/0 4294967295 -/ff).
+AppleCredentialManager: init: returning, result = true, instance = <ptr>.
+AppleCredentialManager: start: called, instance = <ptr>.
+ACMRM: _publishIOResource: AppleUSBRestrictedModeTimeout = 259200.
+AppleCredentialManager: start: registering notifications.
+AppleCredentialManager: start: started, instance = <ptr>.
+AppleCredentialManager: start: returning, result = true, instance = <ptr>.
+AppleKeyStore:319:0: starting (BUILT: Aug 22 2022 20:21:39)
+AppleKeyStore:479:0: _kernel_relay_enable = 0
+AppleKeyStore:524:0: _sep_enabled = 0
+AppleSSE::start called
+AssertMacros: value (value: 0x0),  file: /AppleInternal/Library/BuildRoots/d23df31a-1fa6-11ed-91f3-e2c7c6032f02/Library/Caches/com.apple.xbs/Sources/AppleSSE/AppleSSE/AppleSSE.cpp, line: 47
+AppleSSE::start returning, result = 1
+virtual bool CoreAnalyticsHub::start(IOService *)::114:CoreAnalyticsHub start
+Registered CoreAnalyticsHub functions with xnu.
+ACPI: HPET 0x000000007FB77000 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+ACPI: MCFG 0x000000007FB76000 00003C (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+ACPI: WAET 0x000000007FB75000 000028 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+ACPI: BGRT 0x000000007FB74000 000038 (v01 INTEL  EDK2     00000002      01000013)
+ACPI: SSDT 0x000000007FBE7000 00010B (v02 ACDT   SsdtEC   00001000 INTL 20190509)
+ACPI: 2 ACPI AML tables successfully acquired and loaded
+pci (build 20:15:17 Aug 22 2022), flags 0xc3080
+AppleACPICPU: ProcessorId=0 LocalApicId=0 Enabled
+AppleACPICPU: ProcessorId=1 LocalApicId=1 Enabled
+AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+AppleACPICPU: ProcessorId=3 LocalApicId=3 Enabled
+IOAPIC: Version 0x11 Vectors 64:87
+ACPI: Executed 1 blocks of module-level executable AML code
+ACPI: sleep states S3 S4 S5
+[ PCI configuration begin ]
+VirtualSMC     efend: @ authenticated restart support is unavailable (800000000000000E, 8)
+Previous shutdown cause: 3
+Sleep failure code 0xffffffff 0xffffffff
+console relocated to 0x80000000
+[ PCI configuration end, bridges 1, devices 9 ]
+VirtualSMC      vsmc: @ disabling itself due to multiple devices present
+HID: Legacy shim 2
+DSMOS has arrived
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+	The Regents of the University of California. All rights reserved.
+
+MAC Framework successfully initialized
+AMFILoadTrustedKeysFromNVRam: no nvram variable
+AppleKeyStore:863:0: oy vey
+AMFIInitializeLocalSigningPublicKey: failed to get local signing public key (e00002bc)
+000000.934413 AppleUSBLegacyRoot@: AppleUSBLegacyRoot::init: enabling legacy matching
+using 16384 buffer headers and 10240 cluster IO buffer headers
+mcache: 4 CPU(s), 64 bytes CPU cache line size
+mbinit: done [96 MB total pool size, (64/32) split]
+dlil_init: Waiting for all the create dlil kernel threads to get scheduled at least once.
+dlil_init: All the created dlil kernel threads have been scheduled at least once. Proceeding.
+ifnet_attach: All kernel threads created for interface lo0 have been scheduled at least once. Proceeding.
+ifnet_attach: Waiting for all kernel threads created for interface gif0 to get scheduled at least once.
+com.apple.AppleFSCompressionTypeDataless kmod start
+com.apple.AppleFSCompressionTypeZlib kmod start
+ifnet_attach: All kernel threads created for interface gif0 have been scheduled at least once. Proceeding.
+skip attaching fsw to lo0 using legacy TX modelifnet_attach: Waiting for all kernel threads created for interface stf0 to get scheduled at least once.
+ifnet_attach: All kernel threads created for interface stf0 have been scheduled at least once. Proceeding.
+apfs_module_start:2590: load: com.apple.filesystems.apfs, v1934.141.2, apfs-1934.141.2, 2022/08/22
+com.apple.AppleFSCompressionTypeDataless load succeeded
+com.apple.AppleFSCompressionTypeZlib load succeeded
+calling mpo_policy_init for ASP
+calling mpo_policy_initbsd for ASP
+ASP: NVRAM pointer initialized
+ASP: No recovery key set
+Security policy loaded: Apple System Policy (ASP)
+apfs_sysctl_register:1451: done registering sysctls.
+rooting via boot-uuid from /chosen: B2486F77-984A-3CD5-A829-C5743E6A9FCC
+Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+AppleFileSystemDriver: using boot-uuid
+ifnet_attach: Waiting for all kernel threads created for interface XHC1 to get scheduled at least once.
+IOKernelDebugger: registering debugger
+ifnet_attach: All kernel threads created for interface XHC1 have been scheduled at least once. Proceeding.
+000001.197813 AppleUSB20XHCIPort@01600000: AppleUSBHostPort::enumerateDeviceComplete_block_invoke: enumerated 0x0627/0001/0000 (QEMU USB Tablet) at 480 Mbps
+000001.298419 AppleUSB20XHCIPort@01500000: AppleUSBHostPort::enumerateDeviceComplete_block_invoke: enumerated 0x0627/0001/0000 (QEMU USB Keyboard) at 480 Mbps
+IOUSBHostInterface(0x1000001e5): matching deferred by IOUSBHostHIDDevice
+SATA WARNING: IDENTIFY DEVICE checksum not implemented
+SATA WARNING: IDENTIFY DEVICE checksum not implemented
+SATA WARNING: IDENTIFY DEVICE checksum not implemented
+AppleFileSystemDriver: publishing boot-uuid-media=disk2s2 (disk image)
+Got boot device = IOService:/AppleACPIPlatformExpert/PCI0/AppleACPIPCI/S18@3/AppleAHCI/PRT3@3/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/QEMU HARDDISK Media/IOGUIDPartitionScheme/disk image@2
+BSD root: disk2s2, major 1, minor 6
+hfs: mounted macOS Base System on device b(1, 6)
+load_init_program: attempting to load /sbin/launchd
+Maximum number of VM swap files: 100
+VM Swap Subsystem is ON
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.system-mount-authority
+shared_region: 0x77deebd5d1129b1d [1(launchd)] check_np(0x7ff7be018a98) vm_shared_region_start_address() failed
+ASP: AMFI pointer initialized
+com.apple.xpc.launchd|2026-11-04 18:57:20.363781 <Notice>: hello
+com.apple.xpc.launchd|2026-11-04 18:57:20.366333 <Notice>: Darwin Bootstrapper Version 7.0.0: Tue Aug  9 02:54:05 PDT 2022; root:libxpc_executables-2236.140.2~26/launchd/RELEASE_X8ALF, old data swfs_pid_entry <ptr>, updaterules_msg <ptr>, updaterules_state <ptr>skip attaching fsw to lo0 using legacy TX model6_64
+com.apple.xpc.launchd|2026-11-04 18:57:20.366422 <Notice>: boot-args = keepsyms=1 debug=0x100 -v serial=3 
+com.apple.xpc.launchd|2026-11-04 18:57:20.366529 <Notice>: BaseSystem environmenshared_region: 0x77deebd5d112707d [2(mount)] check_np(0x7ff7b7221a28) vm_shared_region_start_address() failed
+t starting.
+com.apple.xpc.launchd|2026-11-04 18:57:20.370474 (system) <Notice>: entering ondemand mode
+com.apple.xpc.launchd|2026-11-04 18:57:20.370689 (system) <Notice>: created
+com.apple.xpc.launchd|2026-11-04 18:57:20.373354 <Notice>: Skipping boot-task: fsck
+com.apple.xpc.launchd|2026-11-04 18:57:20.373461 <Notice>: Doing boot task: mount-phase-1
+Not booted from APFS, skipping apfs_boot_util
+com.apple.xpc.launchd|2026-11-04 18:57:20.567188 <Notice>: Doing boot task: data-protection
+com.apple.xpc.launchd|2026-11-04 18:57:20.570706 <Notice>: data-protection: optional boot task not present
+com.apple.xpc.launchd|2026-11-04 18:57:20.570781 <Notice>: Doing boot task: select-boot-mode
+com.apple.xpc.launchd|2026-11-04 18:57:20.571579 <Error>: fsctl(APFSIOC_GET_DEV_BY_ROLE) error: 25
+com.apple.xpc.launchd|2026-11-04 18:57:20.571645 <Warning>: Unable to get apfsprebootuuid
+com.apple.xpc.launchd|2026-11-04 18:57:20.571694 <Notice>: No cookie: /System/Volumes/Preboot/B2486F77-984A-3CD5-A829-C5743E6A9FCC/var/db/.com.apple.eacs
+com.apple.xpc.launchd|2026-11-04 18:57:20.571727 <Warning>: Unable to get apfsprebootuuid
+com.apple.xpc.launchd|2026-11-04 18:57:20.571773 <Notice>: No cookie: /System/Volumes/Preboot/B2486F77-984A-3CD5-A829-C5743E6A9FCC/var/db/.com.apple.templatemigration
+com.apple.xpc.launchd|2026-11-04 18:57:20.571801 <Notice>: Doing boot task: commit-boot-mode
+com.apple.xpc.launchd|2026-11-04 18:57:20.571827 <Notice>: boot-mode committed: (null)
+com.apple.xpc.launchd|2026-11-04 18:57:20.571858 <Notice>: Doing boot task: auto-pivot-root
+com.apple.xpc.launchd|2026-11-04 18:57:20.571889 <Notice>: Doing boot task: allow-non-platform-code
+com.apple.xpc.launchd|2026-11-04 18:57:20.571914 <Notice>: allowing non-platform code now
+com.apple.xpc.launchd|2026-11-04 18:57:20.572466 <Notice>: Flushed 21 logs [limit: 20]
+com.apple.xpc.launchd|2026-11-04 18:57:20.603507 <Notice>: Doing boot task: restore-datapartition
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.install.heritable
+shared_region: 0x77deebd5d112707d [4(rc_script_wrappe)] check_np(0x7ff7b71d6a08) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1127b1d [4(sh)] check_np(0x7ff7b4487a08) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d112707d [4(bash)] check_np(0x7ff7bc529a08) vm_shared_region_start_address() failed
+rc.temporaryDataVolume -- Arguments:[]
+shared_region: 0x77deebd5d11185dd [5(mount_tmpfs)] check_np(0x7ff7bd8819d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1119b1d [6(mount_tmpfs)] check_np(0x7ff7bbd049d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11185dd [7(mount_tmpfs)] check_np(0x7ff7b79b49c8) vm_shared_region_start_address() failed
+Creating RAM Disk for /var/log
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.disk-device-access
+shared_region: 0x77deebd5d111907d [8(hdik)] check_np(0x7ff7bd9449b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110a07d [9(newfs_hfs)] check_np(0x7ff7be1b39e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [10(xartutil)] check_np(0x7ff7b2e89a78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk3 as a 10 MB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d110ab1d [11(stat)] check_np(0x7ff7b9e469d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110a07d [12(mount)] check_np(0x7ff7b5a08998) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.restricted-block-devices
+shared_region: 0x77deebd5d1119b1d [13(mount_hfs)] check_np(0x7ff7b0329998) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk3
+shared_region: 0x77deebd5d110ab1d [14(chown)] check_np(0x7ff7b4c319e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110a07d [15(chmod)] check_np(0x7ff7ba3769e8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+shared_region: 0x77deebd5d110ab1d [16(mkdir)] check_np(0x7ff7b68239e8) vm_shared_region_start_address() failed
+Creating RAM Disk for /var/log/dm
+shared_region: 0x77deebd5d110ab1d [17(hdik)] check_np(0x7ff7b588d9b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [18(newfs_hfs)] check_np(0x7ff7b60d59e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1129b1d [19(xartutil)] check_np(0x7ff7b8051a78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk4 as a 10 MB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d1129b1d [20(stat)] check_np(0x7ff7b4ddc9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [21(mount)] check_np(0x7ff7b6109998) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [22(mount_hfs)] check_np(0x7ff7bcd32998) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk4
+shared_region: 0x77deebd5d1129b1d [23(chown)] check_np(0x7ff7b93279d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [24(chmod)] check_np(0x7ff7b0bcd9e8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /Volumes
+shared_region: 0x77deebd5d1129b1d [25(hdik)] check_np(0x7ff7ba0dd9b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [26(newfs_hfs)] check_np(0x7ff7b22a59e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1129b1d [27(xartutil)] check_np(0x7ff7b2129a78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk5 as a 512 KB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d1129b1d [28(stat)] check_np(0x7ff7b519d9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [29(mount)] check_np(0x7ff7b9a4b998) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [30(mount_hfs)] check_np(0x7ff7b15629a8) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk5
+shared_region: 0x77deebd5d1129b1d [31(chown)] check_np(0x7ff7b39219e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [32(chmod)] check_np(0x7ff7b01709e8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /var/run
+shared_region: 0x77deebd5d1129b1d [33(hdik)] check_np(0x7ff7b37a69b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [34(newfs_hfs)] check_np(0x7ff7b703f9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1129b1d [35(xartutil)] check_np(0x7ff7b4cfca78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk6 as a 512 KB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d1129b1d [36(stat)] check_np(0x7ff7bc5ff9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [37(mount)] check_np(0x7ff7b9d03998) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [38(mount_hfs)] check_np(0x7ff7b9d7d998) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk6
+shared_region: 0x77deebd5d1129b1d [39(chown)] check_np(0x7ff7b3fd19e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [40(chmod)] check_np(0x7ff7b27109e8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040775
+Creating RAM Disk for /var/rpc/ncacn_np
+shared_region: 0x77deebd5d1129b1d [41(hdik)] check_np(0x7ff7b9d599b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [42(newfs_hfs)] check_np(0x7ff7bdd609e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1129b1d [43(xartutil)] check_np(0x7ff7bc53ba78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk7 as a 512 KB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d1129b1d [44(stat)] check_np(0x7ff7b0efa9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [45(mount)] check_np(0x7ff7b319e988) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [46(mount_hfs)] check_np(0x7ff7b4a5f988) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk7
+shared_region: 0x77deebd5d11075dd [47(chown)] check_np(0x7ff7b45f09d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [48(chmod)] check_np(0x7ff7bf7e19d8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /System/Installation
+shared_region: 0x77deebd5d11075dd [49(hdik)] check_np(0x7ff7b34389b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [50(newfs_hfs)] check_np(0x7ff7bdd119e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [51(xartutil)] check_np(0x7ff7bee9da78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk8 as a 512 KB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d11075dd [52(stat)] check_np(0x7ff7b307b9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [53(mount)] check_np(0x7ff7b5a3e988) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [54(mount_hfs)] check_np(0x7ff7bb37a998) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk8
+shared_region: 0x77deebd5d1108b1d [55(chown)] check_np(0x7ff7b38ac9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [56(chmod)] check_np(0x7ff7bf8b19d8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+shared_region: 0x77deebd5d111907d [58(sysctl)] check_np(0x7ff7b56569d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [59(grep)] check_np(0x7ff7bf9169d8) vm_shared_region_start_address() failed
+Creating RAM Disk for /var/db
+shared_region: 0x77deebd5d111907d [60(hdik)] check_np(0x7ff7bae239b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [61(newfs_hfs)] check_np(0x7ff7bc7eb9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d111907d [62(xartutil)] check_np(0x7ff7bc173a78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk9 as a 10 MB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d111907d [63(stat)] check_np(0x7ff7b2e2f9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [64(mount)] check_np(0x7ff7bc8ae998) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [65(mount_hfs)] check_np(0x7ff7bcedc998) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk9
+shared_region: 0x77deebd5d110ab1d [66(chown)] check_np(0x7ff7bd8b39e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [67(chmod)] check_np(0x7ff7b26c09e8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /var/db/com.apple.xpc.roleaccountd.staging
+shared_region: 0x77deebd5d110ab1d [68(hdik)] check_np(0x7ff7b48959b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [69(newfs_hfs)] check_np(0x7ff7b1e9a9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [70(xartutil)] check_np(0x7ff7b5ffaa78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk10 as a 2 MB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d110ab1d [71(stat)] check_np(0x7ff7bdbb39b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [72(mount)] check_np(0x7ff7b75cc978) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d111907d [73(mount_hfs)] check_np(0x7ff7b3f50978) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk10
+shared_region: 0x77deebd5d111907d [74(chown)] check_np(0x7ff7bf1f19c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [75(chmod)] check_np(0x7ff7bd2949c8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040700
+Creating RAM Disk for /var/root/Library
+shared_region: 0x77deebd5d111907d [76(hdik)] check_np(0x7ff7beea39b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [77(newfs_hfs)] check_np(0x7ff7b0c999e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d111907d [78(xartutil)] check_np(0x7ff7aff25a78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk11 as a 4 MB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d111907d [79(stat)] check_np(0x7ff7bf5cd9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [80(mount)] check_np(0x7ff7b50f7998) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [81(mount_hfs)] check_np(0x7ff7b6b19988) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk11
+shared_region: 0x77deebd5d110ab1d [82(chown)] check_np(0x7ff7b797c9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [83(chmod)] check_np(0x7ff7bc87b9d8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /Library/ColorSync/Profiles/Displays
+shared_region: 0x77deebd5d110ab1d [84(hdik)] check_np(0x7ff7b55699b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [85(newfs_hfs)] check_np(0x7ff7bfcec9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [86(xartutil)] check_np(0x7ff7bd4a0a78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk12 as a 1024 KB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d110ab1d [87(stat)] check_np(0x7ff7b1d229c8) vm_shared_region_start_address() failed
+stat: /Library/ColorSync/Profiles/Displays: stat: No such file or directory
+shared_region: 0x77deebd5d114107d [88(mount)] check_np(0x7ff7b3aee978) vm_shared_region_start_address() failed
+mount: /Library/ColorSync/Profiles/Displays: invalid file system.
+shared_region: 0x77deebd5d110ab1d [89(chown)] check_np(0x7ff7b99659c8) vm_shared_region_start_address() failed
+chown: /Library/ColorSync/Profiles/Displays: No such file or directory
+shared_region: 0x77deebd5d114107d [90(chmod)] check_np(0x7ff7b07219c8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+shared_region: 0x77deebd5d110ab1d [91(mkdir)] check_np(0x7ff7be3a79e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [92(mkdir)] check_np(0x7ff7b70009d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [93(mkdir)] check_np(0x7ff7b08af9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [94(mkdir)] check_np(0x7ff7b92dd9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110ab1d [95(mkdir)] check_np(0x7ff7bb14e9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [96(mkdir)] check_np(0x7ff7b33239d8) vm_shared_region_start_address() failed
+Creating RAM Disk for /var/root/Library/Containers
+shared_region: 0x77deebd5d11075dd [97(hdik)] check_np(0x7ff7bd91f9b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [98(newfs_hfs)] check_np(0x7ff7bacab9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [99(xartutil)] check_np(0x7ff7b34cea78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk13 as a 2 MB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d1108b1d [100(stat)] check_np(0x7ff7b665f9c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [101(mount)] check_np(0x7ff7b06d6978) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [102(mount_hfs)] check_np(0x7ff7b05ae988) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk13
+shared_region: 0x77deebd5d11075dd [103(chown)] check_np(0x7ff7b51ff9c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [104(chmod)] check_np(0x7ff7b10689d8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /Library/Preferences
+shared_region: 0x77deebd5d11075dd [105(hdik)] check_np(0x7ff7b1bde9b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [106(newfs_hfs)] check_np(0x7ff7bfbc19e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [107(xartutil)] check_np(0x7ff7b08daa78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk14 as a 512 KB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d1108b1d [108(stat)] check_np(0x7ff7b01f29d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [109(mount)] check_np(0x7ff7bc80b988) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [110(mount_hfs)] check_np(0x7ff7b2b87998) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk14
+shared_region: 0x77deebd5d11075dd [111(chown)] check_np(0x7ff7b0d7c9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [112(chmod)] check_np(0x7ff7b577a9d8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /Library/Preferences/Logging
+shared_region: 0x77deebd5d1108b1d [113(hdik)] check_np(0x7ff7bfb6c9b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [114(newfs_hfs)] check_np(0x7ff7b92139e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [115(xartutil)] check_np(0x7ff7b8fb6a78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk15 as a 2 MB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d1108b1d [116(stat)] check_np(0x7ff7b18029c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [117(mount)] check_np(0x7ff7b5e91978) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [118(mount_hfs)] check_np(0x7ff7bf47a988) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk15
+shared_region: 0x77deebd5d11075dd [119(chown)] check_np(0x7ff7b1ee79c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [120(chmod)] check_np(0x7ff7b32b59d8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /Library/Preferences/SystemConfiguration
+shared_region: 0x77deebd5d1108b1d [121(hdik)] check_np(0x7ff7bdc779b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [122(newfs_hfs)] check_np(0x7ff7bf9a99e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [123(xartutil)] check_np(0x7ff7b2db0a78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk16 as a 512 KB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d1108b1d [124(stat)] check_np(0x7ff7b473a9b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [125(mount)] check_np(0x7ff7b504a978) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [126(mount_hfs)] check_np(0x7ff7b996e978) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk16
+shared_region: 0x77deebd5d1108b1d [127(chown)] check_np(0x7ff7b2dd59c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [128(chmod)] check_np(0x7ff7b49dc9c8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /Library/Keychains
+shared_region: 0x77deebd5d11075dd [129(hdik)] check_np(0x7ff7b519b9b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [130(newfs_hfs)] check_np(0x7ff7b8c039e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [131(xartutil)] check_np(0x7ff7bfde8a78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk17 as a 1024 KB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d114107d [132(stat)] check_np(0x7ff7b89959d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [133(mount)] check_np(0x7ff7b932b988) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [134(mount_hfs)] check_np(0x7ff7ba65d998) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk17
+shared_region: 0x77deebd5d114107d [135(chown)] check_np(0x7ff7b73bf9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [136(chmod)] check_np(0x7ff7b28629d8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /Library/Security/Trust Settings
+shared_region: 0x77deebd5d114107d [137(hdik)] check_np(0x7ff7b6ca59b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [138(newfs_hfs)] check_np(0x7ff7b009a9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [139(xartutil)] check_np(0x7ff7b32c3a78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk18 as a 512 KB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d114107d [140(stat)] check_np(0x7ff7bc2409c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [141(mount)] check_np(0x7ff7b154a978) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [142(mount_hfs)] check_np(0x7ff7bf5c3988) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk18
+shared_region: 0x77deebd5d114107d [143(chown)] check_np(0x7ff7b679e9c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [144(chmod)] check_np(0x7ff7b48d49c8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /Library/Logs
+shared_region: 0x77deebd5d114107d [145(hdik)] check_np(0x7ff7b49139b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [146(newfs_hfs)] check_np(0x7ff7bd1f69e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [147(xartutil)] check_np(0x7ff7ba8fba78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk19 as a 512 KB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d114107d [148(stat)] check_np(0x7ff7be2ae9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [149(mount)] check_np(0x7ff7bf99e988) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [150(mount_hfs)] check_np(0x7ff7b9c16998) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk19
+shared_region: 0x77deebd5d114107d [151(chown)] check_np(0x7ff7bf8c59d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [152(chmod)] check_np(0x7ff7b80b09d8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+shared_region: 0x77deebd5d114107d [153(mkdir)] check_np(0x7ff7b99739c8) vm_shared_region_start_address() failed
+Creating RAM Disk for /Library/Logs/DiagnosticReportsForNewHardware
+shared_region: 0x77deebd5d113507d [154(hdik)] check_np(0x7ff7b0aed9b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [155(newfs_hfs)] check_np(0x7ff7b104e9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [156(xartutil)] check_np(0x7ff7bc0e5a78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk20 as a 2 MB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d113507d [157(stat)] check_np(0x7ff7b31d19b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [158(mount)] check_np(0x7ff7b0fda968) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [159(mount_hfs)] check_np(0x7ff7b4b5b978) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk20
+shared_region: 0x77deebd5d113507d [160(chown)] check_np(0x7ff7b34759b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d114107d [161(chmod)] check_np(0x7ff7b64919b8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040755
+Creating RAM Disk for /Library/Logs/DiagnosticReports
+shared_region: 0x77deebd5d113507d [162(hdik)] check_np(0x7ff7bb35e9b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [163(newfs_hfs)] check_np(0x7ff7b4bcf9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [164(xartutil)] check_np(0x7ff7b40eea78) vm_shared_region_start_address() failed
+Initialized /dev/rdisk21 as a 2 MB case-insensitive HFS Plus volume
+shared_region: 0x77deebd5d1108b1d [165(stat)] check_np(0x7ff7b5da39c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [166(mount)] check_np(0x7ff7b02aa978) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [167(mount_hfs)] check_np(0x7ff7b7106988) vm_shared_region_start_address() failed
+hfs: mounted untitled on device disk21
+shared_region: 0x77deebd5d11075dd [168(chown)] check_np(0x7ff7b84329c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [169(chmod)] check_np(0x7ff7b698a9c8) vm_shared_region_start_address() failed
+chmod: Invalid file mode: 040750
+shared_region: 0x77deebd5d11075dd [170(setlanguage)] check_np(0x7ff7b73a09d8) vm_shared_region_start_address() failed
+Found language hint: en-US
+Text will layout left to right.
+shared_region: 0x77deebd5d11075dd [171(recovery_require)] check_np(0x7ff7b81798f8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11075dd [172(recovery_require)] check_np(0x7ff7ba92a908) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:25.880882 <Notice>: Skipping boot-task: mount-phase-2
+com.apple.xpc.launchd|2026-11-04 18:57:25.881079 <Notice>: Skipping boot-task: enable-swap
+com.apple.xpc.launchd|2026-11-04 18:57:25.881168 <Notice>: Doing boot task: sandbox-enable-root-translation
+com.apple.xpc.launchd|2026-11-04 18:57:25.881353 <Notice>: sandbox_enable_root_translation failed: -1, 22
+com.apple.xpc.launchd|2026-11-04 18:57:25.881816 <Notice>: Doing boot task: rc.cdrom
+shared_region: 0x77deebd5d112707d [173(rc_script_wrappe)] check_np(0x7ff7b5367a38) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [173(sh)] check_np(0x7ff7bb296a18) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d112707d [173(bash)] check_np(0x7ff7b9335a18) vm_shared_region_start_address() failed
+rc.cdrom -- Arguments:[]
+shared_region: 0x77deebd5d11075dd [174(mount)] check_np(0x7ff7b23f49d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [175(mount_hfs)] check_np(0x7ff7bb9d49a8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [176(date)] check_np(0x7ff7b722e9f8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [177(sh)] check_np(0x7ff7b99d99d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113507d [177(bash)] check_np(0x7ff7b2d189c8) vm_shared_region_start_address() failed
+rc.prelogindata -- Arguments:[]
+shared_region: 0x77deebd5d11075dd [178(stat)] check_np(0x7ff7bc0da9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1108b1d [179(stat)] check_np(0x7ff7baf0c9c8) vm_shared_region_start_address() failed
+Preboot is not a mount point - exiting
+shared_region: 0x77deebd5d1108b1d [180(touch)] check_np(0x7ff7b25619e8) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.146098 <Notice>: Doing boot task: init-with-data-volume
+com.apple.xpc.launchd|2026-11-04 18:57:26.149115 <Notice>: Skipping boot-task: deferred_install
+com.apple.xpc.launchd|2026-11-04 18:57:26.149183 <Notice>: Doing boot task: fips
+shared_region: 0x77deebd5d112707d [181(cc_fips_test)] check_np(0x7ff7bcd23a18) vm_shared_region_start_address() failed
+Tracing: disabled
+FIPSPOST_USER [9123459275] fipspost_post:156: [FIPSPOST][Module-ID] Apple corecrypto Module v12.0 [Intel, User, Software, SL1]
+FIPSPOST_USER [9128277462] fipspost_post:160: PASSED: (4 ms) - fipspost_post_hmac
+FIPSPOST_USER [9136797623] fipspost_post:169: PASSED: (13 ms) - fipspost_post_integrity
+FIPSPOST_USER [9138640700] fipspost_post:175: PASSED: (15 ms) - fipspost_post_indicator
+FIPSPOST_USER [9140430417] fipspost_post:176: PASSED: (16 ms) - fipspost_post_aes_ecb
+FIPSPOST_USER [9142159790] fipspost_post:177: PASSED: (18 ms) - fipspost_post_aes_cbc
+FIPSPOST_USER [9145636151] fipspost_post:178: PASSED: (22 ms) - fipspost_post_rsa_sig
+FIPSPOST_USER [9151772491] fipspost_post:179: PASSED: (28 ms) - fipspost_post_ecdsa
+FIPSPOST_USER [9153487137] fipspost_post:180: PASSED: (30 ms) - fipspost_post_ecdh
+FIPSPOST_USER [9155048626] fipspost_post:181: PASSED: (31 ms) - fipspost_post_aes_ccm
+FIPSPOST_USER [9156701997] fipspost_post:182: PASSED: (33 ms) - fipspost_post_aes_cmac
+FIPSPOST_USER [9158361670] fipspost_post:183: PASSED: (34 ms) - fipspost_post_hkdf
+FIPSPOST_USER [9165092785] fipspost_post:184: PASSED: (41 ms) - fipspost_post_pbkdf
+FIPSPOST_USER [9166833831] fipspost_post:186: PASSED: (43 ms) - fipspost_post_kdf_ctr
+FIPSPOST_USER [9168512529] fipspost_post:187: PASSED: (45 ms) - fipspost_post_aes_gcm
+FIPSPOST_USER [9170677510] fipspost_post:188: PASSED: (47 ms) - fipspost_post_aes_xts
+FIPSPOST_USER [9172299643] fipspost_post:189: PASSED: (48 ms) - fipspost_post_tdes_ecb
+FIPSPOST_USER [9173948125] fipspost_post:190: PASSED: (50 ms) - fipspost_post_drbg_ctr
+FIPSPOST_USER [9175566931] fipspost_post:191: PASSED: (52 ms) - fipspost_post_drbg_hmac
+FIPSPOST_USER [9182658513] fipspost_post:193: PASSED: (59 ms) - fipspost_post_ffdh
+FIPSPOST_USER [9187772284] fipspost_post:194: PASSED: (64 ms) - fipspost_post_rsa_enc_dec
+FIPSPOST_USER [9189566159] fipspost_post:213: all tests PASSED (66 ms)
+com.apple.xpc.launchd|2026-11-04 18:57:26.254541 <Notice>: Doing boot task: cache-start
+shared_region: 0x77deebd5d112707d [182(BootCacheControl)] check_np(0x7ff7b5091a08) vm_shared_region_start_address() failed
+libBootCache: Unable to open /var/db/BootCache.playlist: 2 No such file or directory
+libBootCache: Unable to open /var/db/BootCaches/PreheatedUser/Merged.playlist: 2 No such file or directory
+libBootCache: Unable to open /var/db/BootCaches/PreheatedUser/Login.playlist: 2 No such file or directory
+libBootCache: No shared cache path
+com.apple.xpc.launchd|2026-11-04 18:57:26.312076 <Notice>: Skipping boot-task: bootroot
+com.apple.xpc.launchd|2026-11-04 18:57:26.312200 <Notice>: Skipping boot-task: dirs_cleaner
+com.apple.xpc.launchd|2026-11-04 18:57:26.312527 <Notice>: launchd logging initialized. name: com.apple.xpc.launchd pid: 1
+com.apple.xpc.launchd|2026-11-04 18:57:26.312540 <Notice>: Skipping boot-task: xpcroleaccountd
+com.apple.xpc.launchd|2026-11-04 18:57:26.312549 <Notice>: Skipping boot-task: init_featureflags
+com.apple.xpc.launchd|2026-11-04 18:57:26.312972 <Notice>: Skipping boot-task: EndpointSecurity
+com.apple.xpc.launchd|2026-11-04 18:57:26.312981 <Notice>: Skipping boot-task: rc.server
+com.apple.xpc.launchd|2026-11-04 18:57:26.312989 <Notice>: Skipping boot-task: tzinit
+com.apple.xpc.launchd|2026-11-04 18:57:26.312998 <Notice>: Skipping boot-task: dirhelper
+com.apple.xpc.launchd|2026-11-04 18:57:26.313006 <Notice>: Skipping boot-task: rootless-init
+com.apple.xpc.launchd|2026-11-04 18:57:26.313014 <Notice>: Skipping boot-task: finish-demo-restore
+com.apple.xpc.launchd|2026-11-04 18:57:26.313190 <Notice>: Skipping boot-task: systemstats
+com.apple.xpc.launchd|2026-11-04 18:57:26.313199 <Notice>: Skipping boot-task: prng_seedctl
+com.apple.xpc.launchd|2026-11-04 18:57:26.313343 <Warning>: Unable to load cache
+com.apple.xpc.launchd|2026-11-04 18:57:26.313351 <Notice>: launchd UUID: 9EC5D75E-9126-3447-9EF1-A8558D95BF25
+com.apple.xpc.launchd|2026-11-04 18:57:26.313351 <Notice>: Early boot complete. Continuing system boot.
+com.apple.xpc.launchd|2026-11-04 18:57:26.313426 (system) <Notice>: entering bootstrap mode
+com.apple.xpc.launchd|2026-11-04 18:57:26.327912 (system/com.apple.alf) <Warning>: (lint): The HideUntilCheckIn property is an architectural performance issue. Please transition away from it.
+com.apple.xpc.launchd|2026-11-04 18:57:26.328578 (system/com.apple.AppleQEMUGuestAgent) <Warning>: (lint): Assuming EnablePressuredExit=false given EnableTransactions=false.
+com.apple.xpc.launchd|2026-11-04 18:57:26.329389 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.apsd
+com.apple.xpc.launchd|2026-11-04 18:57:26.333763 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.automation.trampoline
+com.apple.xpc.launchd|2026-11-04 18:57:26.334267 (com.apple.BlueTool) <Error>: ThrottleInterval set to zero. You're not that important. Ignoring.
+com.apple.xpc.launchd|2026-11-04 18:57:26.334871 (com.apple.bluetoothd) <Error>: Unknown key for plist importer (key: SuccessfulExit type: bool)
+com.apple.xpc.launchd|2026-11-04 18:57:26.334893 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.bluetoothd
+com.apple.xpc.launchd|2026-11-04 18:57:26.337233 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.bsd.dirhelper
+com.apple.xpc.launchd|2026-11-04 18:57:26.339808 (com.apple.configd) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.339822 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.configd
+com.apple.xpc.launchd|2026-11-04 18:57:26.342480 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.coreservices.launchservicesd
+com.apple.xpc.launchd|2026-11-04 18:57:26.348122 (com.apple.dfrRecoveryd) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.348134 (system) <Notice>: pending spawshared_region: 0x77deebd5d11245dd [183(xpcproxy)] check_np(0x7ff7b576ba58) vm_shared_region_start_address() failed
+n, domain in on-demand-only mode: com.apple.dfrRecoveryd
+com.apple.xpc.launchd|2026-11-04 18:57:26.349649 (com.apple.diskarbitrationd) <Nshared_region: 0x77deebd5d1106b1d [184(xpcproxy)] check_np(0x7ff7bc771a58) vm_shared_region_start_address() failed
+otice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.349658 (system) <Notice>: pending spawshared_region: 0x77deebd5d11055dd [185(xpcproxy)] check_np(0x7ff7bcddca68) vm_shared_region_start_address() failed
+n, domain in on-demand-only mode: com.apple.diskarbitrationd
+com.apple.xpc.launchd|2026-11-04 18:57:26.353829 (com.apple.displaypolicyd) <Errshared_region: 0x77deebd5d111d07d [186(xpcproxy)] check_np(0x7ff7b4b7ba68) vm_shared_region_start_address() failed
+or>: Unknown key for plist importer (key: SHAuthorizationRight type: string)
+com.apple.xpc.launchd|2026-11-04 18:57:26.353838 (system) <Notice>: pending spawshared_region: 0x77deebd5d111db1d [187(xpcproxy)] check_np(0x7ff7b5a4aa68) vm_shared_region_start_address() failed
+n, domain in on-demand-only mode: com.apple.displaypolicyd
+com.apple.xpc.launchd|2026-11-04 18:57:26.354434 (com.apple.distnoted.xpc.daemonshared_region: 0x77deebd5d111c5dd [188(xpcproxy)] check_np(0x7ff7be433a58) vm_shared_region_start_address() failed
+) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+shared_region: 0x77deebd5d112307d [189(xpcproxy)] check_np(0x7ff7b6bffa68) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.354447 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.distnoted.xpc.daemon
+com.apple.xpc.launchd|2026-11-04 18:57:26.355074 (com.apple.efilogin-helper) <Error>: ThrottleInterval set to zero. You're not that important. Ignoring.
+com.apple.xpc.launchd|2026-11-04 18:57:26.355693 (com.apple.FileCoordination) <Error>: Unknown key for plist importer (key: TransactionTimeLimitEnabled type: bool)
+com.apple.xpc.launchd|2026-11-04 18:57:26.359755 (com.apple.fseventsd) <Error>: The HopefullyExitsLast key is no longer respected. Please remove it.
+com.apple.xpc.launchd|2026-11-04 18:57:26.359758 (com.apple.fseventsd) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.359764 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.fseventsd
+com.apple.xpc.launchd|2026-11-04 18:57:26.360780 (com.apple.gssd) <Error>: Unknown key for plist importer (key: BeginTransactionAtShutdown type: bool)
+shared_region: 0x77deebd5d11225dd [190(xpcproxy)] check_np(0x7ff7b635ea58) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.361969 (system/com.apple.hidd) <Error>: Could not import service from caller: path = /System/Library/LaunchDaemons/com.apple.hidd.darwinos.plist, caller = launchd[1], error = 158: Service cannot be loaded on current os variant
+com.apple.xpc.launchd|2026-11-04 18:57:26.362662 (com.apple.hidd) <Error>: Unknown key for plist importer (key: Group type: string)
+com.apple.xpc.launchd|2026-11-04 18:57:26.363366 (com.apple.icloud.findmydeviced) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.363377 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.icloud.findmydeviced
+com.apple.xpc.launchd|2026-11-04 18:57:26.364762 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.iconservices.iconservicesd
+com.apple.xpc.launchd|2026-11-04 18:57:26.365847 (com.apple.imklaunchdaemon) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.365861 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.imklaunchdaemon
+com.apple.xpc.launchd|2026-11-04 18:57:26.366852 (system/com.apple.installandsetup.migration_mode_switcher) <Notice>: Did not import service from caller: path = /System/Library/LaunchDaemons/com.apple.installandsetup.migrationModeSwitcher.plist, caller = launchd[1], error = 152: Service cannot load in current boot environment
+com.apple.xpc.launchd|2026-11-04 18:57:26.457269 <Notice>: Flushed 33 logs [limit: 20]
+com.apple.xpc.launchd|2026-11-04 18:57:26.368090 (com.apple.installer.instlogd) <Notice>: Please switch away from OnDemand to KeepAlive.
+com.apple.xpc.launchd|2026-11-04 18:57:26.368100 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.installer.instlogd
+com.apple.xpc.launchd|2026-11-04 18:57:26.369522 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.InstallerProgress
+com.apple.xpc.launchd|2026-11-04 18:57:26.370892 (system/com.apple.kcgend) <Error>: Could not import service from caller: path = /System/Library/LaunchDaemons/com.apple.kcgend.plist, caller = launchd[1], error = 138: Service cannot be loaded on this hardware
+com.apple.xpc.launchd|2026-11-04 18:57:26.372205 (com.apple.KernelEventAgent) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.372215 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.KernelEventAgent
+com.apple.xpc.launchd|2026-11-04 18:57:26.373005 (com.apple.kernelmanagerd) <Error>: Unknown key for plist importer (key: _PanicOnCrash type: dictionary)
+com.apple.xpc.launchd|2026-11-04 18:57:26.373095 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.kernelmanagerd
+com.apple.xpc.launchd|2026-11-04 18:57:26.374457 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.lightsoutmanagementRecoveryOSd
+com.apple.xpc.launchd|2026-11-04 18:57:26.375159 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.locationd
+com.apple.xpc.launchd|2026-11-04 18:57:26.375784 (system/com.apple.logd) <Error>: Could not import service from caller: path = /System/Library/LaunchDaemons/com.apple.logd.plist, caller = launchd[1], error = 158: Service cannot be loaded on current os variant
+com.apple.xpc.launchd|2026-11-04 18:57:26.379710 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.mobile.softwareupdated
+com.apple.xpc.launchd|2026-11-04 18:57:26.382608 (system/com.apple.msrpc.srvsvc) <Warning>: (lint): Assuming EnablePressuredExit=false given EnableTransactions=false.
+com.apple.xpc.launchd|2026-11-04 18:57:26.384758 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.notifyd
+com.apple.xpc.launchd|2026-11-04 18:57:26.384919 (com.apple.opendirectoryd) <Error>: The HopefullyExitsLast key is no longer respected. Please remove it.
+com.apple.xpc.launchd|2026-11-04 18:57:26.384922 (com.apple.opendirectoryd) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.384926 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.opendirectoryd
+com.apple.xpc.launchd|2026-11-04 18:57:26.386639 (com.apple.powerd) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.386646 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.powerd
+com.apple.xpc.launchd|2026-11-04 18:57:26.390599 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.recoverylogd
+com.apple.xpc.launchd|2026-11-04 18:57:26.390925 (com.apple.recoveryosd) <Notice>: Please switch away from OnDemand to KeepAlive.
+com.apple.xpc.launchd|2026-11-04 18:57:26.390928 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.recoveryosd
+com.apple.xpc.launchd|2026-11-04 18:57:26.391441 (com.apple.remoted) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.391453 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.remoted
+com.apple.xpc.launchd|2026-11-04 18:57:26.391910 (system/com.apple.ReportCrash.Root) <Error>: (lint): Unrecognized MachService property: DrainMessagesOnCrash
+com.apple.xpc.launchd|2026-11-04 18:57:26.392983 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.sandboxd
+com.apple.xpc.launchd|2026-11-04 18:57:26.397714 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.securityd
+com.apple.xpc.launchd|2026-11-04 18:57:26.399846 (com.apple.softwareupdatemaccontrollerd) <Error>: Unknown key for plist importer (key: LaunchOnDemand type: bool)
+com.apple.xpc.launchd|2026-11-04 18:57:26.400094 (com.apple.startupdiskhelper) <Notice>: This key does not do anything: OnDemand
+com.apple.xpc.launchd|2026-11-04 18:57:26.401621 (com.apple.syslogd) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.401627 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.syslogd
+com.apple.xpc.launchd|2026-11-04 18:57:26.404444 (com.apple.timed) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.404466 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.timed
+com.apple.xpc.launchd|2026-11-04 18:57:26.407139 (com.apple.UserEventAgent-System) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:26.407147 (system/com.apple.UserEventAgent-System) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.407248 (system/com.apple.UserEventAgent-System) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.407251 (system/com.apple.UserEventAgent-System) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.407340 (system/com.apple.UserEventAgent-System) <Notice>: launching: system support
+shared_region: 0x77deebd5d110407d [192(xpcproxy)] check_np(0x7ff7befa9a58) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.412042 (system/com.apple.msrpc.srvsvc - ncalrpc) <Error>: Failed to bind() a socket: error=Read-only file system (30)
+com.apple.xpc.launchd|2026-11-04 18:57:26.417317 (system/com.apple.UserEventAgent-System [183]) <Notice>: xpcproxy spawned with pid 183
+com.apple.xpc.launchd|2026-11-04 18:57:26.417329 (system/com.apple.UserEventAgent-System [183]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.417331 (system/com.apple.UserEventAgent-System [183]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.417399 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.webcontentfilter.RecoveryOS
+com.apple.xpc.launchd|2026-11-04 18:57:26.417460 (system) <Notice>: pending spawn, domain in on-demand-only mode: com.apple.wifiFirmwareLoader
+com.apple.xpc.launchd|2026-11-04 18:57:26.417491 (system/com.apple.WindowServer) <Warning>: (lint): The HideUntilCheckIn property is an architectural performance issue. Please transition away from it.
+com.apple.xpc.launchd|2026-11-04 18:57:26.459980 <Notice>: Last log repeated 5 times
+com.apple.xpc.launchd|2026-11-04 18:57:26.417672 (system/com.apple.UserEventAgent-System [183]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.418157 (system) <Error>: Failed to bootstrap path: path = /System/Library/LaunchDaemons/com.apple.logd.plist, error = 158: Service cannot be loaded on current os variant
+com.apple.xpc.launchd|2026-11-04 18:57:26.418159 (system) <Error>: Failed to bootstrap path: path = /Library/Apple/System/Library/LaunchDaemons, error = 2: No such file or directory
+com.apple.xpc.launchd|2026-11-04 18:57:26.418160 (system) <Error>: Failed to bootstrap path: path = /System/Library/LaunchDaemons/com.apple.kcgend.plist, error = 138: Service cannot be loaded on this hardware
+com.apple.xpc.launchd|2026-11-04 18:57:26.418161 (system) <Error>: Failed to bootstrap path: path = /System/Library/LaunchDaemons/com.apple.hidd.darwinos.plist, error = 158: Service cannot be loaded on current os variant
+com.apple.xpc.launchd|2026-11-04 18:57:26.418162 (system) <Error>: Failed to bootstrap path: path = /Library/LaunchDaemons, error = 2: No such file or directory
+com.apple.xpc.launchd|2026-11-04 18:57:26.418178 (system) <Notice>: exiting bootstrap mode
+com.apple.xpc.launchd|2026-11-04 18:57:26.418192 <Notice>: Skipping boot-task: cache-tag
+com.apple.xpc.launchd|2026-11-04 18:57:26.418193 (system) <Notice>: exiting ondemand mode
+shared_region: 0x77deebd5d1104b1d [193(xpcproxy)] check_np(0x7ff7b11f4a58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11035dd [194(xpcproxy)] check_np(0x7ff7beb25a58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11365dd [197(xpcproxy)] check_np(0x7ff7bbb31a58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113707d [195(xpcproxy)] check_np(0x7ff7b7a53a68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1137b1d [196(xpcproxy)] check_np(0x7ff7bf813a68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1462b1d [199(xpcproxy)] check_np(0x7ff7affeea58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d146007d [201(xpcproxy)] check_np(0x7ff7be702a58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145f5dd [203(xpcproxy)] check_np(0x7ff7bd814a68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1460b1d [202(xpcproxy)] check_np(0x7ff7b9abda68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145e07d [204(xpcproxy)] check_np(0x7ff7b0e42a68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145d5dd [206(xpcproxy)] check_np(0x7ff7b8291a68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145407d [216(xpcproxy)] check_np(0x7ff7bd702a68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14555dd [215(xpcproxy)] check_np(0x7ff7b9b92a68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145a5dd [209(xpcproxy)] check_np(0x7ff7b1796a68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1454b1d [197(Installer Progre)] check_np(0x7ff7b0729958) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145807d [210(xpcproxy)] check_np(0x7ff7b3b34a58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145607d [213(xpcproxy)] check_np(0x7ff7b18d9a68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14575dd [212(xpcproxy)] check_np(0x7ff7bbbfea58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1456b1d [214(xpcproxy)] check_np(0x7ff7b57d6a68) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.storage-exempt.heritable
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.volume.VM
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.storage.lockoutagent
+shared_region: 0x77deebd5d145207d [185(fseventsd)] check_np(0x7ff7bb5c6938) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14515dd [186(configd)] check_np(0x7ff7b0bd19f8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1452b1d [187(powerd)] check_np(0x7ff7b74389c8) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.datavault.metadata
+shared_region: 0x77deebd5d145007d [193(imklaunchagent)] check_np(0x7ff7b3edc988) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14535dd [183(UserEventAgent)] check_np(0x7ff7b7c9a9d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d144eb1d [196(kernelmanagerd)] check_np(0x7ff7b70509e8) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.hid.manager.user-access-privileged
+shared_region: 0x77deebd5d11365dd [184(wifiFirmwareLoad)] check_np(0x7ff7bd44e9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1450b1d [190(lightsoutmanagem)] check_np(0x7ff7b6ae39b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1104b1d [195(dfrRecoveryd)] check_np(0x7ff7b4ff69e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d111d07d [199(diskarbitrationd)] check_np(0x7ff7b68a4998) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.nvram.recovery-boot-mode
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.volume.iSCPreboot
+shared_region: 0x77deebd5d1137b1d [203(apsd)] check_np(0x7ff7b8108988) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.storage.sandbox
+shared_region: 0x77deebd5d11245dd [213(recoveryosd)] check_np(0x7ff7bc86d9e8) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.storage.ExposureNotification
+shared_region: 0x77deebd5d113707d [202(opendirectoryd)] check_np(0x7ff7b67e0998) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11055dd [214(notifyd)] check_np(0x7ff7bb8849e8) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.system-task-ports.token.control
+shared_region: 0x77deebd5d1106b1d [216(sandboxd)] check_np(0x7ff7bd7649d8) vm_shared_region_start_address() failed
+ASP: port is not ready for callouts
+shared_region: 0x77deebd5d1462b1d [215(bluetoothd)] check_np(0x7ff7bd2049f8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110407d [212(KernelEventAgent)] check_np(0x7ff7b40a99e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145a5dd [204(timed)] check_np(0x7ff7b8820988) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11035dd [206(securityd)] check_np(0x7ff7b0cf49a8) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.sandbox-reference
+shared_region: 0x77deebd5d145e07d [210(distnoted)] check_np(0x7ff7be7f1948) vm_shared_region_start_address() failed
+ASP: port is not ready for callouts
+ASP: port is not ready for callouts
+com.apple.xpc.launchd|2026-11-04 18:57:26.418196 (system/com.apple.wifiFirmwareLshared_region: 0x77deebd5d144e07d [192(instlogd)] check_np(0x7ff7b32459d8) vm_shared_region_start_address() failed
+oader) <Notice>: internal event: WILL_SPAWN, code = 0
+shared_region: 0x77deebd5d111db1d [209(displaypolicyd)] check_np(0x7ff7bc9399d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14615dd [200(xpcproxy)] check_np(0x7ff7bb83fa68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d144f5dd [194(findmydeviced)] check_np(0x7ff7b34769e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11225dd [201(webfilterctl)] check_np(0x7ff7bc4eb938) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d146007d [200(syslogd)] check_np(0x7ff7bb0af9e8) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.418200 (system/com.apple.wifiFirmwareLoader) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.418201 (system/com.apple.wifiFirmwareLoader) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.418231 (system/com.apple.wifiFirmwareLoader) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.422368 (system/com.apple.wifiFirmwareLoader [184]) <Notice>: xpcproxy spawned with pid 184
+com.apple.xpc.launchd|2026-11-04 18:57:26.422390 (system/com.apple.wifiFirmwareLoader [184]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.422395 (system/com.apple.wifiFirmwareLoader [184]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.422400 (system/com.apple.fseventsd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.422407 (system/com.apple.fseventsd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.422410 (system/com.apple.fseventsd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.422483 (system/com.apple.fseventsd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.428992 (system/com.apple.fseventsd [185]) <Notice>: xpcproxy spawned with pid 185
+com.apple.xpc.launchd|2026-11-04 18:57:26.429004 (system/com.apple.fseventsd [185]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.429007 (system/com.apple.fseventsd [185]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.429011 (system/com.apple.configd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.429015 (system/com.apple.configd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.429016 (system/com.apple.configd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.429084 (system/com.apple.configd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.433855 (system/com.apple.configd [186]) <Notice>: xpcproxy spawned with pid 186
+com.apple.xpc.launchd|2026-11-04 18:57:26.433867 (system/com.apple.configd [186]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.433874 (system/com.apple.configd [186]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.433878 (system/com.apple.powerd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.433882 (system/com.apple.powerd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.433883 (system/com.apple.powerd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.433934 (system/com.apple.powerd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.439968 (system/com.apple.powerd [187]) <Notice>: xpcproxy spawned with pid 187
+com.apple.xpc.launchd|2026-11-04 18:57:26.439984 (system/com.apple.powerd [187]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.439986 (system/com.apple.powerd [187]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.439993 (system/com.apple.automation.trampoline) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.439997 (system/com.apple.automation.trampoline) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.439998 (system/com.apple.automation.trampoline) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.440025 (system/com.apple.automation.trampoline) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.450839 (system/com.apple.automation.trampoline [188]) <Notice>: xpcproxy spawned with pid 188
+com.apple.xpc.launchd|2026-11-04 18:57:26.450850 (system/com.apple.automation.trampoline [188]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.450853 (system/com.apple.automation.trampoline [188]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.450856 (system/com.apple.remoted) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.450860 (system/com.apple.remoted) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.450861 (system/com.apple.remoted) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.450907 (system/com.apple.remoted) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.456153 (system/com.apple.remoted [189]) <Notice>: xpcproxy spawned with pid 189
+com.apple.xpc.launchd|2026-11-04 18:57:26.456167 (system/com.apple.remoted [189]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.456170 (system/com.apple.remoted [189]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.456179 (system/com.apple.lightsoutmanagementRecoveryOSd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.456183 (system/com.apple.lightsoutmanagementRecoveryOSd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.456185 (system/com.apple.lightsoutmanagementRecoveryOSd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.456213 (system/com.apple.lightsoutmanagementRecoveryOSd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.456636 (system/com.apple.lightsoutmanagementRecoveryOSd [190]) <Notice>: xpcproxy spawned with pid 190
+com.apple.xpc.launchd|2026-11-04 18:57:26.456648 (system/com.apple.lightsoutmanagementRecoveryOSd [190]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.456651 (system/com.apple.lightsoutmanagementRecoveryOSd [190]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.456653 (system/com.apple.mobile.softwareupdated) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.456657 (system/com.apple.mobile.softwareupdated) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.456659 (system/com.apple.mobile.softwareupdated) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.456715 (system/com.apple.mobile.softwashared_region: 0x77deebd5d144807d [217(xpcproxy)] check_np(0x7ff7b5c15a58) vm_shared_region_start_address() failed
+reupdated) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:27.370550 <Notice>: Flushed 112 logs [limit: 20]
+com.apple.xpc.launchd|2026-11-04 18:57:26.457989 (system/com.apple.mobile.softwareupdated [191]) <Notice>: xpcproxy spawned with pid 191
+com.apple.xpc.launchd|2026-11-04 18:57:26.457998 (system/com.apple.mobile.softwareupdated [191]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.458001 (system/com.apple.mobile.softwashared_region: 0x77deebd5d14475dd [189(remoted)] check_np(0x7ff7b44519d8) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.storage.preferences
+shared_region: 0x77deebd5d1446b1d [217(cfprefsd)] check_np(0x7ff7b984a9e8) vm_shared_region_start_address() failed
+reupdated [191]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.458002 (system/com.apple.installer.instlogd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.458006 (system/com.apple.installer.instlogd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.458007 (system/com.apple.installer.instlogd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.458036 (system/com.apple.installer.instlogd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.459324 (system/com.apple.installer.instlogd [192]) <Notice>: xpcproxy spawned with pid 192
+com.apple.xpc.launchd|2026-11-04 18:57:26.459334 (system/com.apple.installer.instlogd [192]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.459337 (system/com.apple.installer.instlogd [192]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.459339 (system/com.apple.imklaunchdaemon) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.459342 (system/com.apple.imklaunchdaemon) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.459343 (system/com.apple.imklaunchdaemon) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.459391 (system/com.apple.imklaunchdaemon) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.460611 (system/com.apple.imklaunchdaemon [193]) <Notice>: xpcproxy spawned with pid 193
+com.apple.xpc.launchd|2026-11-04 18:57:26.460620 (system/com.apple.imklaunchdaemon [193]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.460622 (system/com.apple.imklaunchdaemon [193]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.460624 (system/com.apple.icloud.findmydeviced) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.460627 (system/com.apple.icloud.findmydeviced) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.460637 (system/com.apple.icloud.findmydeviced) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.460671 (system/com.apple.icloud.findmydeviced) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.461907 (system/com.apple.icloud.findmydeviced [194]) <Notice>: xpcproxy spawned with pid 194
+com.apple.xpc.launchd|2026-11-04 18:57:26.461916 (system/com.apple.icloud.findmydeviced [194]) <Notice>: internal event: SPAWNED, code = 0
+ALF, old data swfs_pid_entry <ptr>, updaterules_msg <ptr>, updaterules_state <ptr>com.apple.xpc.launchd|2026-11-04 18:57:26.461918 (system/com.apple.icloud.findmydeviced [194]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.461921 (system/com.apple.dfrRecoveryd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.461924 (system/com.apple.dfrRecoveryd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.461925 (system/com.apple.dfrRecoveryd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.461948 (system/com.apple.dfrRecoveryd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.463185 (system/com.apple.dfrRecoveryd [195]) <Notice>: xpcproxy spawned with pid 195
+com.apple.xpc.launchd|2026-11-04 18:57:26.463193 (system/com.apple.dfrRecoveryd [195]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.463195 (system/com.apple.dfrRecoveryd [195]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.463198 (system/com.apple.kernelmanagerd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.463202 (system/com.apple.kernelmanagerd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.463207 (system/com.apple.kernelmanagerd) <Notice>: service state: spawning
+shared_region: 0x77deebd5d143b5dd [218(xpcproxy)] check_np(0x7ff7b8157a68) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.463244 (system/com.apple.kernelmanagerd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.464484 (system/com.apple.kernelmanagerd [196]) <Notice>: xpcproxy spawned with pid 196
+com.apple.xpc.launchd|2026-11-04 18:57:26.464494 (system/com.apple.kernelmanagerd [196]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.464497 (system/com.apple.kernelmanagerd [196]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.464498 (system/com.apple.InstallerProgress) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.464501 (system/com.apple.InstallerProgForcing CS_RUNTIME for entitlement: com.apple.rootless.storage.TCC
+shared_region: 0x77deebd5d143c07d [218(tccd)] check_np(0x7ff7bc1e1998) vm_shared_region_start_address() failed
+ress) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.464502 (system/com.apple.InstallerProgress) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.464537 (system/com.apple.InstallerProgress) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.465781 (system/com.apple.InstallerProgress [197]) <Notice>: xpcproxy spawned with pid 197
+com.apple.xpc.launchd|2026-11-04 18:57:26.465790 (system/com.apple.InstallerProgress [197]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.465793 (system/com.apple.InstallerProgress [197]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.465795 (system/com.apple.iconservices.iconservicesd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.465798 (system/com.apple.iconservices.iconservicesd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.465800 (system/com.apple.iconservices.iconservicesd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.465831 (system/com.apple.iconservices.iconservicesd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.467069 (system/com.apple.iconservices.iconservicesd [198]) <Notice>: xpcproxy spawned with pid 198
+com.apple.xpc.launchd|2026-11-04 18:57:26.467078 (system/com.apple.iconservices.iconservicesd [198]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.467080 (system/com.apple.iconservices.iconservicesd [198]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.467082 (system/com.apple.diskarbitrationd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.467086 (system/com.apple.diskarbitrationd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.467087 (system/com.apple.diskarbitrationd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.467116 (system/com.apple.diskarbitrationd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.468328 (system/com.apple.diskarbitrationd [199]) <Notice>: xpcproxy spawned with pid 199
+com.apple.xpc.launchd|2026-11-04 18:57:26.468337 (system/com.apple.diskarbitrationd [199]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.468345 (system/com.apple.diskarbitrationd [199]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.468348 (system/com.apple.syslogd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.468351 (system/com.apple.syslogd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.468352 (system/com.apple.syslogd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.468379 (system/com.apple.syslogd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.469590 (system/com.apple.syslogd [200]) <Notice>: xpcproxy spawned with pid 200
+com.apple.xpc.launchd|2026-11-04 18:57:26.469599 (system/com.apple.syslogd [200]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.469602 (system/com.apple.syslogd [200]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.469605 (system/com.apple.webcontentfilter.RecoveryOS) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.469608 (system/com.apple.webcontentfilter.RecoveryOS) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.469609 (system/com.apple.webcontentfilter.RecoveryOS) <Notice>: service state: spawning
+shared_region: 0x77deebd5d1458b1d [211(xpcproxy)] check_np(0x7ff7b7b19a68) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.469643 (system/com.apple.webcontentfilter.RecoveryOS) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.470872 (system/com.apple.webcontentfilter.RecoveryOS [201]) <Notice>: xpcproxy spawned with pid 201
+com.apple.xpc.launchd|2026-11-04 18:57:26.470881 (system/com.apple.webcontentfilForcing CS_RUNTIME for entitlement: com.apple.rootless.storage.folders
+shared_region: 0x77deebd5d14f707d [211(dirhelper)] check_np(0x7ff7b0a569d8) vm_shared_region_start_address() failed
+ter.RecoveryOS [201]Forcing CS_RUNTIME for entitlement: com.apple.rootless.restricted-block-devices
+shared_region: 0x77deebd5d1458b1d [219(msdos.util)] check_np(0x7ff7b3af6928) vm_shared_region_start_address() failed
+) <Notice>: internal event: SPAWNED, code = 0
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.restricted-block-devices
+shared_region: 0x77deebd5d14f507d [220(apfs.util)] check_np(0x7ff7bf2c0928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14f65dd [221(apfs.util)] check_np(0x7ff7bb3fa928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1458b1d [222(apfs.util)] check_np(0x7ff7b6b6d928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14f3b1d [223(xpcproxy)] check_np(0x7ff7b5737a68) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.hid.manager.user-access-privileged
+shared_region: 0x77deebd5d14efb1d [223(WindowServer)] check_np(0x7ff7be7e1978) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14eb07d [224(xpcproxy)] check_np(0x7ff7b34a8a68) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.system-task-ports.token.control
+shared_region: 0x77deebd5d14e85dd [225(apfs.util)] check_np(0x7ff7b40a0928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d11055dd [224(coreservicesd)] check_np(0x7ff7b42169c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14eb07d [226(apfs.util)] check_np(0x7ff7b9384928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14ebb1d [227(apfs.util)] check_np(0x7ff7b223b928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e85dd [228(apfs.util)] check_np(0x7ff7b0276928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e907d [229(apfs.util)] check_np(0x7ff7b3131928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e7b1d [230(apfs.util)] check_np(0x7ff7b9695928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14ebb1d [231(apfs.util)] check_np(0x7ff7bab74928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e707d [232(apfs.util)] check_np(0x7ff7bd35b928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e907d [233(apfs.util)] check_np(0x7ff7bbb09928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14ebb1d [234(apfs.util)] check_np(0x7ff7ba3ee928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e45dd [235(apfs.util)] check_np(0x7ff7b2446928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e7b1d [236(apfs.util)] check_np(0x7ff7b4796928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e707d [237(apfs.util)] check_np(0x7ff7b1ee2928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14ebb1d [238(apfs.util)] check_np(0x7ff7b5419928) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.470883 (system/com.apple.webcontentfilter.RecoveryOS [201]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.470885 (system/com.apple.opendirectoryd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.470888 (system/com.apple.opendirectoryd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.470889 (system/com.apple.opendirectoryd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.470928 (system/com.apple.opendirectoryd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.472165 (system/com.apple.opendirectoryd [202]) <Notice>: xpcproxy spawned with pid 202
+com.apple.xpc.launchd|2026-11-04 18:57:26.472179 (system/com.apple.opendirectoryd [202]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.472182 (system/com.apple.opendirectoryd [202]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.472185 (system/com.apple.apsd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.472189 (system/com.apple.apsd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.472190 (system/com.apple.apsd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.472225 (system/com.apple.apsd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.473515 (system/com.apple.apsd [203]) <Notice>: xpcproxy spawned with pid 203
+com.apple.xpc.launchd|2026-11-04 18:57:26.473530 (system/com.apple.apsd [203]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.473533 (system/com.apple.apsd [203]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.473535 (system/com.apple.timed) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.473548 (system/com.apple.timed) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.473549 (system/com.apple.timed) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.473584 (system/com.apple.timed) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.474805 (system/com.apple.timed [204]) <Notice>: xpcproxy spawned with pid 204
+com.apple.xpc.launchd|2026-11-04 18:57:26.474813 (system/com.apple.timed [204]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.474815 (system/com.apple.timed [204]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.474817 (system/com.apple.coreservices.launchservicesd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.474820 (system/com.apple.coreservices.launchservicesd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.474821 (system/com.apple.coreservices.launchservicesd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.474852 (system/com.apple.coreservices.launchservicesd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.476078 (system/com.apple.coreservices.launchservicesd [205]) <Notice>: xpcproxy spawned with pid 205
+com.apple.xpc.launchd|2026-11-04 18:57:26.476088 (system/com.apple.coreservices.launchservicesd [205]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.476090 (system/com.apple.coreservices.launchservicesd [205]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.476092 (system/com.apple.securityd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.476095 (system/com.apple.securityd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.476096 (system/com.apple.securityd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.476125 (system/com.apple.securityd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.477370 (system/com.apple.securityd [206]) <Notice>: xpcproxy spawned with pid 206
+com.apple.xpc.launchd|2026-11-04 18:57:26.477380 (system/com.apple.securityd [206]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.477382 (system/com.apple.securityd [206]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.477384 (system/com.apple.locationd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.477396 (system/com.apple.locationd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.477397 (system/com.apple.locationd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.477445 (system/com.apple.locationd) <Notice>: launching: semaphore
+com.apple.xpc.launchd|2026-11-04 18:57:26.478716 (system/com.apple.locationd [207]) <Notice>: xpcproxy spawned with pid 207
+com.apple.xpc.launchd|2026-11-04 18:57:26.478729 (system/com.apple.locationd [207]) <Notice>: internal event: SPAWNED, code = 0
+shared_region: 0x77deebd5d14eb07d [239(apfs.util)] check_np(0x7ff7b324b928) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.478731 (system/com.apple.locationd [207]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.478733 (system/com.apple.recoverylogd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.478736 (system/com.apple.recoverylogd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.478737 (system/com.apple.recoverylogd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.478774 (system/com.apple.recoverylogd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.479985 (system/com.apple.recoverylogd [208]) <Notice>: xpcproxy spawned with pid 208
+com.apple.xpc.launchd|2026-11-04 18:57:26.479995 (system/com.apple.recoverylogd [208]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.479997 (system/com.apple.recoverylogd [208]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.480004 (system/com.apple.displaypolicyd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.480007 (system/com.apple.displaypolicyd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.480008 (system/com.apple.displaypolicyd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.480034 (system/com.apple.displaypolicyd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.481260 (system/com.apple.displaypolicyd [209]) <Notice>: xpcproxy spawned with pid 209
+com.apple.xpc.launchd|2026-11-04 18:57:26.481269 (system/com.apple.displaypolicyd [209]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.481271 (system/com.apple.displaypolicyd [209]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.481274 (system/com.apple.distnoted.xpc.daemon) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.481278 (system/com.apple.distnoted.xpc.daemon) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.481279 (system/com.apple.distnoted.xpc.daemon) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.481314 (system/com.apple.distnoted.xpc.daemon) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.482556 (system/com.apple.distnoted.xpc.daemon [210]) <Notice>: xpcproxy spawned with pid 210
+com.apple.xpc.launchd|2026-11-04 18:57:26.482567 (system/com.apple.distnoted.xpc.daemon [210]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.482569 (system/com.apple.distnoted.xpc.daemon [210]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.482571 (system/com.apple.bsd.dirhelper) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.482575 (system/com.apple.bsd.dirhelper) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.482576 (system/com.apple.bsd.dirhelper) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.482613 (system/com.apple.bsd.dirhelper) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.483895 (system/com.apple.bsd.dirhelper [211]) <Notice>: xpcproxy spawned with pid 211
+com.apple.xpc.launchd|2026-11-04 18:57:26.483911 (system/com.apple.bsd.dirhelper [211]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.483913 (system/com.apple.bsd.dirhelper [211]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.483916 (system/com.apple.KernelEventAgent) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.483919 (system/com.apple.KernelEventAgent) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.483920 (system/com.apple.KernelEventAgent) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.483948 (system/com.apple.KernelEventAgent) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.485207 (system/com.apple.KernelEventAgent [212]) <Notice>: xpcproxy spawned with pid 212
+com.apple.xpc.launchd|2026-11-04 18:57:26.485223 (system/com.apple.KernelEventAgent [212]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.485225 (system/com.apple.KernelEventAgent [212]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.485228 (system/com.apple.recoveryosd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.485231 (system/com.apple.recoveryosd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.485232 (system/com.apple.recoveryosd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.485276 (system/com.apple.recoveryosd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.486592 (system/com.apple.recoveryosd [213]) <Notice>: xpcproxy spawned with pid 213
+com.apple.xpc.launchd|2026-11-04 18:57:26.486609 (system/com.apple.recoveryosd [213]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.486612 (system/com.apple.recoveryosd [213]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.486615 (system/com.apple.notifyd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.486621 (system/com.apple.notifyd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.486622 (system/com.apple.notifyd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.486671 (system/com.apple.notifyd) <Notice>: launching: event publisher
+com.apple.xpc.launchd|2026-11-04 18:57:26.487908 (system/com.apple.notifyd [214]) <Notice>: xpcproxy spawned with pid 214
+com.apple.xpc.launchd|2026-11-04 18:57:26.487918 (system/com.apple.notifyd [214]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.487921 (system/com.apple.notifyd [214]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.487924 (system/com.apple.bluetoothd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.487928 (system/com.apple.bluetoothd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.487934 (system/com.apple.bluetoothd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.488021 (system/com.apple.bluetoothd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.489259 (system/com.apple.bluetoothd [215]) <Notice>: xpcproxy spawned with pid 215
+com.apple.xpc.launchd|2026-11-04 18:57:26.489270 (system/com.apple.bluetoothd [215]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.489279 (system/com.apple.bluetoothd [215]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.489282 (system/com.apple.sandboxd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.489286 (system/com.apple.sandboxd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:26.489287 (system/com.apple.sandboxd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:26.489322 (system/com.apple.sandboxd) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.490585 (system/com.apple.sandboxd [216]) <Notice>: xpcproxy spawned with pid 216
+com.apple.xpc.launchd|2026-11-04 18:57:26.490595 (system/com.apple.sandboxd [216]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490598 (system/com.apple.sandboxd [216]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:26.490698 (system/com.apple.wifiFirmwareLoader [184]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490700 (system/com.apple.fseventsd [185]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490702 (system/com.apple.configd [186]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490704 (system/com.apple.powerd [187]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490706 (system/com.apple.automation.trampoline [188]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490708 (system/com.apple.remoted [189]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490710 (system/com.apple.lightsoutmanagementRecoveryOSd [190]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490712 (system/com.apple.mobile.softwareupdated [191]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490714 (system/com.apple.installer.instlogd [192]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490716 (system/com.apple.imklaunchdaemon [193]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490718 (system/com.apple.icloud.findmydeviced [194]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490719 (system/com.apple.dfrRecoveryd [195]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490731 (system/com.apple.kernelmanagerd [196]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490732 (system/com.apple.InstallerProgress [197]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490734 (system/com.apple.iconservices.iconservicesd [198]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490736 (system/com.apple.diskarbitrationd [199]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490737 (system/com.apple.syslogd [200]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490739 (system/com.apple.webcontentfilter.RecoveryOS [201]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490741 (system/com.apple.opendirectoryd [202]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490742 (system/com.apple.apsd [203]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490745 (system/com.apple.timed [204]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490746 (system/com.apple.coreservices.launchservicesd [205]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490752 (system/com.apple.securityd [206]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490754 (system/com.apple.locationd [207]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490756 (system/com.apple.recoverylogd [208]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490757 (system/com.apple.displaypolicyd [209]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490759 (system/com.apple.distnoted.xpc.daemon [210]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490760 (system/com.apple.bsd.dirhelper [211]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490762 (system/com.apple.KernelEventAgent [212]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490763 (system/com.apple.recoveryosd [213]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490765 (system/com.apple.notifyd [214]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490766 (system/com.apple.bluetoothd [215]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.490771 (system/com.apple.sandboxd [216]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.497201 (system/com.apple.InstallerProgress [197]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.497204 (system/com.apple.InstallerProgress [197]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.497208 (system/com.apple.InstallerProgress [197]) <Notice>: Successfully spawned Installer Progress[197] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.531188 (system/com.apple.fseventsd [185]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.531193 (system/com.apple.fseventsd [185]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.531197 (system/com.apple.fseventsd [185]) <Notice>: Successfully spawned fseventsd[185] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.533430 (system/com.apple.configd [186]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.533434 (system/com.apple.configd [186]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.533438 (system/com.apple.configd [186]) <Notice>: Successfully spawned configd[186] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.536168 (system/com.apple.powerd [187]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.536173 (system/com.apple.powerd [187]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.536176 (system/com.apple.powerd [187]) <Notice>: Successfully spawned powerd[187] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.538829 (system/com.apple.imklaunchdaemon [193]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.538833 (system/com.apple.imklaunchdaemon [193]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.538837 (system/com.apple.imklaunchdaemon [193]) <Notice>: Successfully spawned imklaunchagent[193] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.555316 (system/com.apple.UserEventAgent-System [183]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.555320 (system/com.apple.UserEventAgent-System [183]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.555324 (system/com.apple.UserEventAgent-System [183]) <Notice>: Successfully spawned UserEventAgent[183] because system support
+com.apple.xpc.launchd|2026-11-04 18:57:26.555337 (system/com.apple.kernelmanagerd [196]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.555339 (system/com.apple.kernelmanagerd [196]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.555341 (system/com.apple.kernelmanagerd [196]) <Notice>: Successfully spawned kernelmanagerd[196] because speculative
+ALF, old data swfs_pid_entry <ptr>, updaterules_msg <ptr>, updaterules_state <ptr>shared_region: 0x77deebd5d14e45dd [240(socketfilterhelp)] check_np(0x7ff7b58e49b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e507d [241(apfs.util)] check_np(0x7ff7bd371928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e3b1d [242(udf.util)] check_np(0x7ff7b9a1f928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d146007d [243(udf.util)] check_np(0x7ff7bd3bc928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e307d [244(udf.util)] check_np(0x7ff7b0461928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e3b1d [245(udf.util)] check_np(0x7ff7b51c0928) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.restricted-block-devices
+shared_region: 0x77deebd5d146007d [246(hfs.util)] check_np(0x7ff7bd088928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110407d [247(hfs.util)] check_np(0x7ff7be73d928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d146007d [248(hfs.util)] check_np(0x7ff7b1857928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e3b1d [249(hfs.util)] check_np(0x7ff7bcab6948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110407d [250(hfs.util)] check_np(0x7ff7b5c4c928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e3b1d [251(hfs.util)] check_np(0x7ff7ba402948) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.restricted-block-devices
+shared_region: 0x77deebd5d14e307d [252(fsck_hfs)] check_np(0x7ff7bd492948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e107d [253(hfs.util)] check_np(0x7ff7bbacc948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e05dd [255(fsck_hfs)] check_np(0x7ff7b23e6948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d110407d [256(fsck_hfs)] check_np(0x7ff7b4149948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14e107d [257(hfs.util)] check_np(0x7ff7b7e18948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d146007d [258(udf.util)] check_np(0x7ff7bad5c928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145207d [259(udf.util)] check_np(0x7ff7b2efc928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145207d [260(udf.util)] check_np(0x7ff7b9871928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14dd5dd [261(hfs.util)] check_np(0x7ff7ba06f928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d146007d [262(hfs.util)] check_np(0x7ff7b30ae928) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.555856 (system/com.apple.wifiFirmwareLshared_region: 0x77deebd5d14deb1d [263(hfs.util)] check_np(0x7ff7bf6f7928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145207d [264(udf.util)] check_np(0x7ff7b97c7928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14ebb1d [265(udf.util)] check_np(0x7ff7b4026928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14dcb1d [266(udf.util)] check_np(0x7ff7b0a68928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14de07d [267(udf.util)] check_np(0x7ff7ba160928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14ebb1d [268(hfs.util)] check_np(0x7ff7b7c5f928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14db5dd [269(hfs.util)] check_np(0x7ff7b1f38928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14dcb1d [270(pmset)] check_np(0x7ff7b3ab19c8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14dc07d [271(hfs.util)] check_np(0x7ff7b7f1d928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14de07d [272(hfs.util)] check_np(0x7ff7becda928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14dab1d [273(udf.util)] check_np(0x7ff7b454b928) vm_shared_region_start_address() failed
+oader [184]) <Notice>: service state: running
+shared_region: 0x77deebd5d14e3b1d [254(xpcproxy)] check_np(0x7ff7bf258a68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145eb1d [205(xpcproxy)] check_np(0x7ff7b6966a58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d146007d [254(pkd)] check_np(0x7ff7b34599f8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14dd5dd [205(launchservicesd)] check_np(0x7ff7b98429b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d14deb1d [274(udf.util)] check_np(0x7ff7b27aa928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1550b1d [275(xpcproxy)] check_np(0x7ff7b306fa58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d155007d [275(distnoted)] check_np(0x7ff7b62ca938) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154f5dd [276(xpcproxy)] check_np(0x7ff7b82e9a68) vm_shared_region_start_address() failed
+ALF, old data swfs_pid_entry <ptr>, updaterules_msg <ptr>, updaterules_state <ptr>Forcing CS_RUNTIME for entitlement: com.apple.rootless.volume.Preboot
+shared_region: 0x77deebd5d1550b1d [276(authd)] check_np(0x7ff7b2506968) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154f5dd [277(hfs.util)] check_np(0x7ff7bd8c2928) vm_shared_region_start_address() failed
+Nov  4 18:57:28 localhost opendirectoryd[202]: [session] Received a network change notification
+shared_region: 0x77deebd5d154cb1d [278(hfs.util)] check_np(0x7ff7bd075928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113707d [279(hfs.util)] check_np(0x7ff7ba1bf948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154f5dd [280(hfs.util)] check_np(0x7ff7b8538948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154c07d [281(hfs.util)] check_np(0x7ff7bba4c948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1106b1d [282(hfs.util)] check_np(0x7ff7b3e05948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154cb1d [283(fsck_hfs)] check_np(0x7ff7b842d948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154c07d [284(fsck_hfs)] check_np(0x7ff7bde98948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113707d [285(fsck_hfs)] check_np(0x7ff7b9617948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1106b1d [286(fsck_hfs)] check_np(0x7ff7b4ad3948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15495dd [287(hfs.util)] check_np(0x7ff7be3f2958) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154c07d [288(hfs.util)] check_np(0x7ff7b4c00948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154cb1d [289(hfs.util)] check_np(0x7ff7b67ce958) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154ab1d [290(hfs.util)] check_np(0x7ff7b1d6f948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154a07d [291(hfs.util)] check_np(0x7ff7b8cba948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1548b1d [292(fsck_hfs)] check_np(0x7ff7b3d9d948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15495dd [293(fsck_hfs)] check_np(0x7ff7be691948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1106b1d [294(fsck_hfs)] check_np(0x7ff7b3376948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113707d [295(fsck_hfs)] check_np(0x7ff7b2a0f948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154c07d [296(fsck_hfs)] check_np(0x7ff7ba8dd948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1106b1d [297(udf.util)] check_np(0x7ff7bad2b928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d113707d [298(udf.util)] check_np(0x7ff7b773d928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154c07d [299(fsck_hfs)] check_np(0x7ff7b258f948) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.555860 (system/com.apple.wifiFirmwareLoader [184]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.555863 (system/com.apple.wifiFirmwareLshared_region: 0x77deebd5d15495dd [300(udf.util)] check_np(0x7ff7bd5e0928) vm_shared_region_start_address() failed
+oader [184]) <Notice>: Successfully spawned wifiFirmwareLoader[184] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.558901 (system/com.apple.lightsoutmanagementRecoveryOSd [190]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.558904 (system/com.apple.lightsoutmanagementRecoveryOSd [190]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.558908 (system/com.apple.lightsoutmanagementRecoveryOSd [190]) <Notice>: Successfully spawned lightsoutmanagementRecoveryOSd[190] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.561357 (system/com.apple.diskarbitrationd [199]) <Notice>: service state: running
+Nov  4 18:57:29 iMac-Pro opendirectoryd[202]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 203, PROC: apsd ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000shared_region: 0x77deebd5d154a07d [301(hfs.util)] check_np(0x7ff7b2396928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154c07d [302(hfs.util)] check_np(0x7ff7b7b08928) vm_shared_region_start_address() failed
+-0000-000000000000, Name: /Search, Options: 0x0
+Nov  4 18:57:29 iMac-Pro opendirectoryd[202]: [session] ODNodeCreateWithNameAndOptions failed with result 2000
+shared_region: 0x77deebd5d1548b1d [303(udf.util)] check_np(0x7ff7b7e6f928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15495dd [304(xpcproxy)] check_np(0x7ff7b54aba68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154c07d [305(hfs.util)] check_np(0x7ff7b7c89928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15455dd [306(hfs.util)] check_np(0x7ff7ba22b948) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.datavault.metadata
+shared_region: 0x77deebd5d15475dd [304(runningboardd)] check_np(0x7ff7be5ed9e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154a07d [307(hfs.util)] check_np(0x7ff7be64c948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1548b1d [308(fsck_hfs)] check_np(0x7ff7b73df948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154c07d [309(hfs.util)] check_np(0x7ff7ba7e7948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15495dd [310(hfs.util)] check_np(0x7ff7bad19928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154c07d [311(fsck_hfs)] check_np(0x7ff7b2784948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154807d [312(fsck_hfs)] check_np(0x7ff7bec4f948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154a07d [313(udf.util)] check_np(0x7ff7ba6ad928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15455dd [314(udf.util)] check_np(0x7ff7bcf04928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1548b1d [315(hfs.util)] check_np(0x7ff7b8bf1948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154a07d [316(hfs.util)] check_np(0x7ff7b57db928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154807d [317(msdos.util)] check_np(0x7ff7bd63a948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15495dd [318(fsck_hfs)] check_np(0x7ff7bb01b948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15455dd [319(hfs.util)] check_np(0x7ff7b2a79928) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.561361 (system/com.apple.diskarbitrationd [199]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.561364 (system/com.apple.diskarbitrationd [199]) <Notice>: Successfully spawned diskarbitrationd[199] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.561378 (system/com.apple.installer.instlogd [192]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.561379 (system/com.apple.installer.instlogd [192]) <Notice>: internal event: INIT, code = 0
+shared_region: 0x77deebd5d15495dd [320(hfs.util)] check_np(0x7ff7b697c948) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:26.561381 (system/com.apple.installer.instlogd [192]) <Notice>: Successfully spawned instlogd[192] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.564537 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = xpcproxy[204], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:26.570014 (system/com.apple.dfrRecoveryd [195]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.570017 (system/com.apple.dfrRecoveryd [195]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.570021 (system/com.apple.dfrRecoveryd [195]) <Notice>: Successfully spawned dfrRecoveryd[195] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.577333 (system/com.apple.apsd [203]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.577338 (system/com.apple.apsd [203]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.577342 (system/com.apple.apsd [203]) <Notice>: Successfully spawned apsd[203] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.577359 (system/com.apple.displaypolicyd [209]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.577361 (system/com.apple.displaypolicyd [209]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.577364 (system/com.apple.displaypolicyd [209]) <Notice>: Successfully spawned displaypolicyd[209] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.587516 (system/com.apple.recoveryosd [213]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.587523 (system/com.apple.recoveryosd [213]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.587528 (system/com.apple.recoveryosd [213]) <Notice>: Successfully spawned recoveryosd[213] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.590235 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = xpcproxy[210], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:26.592495 (system/com.apple.opendirectoryd [202]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.592499 (system/com.apple.opendirectoryd [202]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.592512 (system/com.apple.opendirectoryd [202]) <Notice>: Successfully spawned opendirectoryd[202] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.593329 (system/com.apple.icloud.findmydeviced [194]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.593333 (system/com.apple.icloud.findmydeviced [194]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.593337 (system/com.apple.icloud.findmydeviced [194]) <Notice>: Successfully spawned findmydeviced[194] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.596694 (system/com.apple.notifyd [214]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.596698 (system/com.apple.notifyd [214]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.596702 (system/com.apple.notifyd [214]) <Notice>: Successfully spawned notifyd[214] because event publisher
+com.apple.xpc.launchd|2026-11-04 18:57:26.598132 (system/com.apple.sandboxd [216]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.598136 (system/com.apple.sandboxd [216]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.598139 (system/com.apple.sandboxd [216]) <Notice>: Successfully spawned sandboxd[216] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.602199 (system/com.apple.bluetoothd [215]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.602202 (system/com.apple.bluetoothd [215]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.602205 (system/com.apple.bluetoothd [215]) <Notice>: Successfully spawned bluetoothd[215] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.605557 (system/com.apple.KernelEventAgent [212]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.605566 (system/com.apple.KernelEventAgent [212]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.605570 (system/com.apple.KernelEventAgent [212]) <Notice>: Successfully spawned KernelEventAgent[212] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.605775 (system/com.apple.timed [204]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.605777 (system/com.apple.timed [204]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.605780 (system/com.apple.timed [204]) <Notice>: Successfully spawned timed[204] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.614840 (system/com.apple.securityd [206]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.614843 (system/com.apple.securityd [206]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.614847 (system/com.apple.securityd [206]) <Notice>: Successfully spawned securityd[206] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.634781 (system/com.apple.distnoted.xpc.daemon [210]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.634784 (system/com.apple.distnoted.xpc.daemon [210]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.634788 (system/com.apple.distnoted.xpc.daemon [210]) <Notice>: Successfully spawned distnoted[210] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.769063 (system/com.apple.webcontentfilter.RecoveryOS [201]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:26.769066 (system/com.apple.webcontentfilter.RecoveryOS [201]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:26.769070 (system/com.apple.webcontentfilter.RecoveryOS [201]) <Notice>: Successfully spawned webfilterctl[201] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:26.930120 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = distnoted[210], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.044318 (system/com.apple.syslogd [200]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:27.044322 (system/com.apple.syslogd [200]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.044326 (system/com.apple.syslogd [200]) <Notice>: Successfully spawned syslogd[200] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:27.072432 (system/com.apple.syslogd [200]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.system.logger
+com.apple.xpc.launchd|2026-11-04 18:57:27.074020 (system) <Warning>: failed lookup: name = com.apple.aslmanager, flags = 0x8, requestor = syslogd[200], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.117659 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = lightsoutmanage[190], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.122382 (system/com.apple.lightsoutmanagementRecoveryOSd [190]) <Notice>: exited due to exit(0)
+com.apple.xpc.launchd|2026-11-04 18:57:27.122386 (system/com.apple.lightsoutmanagementRecoveryOSd [190]) <Notice>: service state: exited
+com.apple.xpc.launchd|2026-11-04 18:57:27.122388 (system/com.apple.lightsoutmanagementRecoveryOSd [190]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.122390 (system) <Notice>: service inactive: com.apple.lightsoutmanagementRecoveryOSd
+com.apple.xpc.launchd|2026-11-04 18:57:27.122393 (system/com.apple.lightsoutmanagementRecoveryOSd [190]) <Notice>: service state: not running
+com.apple.xpc.launchd|2026-11-04 18:57:27.128755 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = wifiFirmwareLoa[184], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.145068 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = securityd[206], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.263569 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = KernelEventAgen[212], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.308303 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = dfrRecoveryd[195], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.311246 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = opendirectoryd[202], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.342528 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = timed[204], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.350431 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = diskarbitration[199], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.362944 (system/com.apple.cfprefsd.xpc.daemon) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.362950 (system/com.apple.cfprefsd.xpc.daemon) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:27.362951 (system/com.apple.cfprefsd.xpc.daemon) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:27.362988 (system/com.apple.cfprefsd.xpc.daemon) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:27.364740 (system/com.apple.cfprefsd.xpc.daemon [217]) <Notice>: xpcproxy spawned with pid 217
+com.apple.xpc.launchd|2026-11-04 18:57:27.364757 (system/com.apple.cfprefsd.xpc.daemon [217]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.364761 (system/com.apple.cfprefsd.xpc.daemon [217]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:27.364780 (system/com.apple.cfprefsd.xpc.daemon [217]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.247249 <Notice>: Flushed 315 logs [limit: 20]
+com.apple.xpc.launchd|2026-11-04 18:57:27.380367 (system/com.apple.remoted [189]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:27.380370 (system/com.apple.remoted [189]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.380374 (system/com.apple.remoted [189]) <Notice>: Successfully spawned remoted[189] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:27.383320 (system/com.apple.cfprefsd.xpc.daemon [217]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:27.383324 (system/com.apple.cfprefsd.xpc.daemon [217]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.383328 (system/com.apple.cfprefsd.xpc.daemon [217]) <Notice>: Successfully spawned cfprefsd[217] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:27.406052 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = fseventsd[185], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.407759 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = cfprefsd[217], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.415087 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.libinfo, flags = 0x8, requestor = cfprefsd[217], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.247566 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|2026-11-04 18:57:27.437385 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = timed[204], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.463974 (system) <Warning>: failed activation: name = com.apple.private.opendirectoryd.rpc, flags = 0x0, requestor = opendirectoryd[202], error = 1: Operation not permitted
+com.apple.xpc.launchd|2026-11-04 18:57:27.502961 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = Installer Progr[197], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.513475 (system/com.apple.tccd.system) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.513483 (system/com.apple.tccd.system) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:27.513484 (system/com.apple.tccd.system) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:27.513517 (system/com.apple.tccd.system) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:27.516135 (system/com.apple.tccd.system [218]) <Notice>: xpcproxy spawned with pid 218
+com.apple.xpc.launchd|2026-11-04 18:57:27.516148 (system/com.apple.tccd.system [218]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.516150 (system/com.apple.tccd.system [218]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:27.516163 (system/com.apple.tccd.system [218]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.535817 (system/com.apple.tccd.system [218]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:27.535821 (system/com.apple.tccd.system [218]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.535824 (system/com.apple.tccd.system [218]) <Notice>: Successfully spawned tccd[218] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:27.542404 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = securityd[206], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.625546 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.libinfo, flags = 0x8, requestor = securityd[206], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.632820 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = bluetoothd[215], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.682446 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = UserEventAgent[183], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.733072 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = configd[186], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.744401 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = powerd[187], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.752376 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = sandboxd[216], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.798219 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.libinfo, flags = 0x8, requestor = diskarbitration[199], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.801967 (system/com.apple.bsd.dirhelper [211]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:27.801970 (system/com.apple.bsd.dirhelper [211]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.801974 (system/com.apple.bsd.dirhelper [211]) <Notice>: Successfully spawned dirhelper[211] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:27.816934 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = dirhelper[211], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.843764 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = tccd[218], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.848903 (system/com.apple.WindowServer) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.848909 (system/com.apple.WindowServer) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:27.848911 (system/com.apple.WindowServer) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:27.851145 (system/com.apple.WindowServer) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:27.852490 (system/com.apple.WindowServer [223]) <Notice>: xpcproxy spawned with pid 223
+com.apple.xpc.launchd|2026-11-04 18:57:27.852502 (system/com.apple.WindowServer [223]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.852505 (system/com.apple.WindowServer [223]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:27.852534 (system/com.apple.WindowServer [223]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.854111 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = powerd[187], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.876801 (system/com.apple.WindowServer [223]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:27.876805 (system/com.apple.WindowServer [223]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.876808 (system/com.apple.WindowServer [223]) <Notice>: Successfully spawned WindowServer[223] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:27.895833 (system/com.apple.coreservicesd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.895839 (system/com.apple.coreservicesd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:27.895840 (system/com.apple.coreservicesd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:27.895869 (system/com.apple.coreservicesd) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:27.897167 (system/com.apple.coreservicesd [224]) <Notice>: xpcproxy spawned with pid 224
+com.apple.xpc.launchd|2026-11-04 18:57:27.897212 (system/com.apple.coreservicesd [224]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.897215 (system/com.apple.coreservicesd [224]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:27.897245 (system/com.apple.coreservicesd [224]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.901004 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.libinfo, flags = 0x8, requestor = cfprefsd[217], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:27.933834 (system/com.apple.coreservicesd [224]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:27.933837 (system/com.apple.coreservicesd [224]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:27.933841 (system/com.apple.coreservicesd [224]) <Notice>: Successfully spawned coreservicesd[224] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:27.957995 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = remoted[189], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:28.012360 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.libinfo, flags = 0x8, requestor = remoted[189], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:28.116429 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = WindowServer[223], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:28.117424 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = WindowServer[223], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:28.117816 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = dirhelper[211], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:28.270180 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = imklaunchagent[193], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:28.364564 (system/com.apple.pluginkit.pkd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.364569 (system/com.apple.pluginkit.pkdForcing CS_RUNTIME for entitlement: com.apple.rootless.restricted-block-devices
+shared_region: 0x77deebd5d15455dd [322(hfs.util)] check_np(0x7ff7b67f3948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1546b1d [321(fsck_msdos)] check_np(0x7ff7b6f5b938) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154607d [323(hfs.util)] check_np(0x7ff7b73b6928) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154807d [324(fsck_hfs)] check_np(0x7ff7b6af4948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d1546b1d [325(hfs.util)] check_np(0x7ff7b2f71948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d154a07d [326(fsck_hfs)] check_np(0x7ff7b6aa9948) vm_shared_region_start_address() failed
+fsevents: watcher coreservicesd (pid: 224) needs 'com.apple.private.vfs.fsevents-watcher' entitlement
+shared_region: 0x77deebd5d1123b1d [191(xpcproxy)] check_np(0x7ff7b26eda58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d146207d [198(xpcproxy)] check_np(0x7ff7b98b4a58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145b07d [207(xpcproxy)] check_np(0x7ff7b804ba68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d145bb1d [208(xpcproxy)] check_np(0x7ff7b469ca68) vm_shared_region_start_address() failed
+) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:28.364570 (system/com.apple.pluginkit.pkdshared_region: 0x77deebd5d15e0b1d [327(xpcproxy)] check_np(0x7ff7bd11fa58) vm_shared_region_start_address() failed
+) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:28.364622 (system/com.apple.pluginkit.pkd) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:28.644764 (system/com.apple.pluginkit.pkd [254]) <Notice>: xpcproxy spawned with pid 254
+com.apple.xpc.launchd|2026-11-04 18:57:28.644778 (system/com.apple.pluginkit.pkd [254]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.644781 (system/com.apple.pluginkit.pkd [254]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:28.644813 (system/com.apple.pluginkit.pkd [254]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.644943 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = webfilterctl[201], error = 3: No such process
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.volume.iSCHardware
+shared_region: 0x77deebd5d15d9b1d [328(fsck_hfs)] check_np(0x7ff7bb9da948) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d111c5dd [329(xpcproxy)] check_np(0x7ff7b22bca68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15d85dd [330(xpcproxy)] check_np(0x7ff7bd62ca68) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15d55dd [327(mDNSResponder)] check_np(0x7ff7b4db2968) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.storage.trustd
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.storage.com.apple.LaunchServices.dv
+shared_region: 0x77deebd5d15e0b1d [329(trustd)] check_np(0x7ff7bcf498e8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15d607d [330(lsd)] check_np(0x7ff7b1c009f8) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:28.644987 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = kernelmanagerd[196], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:28.645161 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = coreservicesd[224], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:28.645200 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = apsd[203], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:28.667495 (system/com.apple.pluginkit.pkdshared_region: 0x77deebd5d15495dd [188(automation_tramp)] check_np(0x7ff7b4c65988) vm_shared_region_start_address() failed
+ [254]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:28.667499 (system/com.apple.pluginkit.pkd [254]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.667504 (system/com.apple.pluginkit.pkd [254]) <Notice>: Successfully spawned pkd[254] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:28.670172 (system/com.apple.coreservices.launchservicesd [205]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:28.670177 (system/com.apple.coreservices.launchservicesd [205]) <Notice>: internal event: INIT, code = 0
+shared_region: 0x77deebd5d111c5dd [331(mountrecursive)] check_np(0x7ff7beceb9a8) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:28.670183 (system/com.apple.coreservices.launchservicesd [205]) <Notice>: Successfully spawned launchservicesd[205] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:28.675287 (pid/240 [socketfilterhel]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|2026-11-04 18:57:28.675299 (pid/240 [socketfilterhel]) <Notice>: created
+com.apple.xpc.launchd|2026-11-04 18:57:28.676340 (pid/240 [socketfilterhel]) <Notice>: uncorking domain
+com.apple.xpc.launchd|2026-11-04 18:57:28.695283 (system/com.apple.CodeSigningHelper) <Notice>: created the implicit endpoint upfront
+com.apple.xpc.launchd|2026-11-04 18:57:28.695289 (system/com.apple.CodeSigningHelper) <Notice>: draining messages from com.apple.CodeSigningHelper
+com.apple.xpc.launchd|2026-11-04 18:57:28.695409 (user/0) <Notice>: created
+com.apple.xpc.launchd|2026-11-04 18:57:28.695410 (user/0) <Notice>: entering bootstrap mode
+shared_region: 0x77deebd5d15cd5dd [332(xpcproxy)] check_np(0x7ff7b8c73a58) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:28.695447 (user/0/com.apple.DictionaryServiceHelper) <Notice>: created the implicit endpoint upfront
+com.apple.xpc.launchd|2026-11-04 18:57:28.695450 (user/0/com.apple.DictionaryServiceHelper) <Notice>: draining messages from com.apple.DictionaryServiceHelper
+com.apple.xpc.launchd|2026-11-04 18:57:28.695465 (system/com.apple.authd) <Notice>: created the implicit endpoint upfront
+com.apple.xpc.launchd|2026-11-04 18:57:28.695468 (system/com.apple.authd) <Notice>: draining messages from com.apple.authd
+com.apple.xpc.launchd|2026-11-04 18:57:28.695488 (user/0/com.apple.carboncore.csnameddata) <Notice>: created the implicit endpoint upfront
+com.apple.xpc.launchd|2026-11-04 18:57:28.695490 (user/0/com.apple.carboncore.csnameddata) <Notice>: draining messages from com.apple.carboncore.csnameddata
+com.apple.xpc.launchd|2026-11-04 18:57:28.695505 (pid/240 [socketfilterhel]) <Notice>: Service stub created for com.apple.foundation.UserScriptService
+com.apple.xpc.launchd|2026-11-04 18:57:28.695533 (user/0/com.apple.security.XPCKeychainSandboxCheck) <Notice>: created the implicit endpoint upfront
+com.apple.xpc.launchd|2026-11-04 18:57:28.695536 (user/0/com.apple.security.XPCKeychainSandboxCheck) <Notice>: draining messages from com.apple.security.XPCKeychainSandboxCheck
+com.apple.xpc.launchd|2026-11-04 18:57:28.695550 (user/0/com.apple.security.XPCTimeStampingService) <Notice>: created the implicit endpoint upfront
+com.apple.xpc.launchd|2026-11-04 18:57:28.695552 (user/0/com.apple.security.XPCTimeStampingService) <Notice>: draining messages from com.apple.security.XPCTimeStampingService
+com.apple.xpc.launchd|2026-11-04 18:57:28.700896 (user/0/com.apple.cfprefsd.xpc.agent) <Notice>: draining messages from com.apple.cfprefsd.agent
+com.apple.xpc.launchd|2026-11-04 18:57:28.706996 (com.apple.distnoted.xpc.agent) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|2026-11-04 18:57:28.707012 (user/0/com.apple.distnoted.xpc.agent) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.707018 (user/0/com.apple.distnoted.xpc.agent) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:28.707020 (user/0/com.apple.distnoted.xpc.agent) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:28.707072 (user/0/com.apple.distnoted.xpc.agent) <Notice>: launching: speculative
+com.apple.xpc.launchd|2026-11-04 18:57:28.708711 (user/0/com.apple.distnoted.xpc.agent [275]) <Notice>: xpcproxy spawned with pid 275
+com.apple.xpc.launchd|2026-11-04 18:57:28.708728 (user/0/com.apple.distnoted.xpc.agent [275]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.708731 (user/0/com.apple.distnoted.xpc.agent [275]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:28.708840 (user/0/com.apple.distnoted.xpc.agent [275]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.712846 (user/0/com.apple.lsd) <Error>: Event stream com.apple.launchservices.LSObserver is already monitored by system/com.apple.lsd, ignoring
+com.apple.xpc.launchd|2026-11-04 18:57:28.727014 (user/0) <Error>: Failed to bootstrap path: path = /Library/LaunchAgents, error = 2: No such file or directory
+com.apple.xpc.launchd|2026-11-04 18:57:28.727017 (user/0) <Error>: Failed to bootstrap path: path = /System/Library/LaunchAgents/com.apple.Safari.PasswordBreachAgent.plist, error = 2: No such file or directory
+com.apple.xpc.launchd|2026-11-04 18:57:28.727019 (user/0) <Error>: Failed to bootstrap path: path = /Library/Apple/System/Library/LaunchAgents, error = 2: No such file or directory
+com.apple.xpc.launchd|2026-11-04 18:57:28.727020 (user/0) <Notice>: exiting bootstrap mode
+com.apple.xpc.launchd|2026-11-04 18:57:28.730128 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.libinfo, flags = 0x8, requestor = xpcproxy[275], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.984716 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|2026-11-04 18:57:28.732496 (system/com.apple.authd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.732504 (system/com.apple.authd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:28.732505 (system/com.apple.authd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:28.732554 (system/com.apple.authd) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:28.733897 (system/com.apple.authd [276]) <Notice>: xpcproxy spawned with pid 276
+com.apple.xpc.launchd|2026-11-04 18:57:28.733911 (system/com.apple.authd [276]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.733913 (system/com.apple.authd [276]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:28.733927 (system/com.apple.authd [276]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.733940 (user/0/com.apple.distnoted.xpc.agent [275]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:28.733942 (user/0/com.apple.distnoted.xpc.agent [275]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.733944 (user/0/com.apple.distnoted.xpc.agent [275]) <Notice>: Successfully spawned distnoted[275] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:28.749466 (system/com.apple.authd [276]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:28.749470 (system/com.apple.authd [276]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:28.749476 (system/com.apple.authd [276]) <Notice>: Successfully spawned authd[276] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:28.764829 (system) <Warning>: failed lookup: name = com.apple.networkd_privileged, flags = 0x8, requestor = configd[186], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.985277 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|2026-11-04 18:57:28.840170 (user/0) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = distnoted[275], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:28.994511 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = apsd[203], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.007153 (system) <Warning>: failed activation: name = com.apple.apsd.nsxpc, flags = 0x0, requestor = apsd[203], error = 1: Operation not permitted
+com.apple.xpc.launchd|2026-11-04 18:57:29.041757 (system/com.apple.runningboardd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.041763 (system/com.apple.runningboardd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:29.041765 (system/com.apple.runningboardd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:29.041810 (system/com.apple.runningboardd) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:29.043241 (system/com.apple.runningboardd [304]) <Notice>: xpcproxy spawned with pid 304
+com.apple.xpc.launchd|2026-11-04 18:57:29.043255 (system/com.apple.runningboardd [304]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.043259 (system/com.apple.runningboardd [304]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:29.043295 (system/com.apple.runningboardd [304]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.060136 (system/com.apple.runningboardd [304]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:29.060140 (system/com.apple.runningboardd [304]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.060144 (system/com.apple.runningboardd [304]) <Notice>: Successfully spawned runningboardd[304] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:29.190362 (pid/196 [kernelmanagerd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|2026-11-04 18:57:29.190372 (pid/196 [kernelmanagerd]) <Notice>: created
+com.apple.xpc.launchd|2026-11-04 18:57:29.190505 (pid/196 [kernelmanagerd]) <Notice>: uncorking domain
+com.apple.xpc.launchd|2026-11-04 18:57:29.213329 (pid/196 [kernelmanagerd]) <Notice>: Service stub created for com.apple.CMValidateMovieDataReferenceService
+com.apple.xpc.launchd|2026-11-04 18:57:29.213384 (pid/196 [kernelmanagerd]) <Notice>: Service stub created for com.apple.ColorSyncXPCAgent
+com.apple.xpc.launchd|2026-11-04 18:57:29.213388 (pid/196 [kernelmanagerd]) <Notice>: Service stub created for com.apple.CoreDisplay.XPCService
+com.apple.xpc.launchd|2026-11-04 18:57:29.213393 (pid/196 [kernelmanagerd]) <Notice>: Service stub created for com.apple.ImageIOXPCService
+com.apple.xpc.launchd|2026-11-04 18:57:29.213411 (pid/196/com.apple.audio.Core-Audio-Driver-Service) <Notice>: created the implicit endpoint upfront
+com.apple.xpc.launchd|2026-11-04 18:57:29.213414 (pid/196/com.apple.audio.Core-Audio-Driver-Service) <Notice>: draining messages from com.apple.audio.Core-Audio-Driver-Service
+com.apple.xpc.launchd|2026-11-04 18:57:29.213418 (pid/196 [kernelmanagerd]) <Notice>: Service stub created for com.apple.audio.DriverHelper
+com.apple.xpc.launchd|2026-11-04 18:57:29.213424 (pid/196 [kernelmanagerd]) <Notice>: Service stub created for com.apple.coremedia.videodecoder
+com.apple.xpc.launchd|2026-11-04 18:57:29.213426 (pid/196 [kernelmanagerd]) <Notice>: Service stub created for com.apple.coremedia.videodecoder.zonto
+com.apple.xpc.launchd|2026-11-04 18:57:29.213428 (pid/196 [kernelmanagerd]) <Notice>: Service stub created for com.apple.coremedia.videoencoder
+com.apple.xpc.launchd|2026-11-04 18:57:29.213430 (pid/196 [kernelmanagerd]) <Notice>: Service stub created for com.apple.coremedia.videoencoder.zonto
+com.apple.xpc.launchd|2026-11-04 18:57:29.213433 (pid/196 [kernelmanagerd]) <Notice>: Service stub created for com.apple.foundation.UserScriptService
+com.apple.xpc.launchd|2026-11-04 18:57:29.235543 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = authd[276], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.988951 <Notice>: Flushed 166 logs [limit: 20]
+com.apple.xpc.launchd|2026-11-04 18:57:29.358964 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = pkd[254], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.404614 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = launchservicesd[205], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.423082 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = launchservicesd[205], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.493430 (system/com.apple.mDNSResponder.reloaded) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.493437 (system/com.apple.mDNSResponder.reloaded) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:29.493441 (system/com.apple.mDNSResponder.reloaded) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:29.493514 (system/com.apple.mDNSResponder.reloaded) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:29.721186 (system/com.apple.mDNSResponder.reloaded [327]) <Notice>: xpcproxy spawned with pid 327
+com.apple.xpc.launchd|2026-11-04 18:57:29.721200 (system/com.apple.mDNSResponder.reloaded [327]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.721204 (system/com.apple.mDNSResponder.reloaded [327]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:29.721258 (system/com.apple.mDNSResponder.reloaded [327]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.721931 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = runningboardd[304], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.722444 (pid/276 [authd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|2026-11-04 18:57:29.722455 (pid/276 [authd]) <Notice>: created
+com.apple.xpc.launchd|2026-11-04 18:57:29.722633 (pid/276 [authd]) <Notice>: uncorking domain
+com.apple.xpc.launchd|2026-11-04 18:57:29.725814 (pid/276 [authd]) <Notice>: Service stub created for com.apple.foundation.UserScriptService
+com.apple.xpc.launchd|2026-11-04 18:57:29.744939 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = xpcproxy[207], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.746304 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = xpcproxy[191], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.747257 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = xpcproxy[198], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.755271 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = pmset[270], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.758480 (system/com.apple.automation.trampoline [188]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:29.758483 (system/com.apple.automation.trampoline [188]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.758486 (system/com.apple.automation.trampoline [188]) <Notice>: Successfully spawned automation_trampoline[188] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:29.758496 (system/com.apple.recoverylogd [208]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:29.758498 (system/com.apple.recoverylogd [208]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.758500 (system/com.apple.recoverylogd [208]) <Notice>: Successfully spawned recoverylogd[208] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:29.758505 (system/com.apple.trustd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.758517 (system/com.apple.trustd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:29.758518 (system/com.apple.trustd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:29.758547 (system/com.apple.trustd) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:29.765257 (system/com.apple.trustd [329]) <Notice>: xpcproxy spawned with pid 329
+com.apple.xpc.launchd|2026-11-04 18:57:29.765272 (system/com.apple.trustd [329]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.765275 (system/com.apple.trustd [329]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:29.765302 (system/com.apple.trustd [329]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.766514 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = xpcproxy[327], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.766553 (system/com.apple.lsd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.766559 (system/com.apple.lsd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:29.766561 (system/com.apple.lsd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:29.766730 (system/com.apple.lsd) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:29.768112 (system/com.apple.lsd [330]) <Notice>: xpcproxy spawned with pid 330
+com.apple.xpc.launchd|2026-11-04 18:57:29.768129 (system/com.apple.lsd [330]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.768131 (system/com.apple.lsd [330]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:29.768160 (system/com.apple.lsd [330]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.779756 (system/com.apple.mDNSResponder.reloaded [327]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:29.779760 (system/com.apple.mDNSResponder.reloaded [327]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.779765 (system/com.apple.mDNSResponder.reloaded [327]) <Notice>: Successfully spawned mDNSResponder[327] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:29.783816 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = xpcproxy[329], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.791934 (system/com.apple.trustd [329]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:29.791940 (system/com.apple.trustd [329]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.791947 (system/com.apple.trustd [329]) <Notice>: Successfully spawned trustd[329] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:29.797024 (system/com.apple.lsd [330]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:29.797028 (system/com.apple.lsd [330]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.797033 (system/com.apple.lsd [330]) <Notice>: Successfully spawned lsd[330] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:29.896281 (system) <Warning>: failed lookup: name = com.apple.mobile.keybagd.UserManager.xpc, flags = 0x8, requestor = runningboardd[304], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.898224 (system) <Warning>: failed lookup: name = com.apple.mobile.usermanagerd.xpc, flags = 0x8, requestor = runningboardd[304], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.899348 (system/com.apple.runningboardd [304]) <Notice>: job state = running
+com.apple.xpc.launchd|2026-11-04 18:57:29.903165 (system/com.apple.powerd [187]) <Notice>: job state = running
+com.apple.xpc.launchd|2026-11-04 18:57:29.905831 (system/com.apple.coreservices.launchservicesd [205]) <Notice>: job state = running
+com.apple.xpc.launchd|2026-11-04 18:57:29.908590 (system/com.apple.apsd [203]) <Notice>: job state = running
+com.apple.xpc.launchd|2026-11-04 18:57:29.931490 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = trustd[329], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.932171 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = dirhelper[211], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.933941 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = mDNSResponder[327], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.942188 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = lsd[330], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.946616 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = trustd[329], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.946848 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = displaypolicyd[209], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.953102 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = mDNSResponder[327], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.953605 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = dirhelper[211], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.975522 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = trustd[329], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:29.977725 (system/com.apple.trustdFileHelper) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:29.977734 (system/com.apple.trustdFileHelper) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:29.977735 (system/com.apple.trustdFileHelper) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:29.977775 (system/com.apple.trustdFileHelper) <Notice>: launching: ipc (mach)
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.storage.trustd
+shared_region: 0x77deebd5d111c5dd [332(trustdFileHelper)] check_np(0x7ff7b361f948) vm_shared_region_start_address() failed
+ALF, old data swfs_pid_entry <ptr>, updaterules_msg <ptr>, updaterules_state <ptr>shared_region: 0x77deebd5d15db07d [208(recoverylogd)] check_np(0x7ff7bdf329e8) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.storage.locationd
+shared_region: 0x77deebd5d15d907d [198(iconservicesd)] check_np(0x7ff7bf09f938) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15dbb1d [207(locationd)] check_np(0x7ff7b33d9978) vm_shared_region_start_address() failed
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.volume.Update
+com.apple.xpc.launchd|2026-11-04 18:57:29.979978 (system/com.apple.trustdFileHelshared_region: 0x77deebd5d15da5dd [191(softwareupdated)] check_np(0x7ff7b31438c8) vm_shared_region_start_address() failed
+per [332]) <Notice>: xpcproxy spawned with pid 332
+com.apple.xpc.launchd|2026-11-04 18:57:29.980009 (system/com.apple.trustdFileHelshared_region: 0x77deebd5d15ceb1d [333(xpcproxy)] check_np(0x7ff7b2e3aa58) vm_shared_region_start_address() failed
+per [332]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.recoveryosd: Task [/System/Installation/CDIS/mountrecursive][(
+)] -- failed to mount enclosing file systems, error code: -1 reason: * Failed to mount imgsrc device, no device info
+
+com.apple.recoveryosd: Failed to invoke mount_recursive with exit status: 255
+shared_region: 0x77deebd5d1123b1d [334(xpcproxy)] check_np(0x7ff7b4bc7a58) vm_shared_region_start_address() failed
+com.apple.recoveryosd: Establishing an Aqua Session...
+com.apple.xpc.launchd|2026-11-04 18:57:29.980013 (system/com.apple.trustdFileHelper [332]) <Notice>: service state: xpcproxy
+com.apple.recoveryosd: New Audit Session Created! [ID: 100002 -- Flags: 0x30]
+com.apple.xpc.launchd|2026-11-04 18:57:29.980037 (system/com.apple.trustdFileHelshared_region: 0x77deebd5d146207d [333(csnameddatad)] check_np(0x7ff7b90d1838) vm_shared_region_start_address() failed
+per [332]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.452752 <Notice>: Flushed 76 logs [limit: 20]
+shared_region: 0x77deebd5d15cc07d [334(mDNSResponderHel)] check_np(0x7ff7b40d79d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15ca07d [335(xpcproxy)] check_np(0x7ff7b7144a68) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:30.039699 (system/com.apple.trustdFileHelper [332]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:30.039703 (system/com.apple.trustdFileHelper [332]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.039708 (system/com.apple.trustdFileHelper [332]) <Notice>: Successfully spawned trustdFileHelper[332] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:30.056056 (pid/330 [lsd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|2026-11-04 18:57:30.056069 (pid/330 [lsd]) <Notice>: created
+com.apple.xpc.launchd|2026-11-04 18:57:30.056209 (pid/330 [lsd]) <Notice>: uncorking domain
+com.apple.xpc.launchd|2026-11-04 18:57:30.057659 (pid/330 [lsd]) <Notice>: Service stub created for com.apple.foundation.UserScriptService
+com.apple.xpc.launchd|2026-11-04 18:57:30.058195 (user/0/com.apple.carboncore.csnameddata) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.058202 (user/0/com.apple.carboncore.csnameddata) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:30.058204 (user/0/com.apple.carboncore.csnameddata) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:30.058308 (user/0/com.apple.carboncore.csnameddata) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:30.424844 (user/0/com.apple.carboncore.csnameddata [333]) <Notice>: xpcproxy spawned with pid 333
+com.apple.xpc.launchd|2026-11-04 18:57:30.424860 (user/0/com.apple.carboncore.csnameddata [333]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.424864 (user/0/com.apple.carboncore.csnameddata [333]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:30.424898 (user/0/com.apple.carboncore.csnameddata [333]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.424912 (system/com.apple.iconservices.iconservicesd [198]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:30.424914 (system/com.apple.iconservices.iconservicesd [198]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.424918 (system/com.apple.iconservices.iconservicesd [198]) <Notice>: Successfully spawned iconservicesd[198] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:30.424961 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = mDNSResponder[327], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.425012 (system/com.apple.locationd [207]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:30.425015 (system/com.apple.locationd [207]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.425019 (system/com.apple.locationd [207]) <Notice>: Successfully spawned locationd[207] because semaphore
+com.apple.xpc.launchd|2026-11-04 18:57:30.425030 (system/com.apple.mobile.softwareupdated [191]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:30.425032 (system/com.apple.mobile.softwareupdated [191]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.425035 (system/com.apple.mobile.softwareupdated [191]) <Notice>: Successfully spawned softwareupdated[191] because speculative
+com.apple.xpc.launchd|2026-11-04 18:57:30.425069 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = trustdFileHelpe[332], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.425141 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = findmydeviced[194], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.425210 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = recoveryosd[213], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.430488 (system/com.apple.mDNSResponderHelper.reloaded) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.430494 (system/com.apple.mDNSResponderHelper.reloaded) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:30.430496 (system/com.apple.mDNSResponderHelper.reloaded) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:30.430534 (system/com.apple.mDNSResponderHelper.reloaded) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:30.435197 (system/com.apple.mDNSResponderHelper.reloaded [334]) <Notice>: xpcproxy spawned with pid 334
+com.apple.xpc.launchd|2026-11-04 18:57:30.435213 (system/com.apple.mDNSResponderHelper.reloaded [334]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.435217 (system/com.apple.mDNSResponderHelper.reloaded [334]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:30.435256 (system/com.apple.mDNSResponderHelper.reloaded [334]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.441285 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = recoveryosd[213], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.442942 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.libinfo, flags = 0x8, requestor = xpcproxy[333], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.463573 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|2026-11-04 18:57:30.447573 (user/0/com.apple.carboncore.csnameddata [333]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:30.447576 (user/0/com.apple.carboncore.csnameddata [333]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.447580 (user/0/com.apple.carboncore.csnameddata [333]) <Notice>: Successfully spawned csnameddatad[333] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:30.452067 (system/com.apple.systemkeychain) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.452073 (system/com.apple.systemkeychain) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:30.452074 (system/com.apple.systemkeychain) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:30.452115 (system/com.apple.systemkeychain) <Notice>: launching: ipc (socket)
+com.apple.xpc.launchd|2026-11-04 18:57:30.455253 (system/com.apple.systemkeychain [335]) <Notice>: xpcproxy spawned with pid 335
+com.apple.xpc.launchd|2026-11-04 18:57:30.455270 (system/com.apple.systemkeychain [335]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.455274 (system/com.apple.systemkeychain [335]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:30.455312 (system/com.apple.systemkeychain [335]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.455409 (system/com.apple.mDNSResponderHelper.reloaded [334]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:30.455411 (system/com.apple.mDNSResponderHelper.reloaded [334]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.455415 (system/com.apple.mDNSResponderHelper.reloaded [334]) <Notice>: Successfully spawned mDNSResponderHelper[334] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:30.455449 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.libinfo, flags = 0x8, requestor = trustdFileHelpe[332], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.464481 <Notice>: Flushed 54 logs [limit: 20]
+Forcing CS_RUNTIME for entitlement: com.apple.private.security.storage.SystemKeychain
+shared_region: 0x77deebd5d15c95dd [335(systemkeychain)] check_np(0x7ff7bfaaa9e8) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:30.474962 (system/com.apple.systemkeychain [335]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:30.474974 (system/com.apple.systemkeychain [335]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.474978 (system/com.apple.systemkeychain [335]) <Notice>: Successfully spawned systemkeychain[335] because ipc (socket)
+com.apple.xpc.launchd|2026-11-04 18:57:30.478929 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.membership, flags = 0x8, requestor = trustd[329], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.552786 <Notice>: Last log repeated 7 times
+com.apple.xpc.launchd|2026-11-04 18:57:30.552138 (user/0) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = csnameddatad[333], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.555775 (pid/333 [csnameddatad]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|2026-11-04 18:57:30.555785 (pid/333 [csnameddatad]) <Notice>: created
+com.apple.xpc.launchd|2026-11-04 18:57:30.555935 (pid/333 [csnameddatad]) <Notice>: uncorking domain
+com.apple.xpc.launchd|2026-11-04 18:57:30.557207 (pid/333 [csnameddatad]) <Notice>: Service stub created for com.apple.foundation.UserScriptService
+com.apple.xpc.launchd|2026-11-04 18:57:30.572316 (system/com.apple.diskmanagementd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.572324 (system/com.apple.diskmanagementd) <Notice>: service state: spawn scheduled
+shared_region: 0x77deebd5d15c35dd [336(xpcproxy)] check_np(0x7ff7b7679a58) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15c15dd [337(sh)] check_np(0x7ff7b25bb9e8) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:30.572326 (system/com.apple.diskmanagementd) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:30.572370 (system/com.apple.diskmanagementd) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:30.573878 (system/com.apple.diskmanagementd [336]) <Notice>: xpcproxy spawned with pid 336
+com.apple.xpc.launchd|2026-11-04 18:57:30.573894 (system/com.apple.diskmanagementd [336]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.573899 (system/com.apple.diskmanagementd [336]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|2026-11-04 18:57:30.573941 (system/com.apple.diskmanagementd [336]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.574001 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = socketfilterhel[240], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.586850 (pid/240 [socketfilterhel]) <Notice>: shutting down
+com.apple.xpc.launchd|2026-11-04 18:57:30.586881 (pid/240 [socketfilterhel]) <Notice>: cleaning up
+com.apple.xpc.launchd|2026-11-04 18:57:30.586893 (system) <Notice>: removing child: pid/240
+Forcing CS_RUNTIME for entitlement: com.apple.rootless.install
+shared_region: 0x77deebd5d14deb1d [336(diskmanagementd)] check_np(0x7ff7b66839e8) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:30.596612 (system/com.apple.diskmanagementd [336]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:30.596624 (system/com.apple.diskmanagementd [336]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:30.596628 (system/com.apple.diskmanagementd [336]) <Notice>: Successfully spawned diskmanagementd[336] because ipc (mach)
+shared_region: 0x77deebd5d15c35dd [337(bash)] check_np(0x7ff7b61d19d8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15c207d [337(bash)] check_np(0x7ff7bd1c3998) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15c15dd [338(security)] check_np(0x7ff7b4232988) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:30.650651 (pid/330 [lsd]) <Notice>: Service stub created for com.apple.extensionkitservice
+com.apple.xpc.launchd|2026-11-04 18:57:30.749554 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = security[338], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.750497 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = security[338], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.783441 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = diskmanagementd[336], error = 3: No such process
+shared_region: 0x77deebd5d1550b1d [339(logger)] check_np(0x7ff7b26f7958) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:30.798874 (pid/336 [diskmanagementd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|2026-11-04 18:57:30.798888 (pid/336 [diskmanagementd]) <Notice>: created
+com.apple.xpc.launchd|2026-11-04 18:57:30.799063 (pid/336 [diskmanagementd]) <Notice>: uncorking domain
+com.apple.xpc.launchd|2026-11-04 18:57:30.800725 (pid/336 [diskmanagementd]) <Notice>: Service stub created for com.apple.CMValidateMovieDataReferenceService
+com.apple.xpc.launchd|2026-11-04 18:57:30.800756 (pid/336 [diskmanagementd]) <Noshared_region: 0x77deebd5d15bf5dd [340(systemkeychain)] check_np(0x7ff7b99969a8) vm_shared_region_start_address() failed
+tice>: Service stub created for com.apple.ColorSyncXPCAgent
+com.apple.xpc.launchd|2026-11-04 18:57:30.800759 (pid/336 [diskmanagementd]) <Notice>: Service stub created for com.apple.CoreDisplay.XPCService
+com.apple.xpc.launchd|2026-11-04 18:57:30.800764 (pid/336 [diskmanagementd]) <Notice>: Service stub created for com.apple.ImageIOXPCService
+com.apple.xpc.launchd|2026-11-04 18:57:30.800780 (pid/336/com.apple.audio.Core-Audio-Driver-Service) <Notice>: created the implicit endpoint upfront
+com.apple.xpc.launchd|2026-11-04 18:57:30.800782 (pid/336/com.apple.audio.Core-Audio-Driver-Service) <Notice>: draining messages from com.apple.audio.Core-Audio-Driver-Service
+com.apple.xpc.launchd|2026-11-04 18:57:30.800787 (pid/336 [diskmanagementd]) <Notice>: Service stub created for com.apple.audio.DriverHelper
+com.apple.xpc.launchd|2026-11-04 18:57:30.800793 (pid/336 [diskmanagementd]) <Notice>: Service stub created for com.apple.coremedia.videodecoder
+com.apple.xpc.launchd|2026-11-04 18:57:30.800795 (pid/336 [diskmanagementd]) <Notice>: Service stub created for com.apple.coremedia.videodecoder.zonto
+com.apple.xpc.launchd|2026-11-04 18:57:30.800797 (pid/336 [diskmanagementd]) <Notice>: Service stub created for com.apple.coremedia.videoencoder
+com.apple.xpc.launchd|2026-11-04 18:57:30.800800 (pid/336 [diskmanagementd]) <Notice>: Service stub created for com.apple.coremedia.videoencoder.zonto
+com.apple.xpc.launchd|2026-11-04 18:57:30.800802 (pid/336 [diskmanagementd]) <Notice>: Service stub created for com.apple.foundation.UserScriptService
+com.apple.xpc.launchd|2026-11-04 18:57:30.800811 (pid/336 [diskmanagementd]) <Error>: Failed to bootstrap path: path = /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.Core-Audio-Driver-Service.helper.xpc, error = 107: Malformed bundle
+com.apple.xpc.launchd|2026-11-04 18:57:30.800813 (pid/336 [diskmanagementd]) <Error>: Failed to bootstrap path: path = /System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage, error = 2: No such file or directory
+com.apple.xpc.launchd|2026-11-04 18:57:30.800814 (pid/336 [diskmanagementd]) <Error>: Failed to bootstrap path: path = /System/Library/PrivateFrameworks/GraphVisualizer.framework/Versions/A/GraphVisualizer, error = 2: No such file or directory
+com.apple.xpc.launchd|2026-11-04 18:57:30.807869 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = logger[339], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.841368 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = mDNSResponderHe[334], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.887579 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = mDNSResponderHe[334], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.901551 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = kernelmanagerd[196], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.911730 (system) <Warning>: failed lookup: name = com.apple.system.opendirectoryd.libinfo, flags = 0x8, requestor = kernelmanagerd[196], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.929266 (system) <Warning>: failed lookup: name = com.apple.webcontentfilter.dns, flags = 0x1, requestor = mDNSResponder[327], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.948131 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = systemkeychain[340], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:30.948831 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = systemkeychain[340], error = 3: No such process
+shared_region: 0x77deebd5d15b8b1d [342(security)] check_np(0x7ff7b7bba998) vm_shared_region_start_address() failed
+KextLog: kernelmanagerd is not active
+com.apple.xpc.launchd|2026-11-04 18:57:31.079447 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = security[342], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:31.080333 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = security[342], error = 3: No such process
+shared_region: 0x77deebd5d15bab1d [345(grep)] check_np(0x7ff7bdb1a9b8) vm_shared_region_start_address() failed
+shared_region: 0x77deebd5d15b8b1d [347(security)] check_np(0x7ff7ba569998) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:31.234013 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = security[347], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:31.235503 (system) <Warning>: failed lookup: name = com.apple.analyticsd, flags = 0x8, requestor = security[347], error = 3: No such process
+shared_region: 0x77deebd5d15b807d [350(grep)] check_np(0x7ff7b15899b8) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:31.263913 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = systemkeychain[335], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:31.273409 (system/com.apple.securityd_service) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:31.273425 (system/com.apple.securityd_sershared_region: 0x77deebd5d155607d [351(xpcproxy)] check_np(0x7ff7bd29ea58) vm_shared_region_start_address() failed
+vice) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|2026-11-04 18:57:31.273426 (system/com.apple.securityd_service) <Notice>: service state: spawning
+com.apple.xpc.launchd|2026-11-04 18:57:31.273504 (system/com.apple.securityd_service) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:31.276708 (system/com.apple.securityd_service [351]) <Notice>: xpcproxy spawned with pid 351
+com.apple.xpc.launchd|2026-11-04 18:57:31.276722 (system/com.apple.securityd_service [351]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:31.276724 (system/com.apple.securityd_service [351]) <Notice>: service state: xpcproxy
+shared_region: 0x77deebd5d145eb1d [351(securityd_servic)] check_np(0x7ff7b77d59e8) vm_shared_region_start_address() failed
+com.apple.xpc.launchd|2026-11-04 18:57:31.276737 (system/com.apple.securityd_service [351]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:31.295699 (system/com.apple.securityd_service [351]) <Notice>: service state: running
+com.apple.xpc.launchd|2026-11-04 18:57:31.295702 (system/com.apple.securityd_service [351]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:31.295707 (system/com.apple.securityd_service [351]) <Notice>: Successfully spawned securityd_service[351] because ipc (mach)
+com.apple.xpc.launchd|2026-11-04 18:57:31.337899 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = recoverylogd[208], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:31.340885 (system/com.apple.recoverylogd [208]) <Notice>: exited due to exit(0)
+com.apple.xpc.launchd|2026-11-04 18:57:31.340889 (system/com.apple.recoverylogd [208]) <Notice>: service state: exited
+com.apple.xpc.launchd|2026-11-04 18:57:31.340891 (system/com.apple.recoverylogd [208]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:31.340893 (system) <Notice>: service inactive: com.apple.recoverylogd
+com.apple.xpc.launchd|2026-11-04 18:57:31.340910 (system/com.apple.recoverylogd [208]) <Notice>: service state: not running
+com.apple.xpc.launchd|2026-11-04 18:57:31.459597 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = automation_tram[188], error = 3: No such process
+com.apple.xpc.launchd|2026-11-04 18:57:31.462257 (system/com.apple.automation.trampoline [188]) <Notice>: exited due to exit(0)
+com.apple.xpc.launchd|2026-11-04 18:57:31.462266 (system/com.apple.automation.trampoline [188]) <Notice>: service state: exited
+com.apple.xpc.launchd|2026-11-04 18:57:31.462272 (system/com.apple.automation.trampoline [188]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|2026-11-04 18:57:31.462313 (system) <Notice>: service inactive: com.apple.automation.trampoline
+com.apple.xpc.launchd|2026-11-04 18:57:31.462318 (system/com.apple.automation.trampoline [188]) <Notice>: service state: not running
+com.apple.xpc.launchd|2026-11-04 18:57:31.707064 (system) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = iconservicesd[198], error = 3: No such process
+KextLog: Loading FileSet KC(s)
+KextLog: Loading Pageable KC from file /System/Library/KernelCollections/BaseSystemKernelExtensions.kc
+KextLog: Collection UUID matches with loaded KCs.
+deferred rematching count 1
+AppleIntelMCE:Controller: This platform does not support CMCI
+AppleIntelMCE:Controller: Controller failed to Init()!
+No Generation from SMC.
+X86PlatformPlugin::getCPUCStates - C000 ACST and _CST evaluations failed!
+X86PlatformPlugin::getCPUCStates - _CST did not return a package
+X86PlatformPlugin::getCPUPStates - C000 APSS and _PSS evaluations failed!
+X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+X86PlatformPlugin::publishACPIStates - Failed to get ma

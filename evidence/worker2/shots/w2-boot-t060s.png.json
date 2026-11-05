@@ -1,0 +1,15 @@
+{
+  "bytes": 4635,
+  "captured_utc": "2026-11-04T12:32:33Z",
+  "height": 800,
+  "mode": "RGB",
+  "path": "<repo>/evidence/worker2/shots/w2-boot-t060s.png",
+  "producing_command": "capture.py run/qmp.sock <repo>/evidence/worker2/shots/w2-boot-t060s.png",
+  "qmp_reply": {
+    "return": {}
+  },
+  "qmp_roundtrip_s": 0.024,
+  "qmp_socket": "<repo>/work/worker2/run/qmp.sock",
+  "sha256": "f0d82a8d60eee5ef6e9b49734d58d7ab042b4f1b4635e6890b0a04d291da0bbc",
+  "width": 1280
+}

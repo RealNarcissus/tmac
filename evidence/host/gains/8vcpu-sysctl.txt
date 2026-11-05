@@ -1,0 +1,5 @@
+hw.ncpu=8
+hw.physicalcpu=4
+hw.logicalcpu=8
+hw.memsize=6442450944
+12.7.6

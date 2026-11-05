@@ -1,0 +1,26 @@
+ProductName:		macOS
+ProductVersion:		26.6.2
+BuildVersion:		25G83
+Darwin Ts-iMac.local 25.6.0 Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:49 PDT 2026; root:xnu-12377.161.14~5/RELEASE_X86_64 x86_64
+8
+8589934592
+Graphics/Displays:
+
+    Reims vGPU:
+
+      Chipset Model: Reims vGPU
+      Type: GPU
+      Vendor: Apple (0x106b)
+      Device ID: 0xeeee
+      Revision ID: 0x0000
+      Metal Support: Metal 2
+      Displays:
+        Reims vGPU:
+          Resolution: 1920 x 1080 (1080p FHD - Full High Definition)
+          UI Looks like: 1920 x 1080
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Connection Type: Internal
+

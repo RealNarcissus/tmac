@@ -1,0 +1,15 @@
+{
+  "bytes": 19156,
+  "captured_utc": "2026-11-04T13:43:07Z",
+  "height": 800,
+  "mode": "RGB",
+  "path": "<repo>/evidence/worker2/shots/w2-sonoma-noslide-t120s.png",
+  "producing_command": "capture.py run/qmp.sock <repo>/evidence/worker2/shots/w2-sonoma-noslide-t120s.png",
+  "qmp_reply": {
+    "return": {}
+  },
+  "qmp_roundtrip_s": 0.009,
+  "qmp_socket": "<repo>/work/worker2/run/qmp.sock",
+  "sha256": "0e07163d00d5b655f0e883d782038b86aff3ccfabb3115ecc8ea76f93359f397",
+  "width": 1280
+}

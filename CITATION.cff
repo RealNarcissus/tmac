@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this project in research or a published test setup, cite it as software."
+title: "tmac"
+abstract: "A terminal-first QEMU/Reims control plane and MCP server for self-hosted macOS VMs on Linux."
+type: software
+authors:
+  - name: "tmac contributors"
+version: "0.2.0"
+date-released: "2026-11-05"
+license: GPL-2.0-or-later
+repository-code: "https://github.com/RealNarcissus/tmac"
+keywords:
+  - macOS
+  - QEMU
+  - MCP
+  - virtualization
+  - computer use

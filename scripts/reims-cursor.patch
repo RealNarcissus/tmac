@@ -1,0 +1,20 @@
+diff --git a/crates/reims-vgpu-window/src/sdl/shell.rs b/crates/reims-vgpu-window/src/sdl/shell.rs
+index 0b27475..99340f5 100644
+--- a/crates/reims-vgpu-window/src/sdl/shell.rs
++++ b/crates/reims-vgpu-window/src/sdl/shell.rs
+@@ -484,11 +484,10 @@ impl Shell {
+         let ours = if self.over_image {
+             let per_pixel =
+                 geometry::cursor_points_per_pixel(self.layout.image, guest.mode.unwrap_or((0, 0)));
+-            if !guest.host_cursor_visible() && guest.cursor.is_some() {
+-                // SAFETY: SDL's video runs on this thread.
+-                unsafe { SDL_HideCursor() };
+-                return;
+-            }
++            // The macOS 12 AppleParavirtGPU ABI reports binary version 0 and can
++            // leave its guest cursor hidden while the window is captured. Keep
++            // the last glyph (or SDL's arrow) visible so the host pointer never
++            // disappears over the image.
+             self.cursor
+                 .cursor(guest.cursor.as_deref(), per_pixel, self.density)
+                 .map(|c| c.raw())

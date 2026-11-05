@@ -1,0 +1,15 @@
+{
+  "bytes": 17089,
+  "captured_utc": "2026-11-04T12:37:25Z",
+  "height": 800,
+  "mode": "RGB",
+  "path": "<repo>/evidence/worker2/shots/w2-verbose-t050s.png",
+  "producing_command": "capture.py run/qmp.sock <repo>/evidence/worker2/shots/w2-verbose-t050s.png",
+  "qmp_reply": {
+    "return": {}
+  },
+  "qmp_roundtrip_s": 0.013,
+  "qmp_socket": "<repo>/work/worker2/run/qmp.sock",
+  "sha256": "8669975fa6b78bef49f3dbeab2efacc6c511b2b385b92b6e035a45ab7bd0fdef",
+  "width": 1280
+}

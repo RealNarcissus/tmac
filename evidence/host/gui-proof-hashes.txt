@@ -1,0 +1,2 @@
+dd15d9fa30309c546e7196399a9c361bfc9e0bb718169d6079c90554d89fbf97  work/main/osx-kvm/OpenCore/OpenCore.qcow2
+1b25c1cf937b502816a44f04e7dbb126240e53dbf10be7263b7f7c4a7ade0efa  work/main/osx-kvm/BaseSystem.img

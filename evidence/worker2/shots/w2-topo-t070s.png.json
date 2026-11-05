@@ -1,0 +1,15 @@
+{
+  "bytes": 3057,
+  "captured_utc": "2026-11-04T13:22:28Z",
+  "height": 800,
+  "mode": "RGB",
+  "path": "<repo>/evidence/worker2/shots/w2-topo-t070s.png",
+  "producing_command": "capture.py run/qmp.sock <repo>/evidence/worker2/shots/w2-topo-t070s.png",
+  "qmp_reply": {
+    "return": {}
+  },
+  "qmp_roundtrip_s": 0.01,
+  "qmp_socket": "<repo>/work/worker2/run/qmp.sock",
+  "sha256": "05713dbacb00cfa92e8cad1581147b0f1349f6ee14c97d122440aff36011bd53",
+  "width": 1280
+}

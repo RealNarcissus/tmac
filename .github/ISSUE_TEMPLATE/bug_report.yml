@@ -1,0 +1,52 @@
+name: Bug report
+description: Something in the Linux host control plane, viewer, or MCP server does not work.
+title: "[bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Do not include passwords, SSH keys, Apple installers, VM disks,
+        or personal screenshots. For a security issue, use the private advisory link instead.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: A concise description and the smallest command that reproduces it.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Host OS, Python, QEMU, Reims, guest macOS, and whether the VM is managed or external.
+      placeholder: |
+        Host: Arch Linux x86_64
+        Python: 3.14
+        QEMU: 11.1.50
+        Reims: 0.1.0
+        Guest: macOS 26.6.2 (25G83)
+        Mode: external / managed
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Sanitize paths, usernames, serial numbers, and credentials before pasting.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I removed credentials and personal data from this report.
+          required: true
+        - label: I am not reporting a security vulnerability publicly.
+          required: true

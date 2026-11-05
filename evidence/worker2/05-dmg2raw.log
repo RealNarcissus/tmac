@@ -1,0 +1,26 @@
+# dmg2raw (dmg2img-equivalent) run 2026-11-04T12:25:55Z
+cmd=python3 dmg2raw.py osx-kvm/BaseSystem.dmg osx-kvm/BaseSystem.img --crc32 0x0592FFD7
+koly: version=4 data_fork=(0,789411398) xml=(789411398,156688) sectors=6279528 file=789568598
+plist: 8 blkx tables
+  Protective Master Boot Record (MBR : 0)        first=0        sectors=1        runs=2     terminator,zlib
+  GPT Header (Primary GPT Header : 1)            first=1        sectors=1        runs=2     terminator,zlib
+  GPT Partition Data (Primary GPT Table : 2)     first=2        sectors=32       runs=2     terminator,zlib
+   (Apple_Free : 3)                              first=34       sectors=409606   runs=2     ignore,terminator
+  disk image (Apple_HFS : 4)                     first=409640   sectors=5607704  runs=2471  ignore,raw,terminator,zlib
+   (Apple_Free : 5)                              first=6017344  sectors=262151   runs=2     ignore,terminator
+  GPT Partition Data (Backup GPT Table : 6)      first=6279495  sectors=32       runs=2     terminator,zlib
+  GPT Header (Backup GPT Header : 7)             first=6279527  sectors=1        runs=2     terminator,zlib
+run types: ignore=179, raw=42, terminator=8, zlib=2256
+bytes written   = 3215118336
+sum out_sectors = 3215118336
+koly sectors    = 6279528 sectors = 3215118336 bytes
+size consistency: PASS
+image crc32 = 0xBC0F5F8F
+expected    = 0x0592FFD7 -> MISMATCH
+
+real	0m24.266s
+user	0m11.897s
+sys	0m5.224s
+exit=3
+-rw-r--r-- 1 charleton charleton 3215118336 Nov  4 17:56 osx-kvm/BaseSystem.img
+0bce97d5cf8b303eff4c510993b1152b1225c3795ac7c6cf6c6f809b1eeafa5b  osx-kvm/BaseSystem.img

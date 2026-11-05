@@ -1,0 +1,4 @@
+Guest: macOS 12.7.6, MacHDD on virtio-blk-pci, cache=writeback
+ioreg: AppleVirtIOPCITransport present
+Command: dd if=/dev/zero of=/tmp/tmac-disk-test bs=1m count=512
+Result: 536870912 bytes in 2.30 s => ~233 MB/s (214 MB/s in the first run, 2.51 s)

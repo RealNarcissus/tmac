@@ -1,0 +1,4 @@
+qmp_broker[1184242]: upstream connected to <repo>/work/main/tmac-home/machines/gui-proof/qmp.sock
+qmp_broker[1184242]: broker listening on /tmp/opencode/w2-broker/gui-proof.sock
+{"broker": "/tmp/opencode/w2-broker/gui-proof.sock", "qmp": "<repo>/work/main/tmac-home/machines/gui-proof/qmp.sock", "pid": 1184242}
+qmp_broker[1184242]: stopped

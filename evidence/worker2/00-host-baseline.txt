@@ -1,0 +1,50 @@
+# worker2 host baseline — captured 2026-11-04T12:12:06Z (UTC)
+
+## date -u
+Wednesday 04 November 2026 12:15:20 PM UTC
+
+## uname -a
+Linux Sefirah 7.2.11-arch1-1 #1 SMP PREEMPT_DYNAMIC Fri, 16 Oct 2026 00:28:58 +0000 x86_64 GNU/Linux
+
+## nproc
+12
+
+## free -h
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi        11Gi       453Mi       310Mi       3.9Gi       3.7Gi
+Swap:           16Gi       7.6Gi       8.9Gi
+
+## df -h / /tmp
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       421G  355G   45G  89% /
+tmpfs           7.5G  3.7G  3.9G  49% /tmp
+
+## qemu-system-x86_64 --version
+QEMU emulator version 11.1.2
+Copyright (c) 2003-2026 Fabrice Bellard and the QEMU Project developers
+
+## ls -l /dev/kvm
+crw-rw-rw- 1 root kvm 10, 232 Nov  4 17:45 /dev/kvm
+
+## lscpu (model + flags)
+Vendor ID:                               AuthenticAMD
+Model name:                              AMD Ryzen 5 4600H with Radeon Graphics
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+
+## kvm module params
+ignore_msrs=N
+report_ignored_msrs=Y
+
+## sudo availability
+sudo: a password is required
+exit=1
+
+## tools
+dmg2img    MISSING
+7z         /usr/bin/7z
+7za        /usr/bin/7za
+bsdtar     /usr/bin/bsdtar
+xorriso    /usr/bin/xorriso
+qemu-img   /usr/bin/qemu-img
+socat      MISSING
+python3-Pillow: 13.0.0

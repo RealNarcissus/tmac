@@ -1,0 +1,32 @@
+Graphics/Displays:
+
+    Display:
+
+      Type: GPU
+      VRAM (Total): 3 MB
+      Device ID: 0x1111
+      Revision ID: 0x0002
+      Displays:
+        Display:
+          Resolution: 1280 x 800
+          UI Looks like: 1280 x 800 @ 75.00Hz
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Connection Type: Internal
+      Vendor ID: 0x1234
+
+    Apple Paravirtualized Graphics Device:
+
+      Chipset Model: Apple Paravirtualized Graphics Device
+      Type: GPU
+      VRAM (Total): 7 MB
+      Vendor: Apple (0x106b)
+      Device ID: 0xeeee
+      Revision ID: 0x0000
+      Metal Family: Supported, Metal GPUFamily macOS 1
+
+Executing: /usr/bin/kmutil showloaded
+No variant specified, falling back to release
+   94    0 0xffffff7f98f55000 0x16000    0x16000    com.apple.driver.AppleParavirtGPU (1) 494F36DA-DDEC-3BF4-B514-DDBBE1D5657E <93 92 91 81 16 8 7 6 3>
